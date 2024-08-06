@@ -56,7 +56,7 @@ key: post
           <p> <a href="javascript:history.back()">back</a>
             // {{title}} // {{ page.date | readableDate }} </p>
         </li>
-        <li class="maintextcontent">
+        <ul class="maintextcontent">
 
           {{ content | safe }}
           {%- if collections.posts %}
@@ -77,14 +77,20 @@ key: post
             {%- endfor %}
 
           </ul>
-          <script src="https://utteranc.es/client.js"
-          repo="ilyushinil62/trademarkhell"
-          issue-term="pathname"
-          theme="photon-dark"
-          crossorigin="anonymous"
-          async>
-  </script>
-         </li>
+          <li class="maintexttop">
+            <p>
+              {%- if previousPost %}<b>  <a href="{{ previousPost.url }}">previous</a></b>
+               //
+              {% endif %}
+              Comments 
+               //  
+              {%- if nextPost %}<b><a href=" {{ nextPost.url }}"> next</a></b>{% endif %}
+            </p>
+          </li>
+          <script src="https://utteranc.es/client.js" repo="ilyushinil62/trademarkhell" issue-term="pathname"
+            theme="photon-dark" crossorigin="anonymous" async>
+            </script>
+        </ul>
       </ul>
 
       <div class="footer">
