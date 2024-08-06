@@ -345,7 +345,8 @@ body {
 .playingtext {
 	width: 200px;
 	height: 100px;
-	background-color: rgb(69, 71, 90)
+	background-color: rgb(69, 71, 90);
+	overflow-y: auto;
 }
 
 .stats {
