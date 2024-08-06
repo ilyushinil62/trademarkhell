@@ -516,3 +516,23 @@ background-image {
 	height: auto;
 	width: auto
 }
+
+#created {
+	margin: 0px;
+	padding: 0px;
+}
+
+#updated {
+	margin: 0px;
+	padding: 0px;
+}
+
+#visitors {
+	margin: 0px;
+	padding: 0px;
+}
+
+#followers {
+	margin: 0px;
+	padding: 0px;
+}
