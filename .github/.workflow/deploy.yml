@@ -29,8 +29,9 @@ jobs:
           CLEANUP: 'False'
           DELAY: '0.5'
           NEKOWEB_PAGENAME: 'trademark'
+          
+          - name: Deploy to Nekoweb
+            uses: mp-pinheiro/nekoweb-deploy@0.2.4
 
-        - name: Deploy to Nekoweb
-          uses: mp-pinheiro/nekoweb-deploy@0.2.4
 
           
