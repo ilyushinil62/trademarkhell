@@ -15,8 +15,8 @@ jobs:
 
       - name: Prepare build
         run: |
-          mkdir -p ./build
-          cp -r ./public/* ./build
+          mkdir -p ./_site
+          cp -r ./test/* ./_site/
 
       - name: Deploy to Nekoweb
         uses: mp-pinheiro/nekoweb-deploy@main
