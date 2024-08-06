@@ -354,6 +354,8 @@ body {
 	width: 200px;
 	height: 240px;
 	list-style: none;
+	margin-left: 0px;
+	padding: 0px;
 }
 
 .statstext {
