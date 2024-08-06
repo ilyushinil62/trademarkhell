@@ -75,6 +75,13 @@ key: post
             {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
             <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
             {%- endfor %}
+            <script src="https://utteranc.es/client.js"
+        repo="ilyushinil62/trademarkhell"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
           </ul>
           
 
