@@ -357,11 +357,14 @@ body {
 }
 
 .statstext {
+	list-style: none;
 	margin-top: 0px;
 	padding-top: 0px;
 	height: 210px;
 	width: 200px;
-	background-color: rgb(69, 71, 90)
+	background-color: rgb(69, 71, 90);
+	margin: 0px;
+	padding-left: 0px;
 }
 
 .square {
@@ -377,7 +380,7 @@ body {
 	width: 200px;
 	background-color: rgb(69, 71, 90);
 	align-content: center;
-	
+
 }
 
 .follow {
