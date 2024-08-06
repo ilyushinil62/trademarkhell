@@ -356,15 +356,22 @@ body {
 	list-style: none;
 	margin-left: 0px;
 	padding: 0px;
+
 }
 
 .statstext {
+	display: flex;
+	flex-direction: column;
 	list-style: none;
 	height: 210px;
 	width: 200px;
 	background-color: rgb(69, 71, 90);
 	margin: 0px;
 	padding: 0px;
+	font-family: w95;
+	color: white;
+	font-size: 23px;
+	justify-content: space-evenly;
 }
 
 .square {
@@ -536,3 +543,4 @@ background-image {
 	margin: 0px;
 	padding: 0px;
 }
+
