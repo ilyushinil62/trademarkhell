@@ -245,3 +245,22 @@ a:active {
 	background-color: transparent;
 	text-decoration: none;
 }
+
+.posttexttop {
+	width: 87px;
+	display: flex;
+	min-width: 0px;
+	background-color: rgb(49, 50, 68);
+	padding: 0px;
+	margin-top: 0px;
+	margin: 0px;
+	height: 30px;
+	color: white;
+	font-family: bepop;
+	text-align: left;
+	font-size: 25px;
+	align-items: center;
+	list-style: none;
+	align-content: flex-start;
+
+}
