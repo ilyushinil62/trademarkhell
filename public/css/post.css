@@ -247,7 +247,7 @@ a:active {
 }
 
 .posttexttop {
-	width: 87px;
+	width: 870px;
 	display: flex;
 	min-width: 0px;
 	background-color: rgb(49, 50, 68);
@@ -262,5 +262,5 @@ a:active {
 	align-items: center;
 	list-style: none;
 	align-content: flex-start;
-
+    margin-top: 20px;
 }
