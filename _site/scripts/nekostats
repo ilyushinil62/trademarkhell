@@ -1,6 +1,6 @@
 // this script is under the MIT license (https://max.nekoweb.org/resources/license.txt)
                         
-let username;  // UNLESS YOU HAVE A CUSTOM DOMAIN, Put your Nekoweb username here as a string
+let username; // UNLESS YOU HAVE A CUSTOM DOMAIN, Put your Nekoweb username here as a string
 
 if (username === undefined && window.location.href.includes(".nekoweb.org")) {
   // if we know the site has a subdomain, we can use that as the username instead

@@ -18,7 +18,7 @@
       <ul class="header-flex">
         <ul class="nav">
           <li class="navitem">
-           <p><a href="index" l>home</a></p>
+            <p><a href="index" l>home</a></p>
           </li>
           <li class="navitem">
             <p><a href="/tags/blog/" l>blog</a></p>
@@ -129,7 +129,7 @@
             <li class="bottext">
               <a href="https://trademark.nekoweb.org/" target="_blank">
                 <img src="https://trademark.nekoweb.org/tmsspecialhell.png" width="88" length="33px" />
-                </a>
+              </a>
             </li>
           </ul>
           <ul class="button">
@@ -192,7 +192,13 @@
           <li class="maintexttop">
             <p>NekoStats</p>
           </li>
-          <li class="statstext"></li>
+          <li class="statstext">
+          <li id="created"></li>
+          <li id="updated"></li>
+          <li id="visitors">
+          <li>
+          <li id="followers"></li>
+          </li>
         </ul>
         <ul class="playing">
           <li class="maintexttop">
@@ -213,7 +219,15 @@
           <li class="maintexttop">
             <p>not sponsors</p>
           </li>
-          <li class="squaretext"></li>
+          <li class="squaretext">
+            <img
+            width="200px"
+            height="170px"
+            alt="tempshitpost"
+            src="https://trademarkhell.net/IMG_4794.png"
+            margin="auto"
+          />
+          </li>
         </ul>
         <ul class="follow">
           <li class="followtext"></li>
@@ -222,8 +236,30 @@
     </div>
   </div>
   <script src="scripts/playingsong.js"></script>
-  <script src="scripts/nekostats.js"></script>
+  <script>
+    // this script is under the MIT license (https://max.nekoweb.org/resources/license.txt)
 
+    let username; // UNLESS YOU HAVE A CUSTOM DOMAIN, Put your Nekoweb username here as a string
+
+    if (username === undefined && window.location.href.includes(".nekoweb.org")) {
+      // if we know the site has a subdomain, we can use that as the username instead
+      username = window.location.host.split(".")[0];
+    }
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `<em>Created</em>: ${created}`;
+      document.getElementById("updated").innerHTML = `<em>Updated</em>: ${updated}`;
+      document.getElementById("visitors").innerHTML = `<em>Visits</em>: ${json.views}`;
+      document.getElementById("followers").innerHTML = `<em>Followers</em>: ${json.followers}`;
+    };
+
+  </script>
 </body>
 <style>
   body {
