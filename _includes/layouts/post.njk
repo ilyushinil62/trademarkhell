@@ -1,0 +1,102 @@
+---
+eleventyNavigation:
+key: post
+
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="/css/post.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <ul class="headertop">
+        <p>nav</p>
+        <li class="headertoptext">
+          <b>trademarkhell.net // trademark's special hell</b>
+        </li>
+      </ul>
+      <ul class="header-flex">
+        <ul class="nav">
+          <li class="navitem">
+            <p>home</p>
+          </li>
+          <li class="navitem">
+            <p>blog</p>
+          </li>
+          <li class="navitem">
+            <p>tech</p>
+          </li>
+          <li class="navitem">
+            <p>music</p>
+          </li>
+          <li class="navitem">
+            <p>anime</p>
+          </li>
+          <li class="navitem">
+            <p>soon</p>
+          </li>
+          <li class="navitem">
+            <p>soon</p>
+          </li>
+          <li class="navitem">
+            <p>soon</p>
+          </li>
+        </ul>
+        <li class="banner"></li>
+      </ul>
+    </div>
+    <div class="content">
+      <ul class="maintext">
+        <li class="maintexttop">
+          <p> <a href="javascript:history.back()">back</a>
+            // {{title}} // {{ page.date | readableDate }} </p>
+        </li>
+        <li class="maintextcontent">
+
+          {{ content | safe }}
+          {%- if collections.posts %}
+          {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+          {%- set nextPost = collections.posts | getNextCollectionItem %}
+          {%- if nextPost or previousPost %}
+          <ul class="links-nextprev">
+            {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></li>
+            {% endif %}
+            {%- if nextPost %}<li>Next: <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></li>{% endif %}
+          </ul>
+          {%- endif %}
+          {%- endif %}
+          <ul class="post-metadata">
+            {%- for tag in tags | filterTagList %}
+            {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+            <li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
+            {%- endfor %}
+          </ul>
+          
+
+
+        </li>
+      </ul>
+
+      <div class="footer">
+        <p>Hosted on Nekoweb // Powered by 11ty // All Rights Reserved</p>
+      </div>
+
+
+</body>
+<style>
+  body {
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: 95%;
+    background-image: url("https://trademarkhell.net/checker25.png");
+    animation: bgScroll 35s linear infinite;
+  }
+</style>
+
+</html>

@@ -1,0 +1,20 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+layout: layouts/navbase.njk
+eleventyComputed:
+  title:  stuff about {{ tag }} 
+permalink: /tags/{{ tag | slugify }}/
+---
+
+{% set postslist = collections[ tag ] %}
+{% include "postslist.njk" %}
+

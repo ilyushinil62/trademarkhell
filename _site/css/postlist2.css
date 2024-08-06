@@ -1,0 +1,52 @@
+
+.posttext {
+	display: flex;
+	list-style: none;
+	flex-direction: column;
+	margin: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	height: 300px;
+	overflow: visible;
+	padding: 0px;
+}
+
+.posttexttop {
+	width: 670px;
+	display: flex;
+	min-width: 0px;
+    background-color: grey;
+	padding: 0px;
+	margin-top: 0px;
+	margin: 0px;
+	height: 30px;
+	color: white;
+	font-family: bepop;
+	text-align: left;
+	font-size: 25px;
+	align-items: center;
+	list-style: none;
+	align-content: flex-start;
+
+}
+
+.posttextcontent {
+	height: 100px;
+	width: 670px;
+	background-color: rgb(69, 71, 90);
+	overflow: visible;
+	font-size: 18px;
+	color: white;
+	font-family: w95;
+	align-items: top;
+	text-indent: 50px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.postlist {
+	margin: 0px;
+	padding: 0px;
+}
