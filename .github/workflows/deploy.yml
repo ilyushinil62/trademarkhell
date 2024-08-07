@@ -28,13 +28,10 @@ jobs:
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"
 
-      - name: Update index.html
+      - name: Update build date on index
         run: |
-          echo "Updating index.html..."
-          curl -X POST "https://nekoweb.org/api/files/edit" \
-            -H "Content-Type: multipart/form-data" \
-            -H "Referer: https://nekoweb.org/?$(echo -n 'thinliquid\'s build script (please don\'t ban me)' | jq -sRr @uri)" \
-            -H "Cookie: token=${{ secrets.NEKOWEB_TOKEN }}" \
-            -F "pathname=/index.html" \
-            -F "content=<!-- $(date +%s) --> <script>window.location.replace('https://trademarkhell.net')</script>"
-          echo "index.html updated successfully."
+          BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          sed -i "s/<meta name=\"build-date\" content=\"[^\"]*\"/<meta name=\"build-date\" content=\"$BUILD_DATE\"/" ./test/index.html
+          cat ./_site/index.html
+        env:
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
