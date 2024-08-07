@@ -28,13 +28,16 @@ jobs:
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"
 
-      - name: Update index.html with build time
+      - name: Update index.html
         run: |
-          BUILD_TIME=$(date)
-          curl -X POST -H "Authorization: Bearer ${{ secrets.NEKOWEB_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            -d '{
-              "path": "/test/index.html",
-              "content": "'"$(cat ./_site/index.html | sed "s|<span id=\"build-time\">.*</span>|<span id=\"build-time\">$BUILD_TIME</span>|")"'"
-            }' \
-            "https://nekoweb.org/api/v1/update"
+          echo "Updating index.html..."
+          curl -X POST "https://nekoweb.org/api/files/edit" \
+            -H "Content-Type: multipart/form-data" \
+            -H "Referer: https://nekoweb.org/?$(echo -n 'thinliquid\'s build script (please don\'t ban me)' | jq -sRr @uri)" \
+            -H "Cookie: token=${{ secrets.NEKOWEB_TOKEN }}" \
+            -F "pathname=/index.html" \
+            -F "content=<!-- $(date +%s) --> <script>window.location.replace('https://thinliquid.dev')</script>"
+          echo "index.html updated successfully."
+        env:
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          TOKEN: ${{ secrets.NEKOWEB_TOKEN }}
