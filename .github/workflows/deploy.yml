@@ -36,5 +36,5 @@ jobs:
             -H "Referer: https://nekoweb.org/?$(echo -n 'thinliquid\'s build script (please don\'t ban me)' | jq -sRr @uri)" \
             -H "Cookie: token=${{ secrets.NEKOWEB_TOKEN }}" \
             -F "pathname=/index.html" \
-            -F "content=<!-- $(date +%s) --> <script>window.location.replace('https://thinliquid.dev')</script>"
+            -F "content=<!-- $(date +%s) --> <script>window.location.replace('https://trademarkhell.net')</script>"
           echo "index.html updated successfully."
