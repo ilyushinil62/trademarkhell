@@ -38,6 +38,3 @@ jobs:
             -F "pathname=/index.html" \
             -F "content=<!-- $(date +%s) --> <script>window.location.replace('https://thinliquid.dev')</script>"
           echo "index.html updated successfully."
-        env:
-          API_BASE_URL: ${{ secrets.API_BASE_URL }}
-          TOKEN: ${{ secrets.NEKOWEB_TOKEN }}
