@@ -28,11 +28,13 @@ jobs:
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"
 
-      - name: Update index.html with build time post-deployment
+      - name: Update index.html with build time
         run: |
           BUILD_TIME=$(date)
-          NEKOWEB_TOKEN=${{ secrets.NEKOWEB_TOKEN }}
-          curl -X POST -H "Authorization: Bearer $NEKOWEB_TOKEN" \
-               -H "Content-Type: application/json" \
-               -d "{\"page\": \"trademark\", \"file\": \"index.html\", \"content\": \"<span id='build-time'>$BUILD_TIME</span>\"}" \
-               "https://nekoweb.org/api/update"
+          curl -X POST -H "Authorization: Bearer ${{ secrets.NEKOWEB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "path": "/test/index.html",
+              "content": "'"$(cat ./_site/index.html | sed "s|<span id=\"build-time\">.*</span>|<span id=\"build-time\">$BUILD_TIME</span>|")"'"
+            }' \
+            "https://nekoweb.org/api/v1/update"
