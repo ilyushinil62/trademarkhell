@@ -204,20 +204,21 @@ list-style-type: none;
 
 
 @font-face {
-    font-family: bepop;
-    src: url(/fonts/HelveticaBoldOblique.ttf);
-    font-weight: bold;
+	font-family: bepop;
+	src: url(/fonts/OverusedGrotesk-BoldItalic.ttf);
+	font-weight: bold;
 }
 
 @font-face {
-    font-family: W95;
-    Src: url(/fonts/W95FA.otf);
+	font-family: W95;
+	Src: url(/fonts/W95FA.otf);
 }
 
 @font-face {
-    font-family: hel2;
-    Src: url(/fonts/Helvetica-Bold-Font.ttf);
+	font-family: hel2;
+	Src: url(/fonts/OverusedGrotesk-Bold.ttf);
 }
+
 
 .quotebg {
     background-color: rgb(49, 50, 68);
