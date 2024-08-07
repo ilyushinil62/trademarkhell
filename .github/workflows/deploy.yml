@@ -28,10 +28,11 @@ jobs:
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"
 
-      - name: Update build date on index
+      - name: Add build date
         run: |
-          BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-          sed -i "s/<meta name=\"build-date\" content=\"[^\"]*\"/<meta name=\"build-date\" content=\"$BUILD_DATE\"/" ./_site/index.html
-          cat ./_site/index.html
-        env:
-          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          BUILD_DATE=$(date +"%Y-%m-%d %H:%M:%S")
+          echo "Build Date: ${BUILD_DATE}" >> ./_site/index.html
+          curl -X POST "https://api.nekoweb.com/update-page" \
+            -H "Authorization: Bearer ${{ secrets.NEKOWEB_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"page": "/test/index.html", "content": "<p>Build Date: '"${BUILD_DATE}"'</p>"}'
