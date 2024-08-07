@@ -27,3 +27,15 @@ jobs:
           CLEANUP: "False"
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"
+
+      - name: Update index.html with build time on Nekoweb
+        run: |
+          BUILD_TIME=$(date)
+          curl -X POST https://api.nekoweb.com/update \
+            -H "Authorization: Bearer ${{ secrets.NEKOWEB_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "page": "trademark",
+              "path": "/test/index.html",
+              "content": "<span id=\"build-time\">'"$BUILD_TIME"'</span>"
+            }'
