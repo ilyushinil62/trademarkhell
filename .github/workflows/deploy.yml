@@ -32,7 +32,7 @@ jobs:
         run: |
           BUILD_DATE=$(date +"%Y-%m-%d %H:%M:%S")
           echo "Build Date: ${BUILD_DATE}" >> ./_site/index.html
-          curl -X POST "https://api.nekoweb.com/update-page" \
+          curl -X POST "https://nekoweb.org/api" \
             -H "Authorization: Bearer ${{ secrets.NEKOWEB_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{"page": "/test/index.html", "content": "<p>Build Date: '"${BUILD_DATE}"'</p>"}'
