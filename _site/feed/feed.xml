@@ -4,7 +4,7 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-03T20:28:08Z</updated>
+	<updated>2024-08-07T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -12,104 +12,75 @@
 	</author>
 	
 	<entry>
-		<title>this is a markdown post test</title>
-		<link href="https://example.com/blog/ohmypost/"/>
-		<updated>2024-08-03T20:28:08Z</updated>
-		<id>https://example.com/blog/ohmypost/</id>
-		<content type="html">&lt;p&gt;wassup
-test
-test&lt;/p&gt;
+		<title>My Irrational Love for Monogatari</title>
+		<link href="https://example.com/blog/monogatariseries/"/>
+		<updated>2024-08-07T00:00:00Z</updated>
+		<id>https://example.com/blog/monogatariseries/</id>
+		<content type="html">&lt;p&gt;The Monogatari Series, published originally in light novel form by Nisio Isin in 2005, adapted into a manga by Oh! Great in 2018, and adapted into an anime by Studio Shaft in 2009 is probably one of the most, if not the most problematic series to come out of Japan. I&#39;ve consumed the series in all of these formats numerous times, but for the sake of accessibility to the bulk of people, I&#39;ll be predominantly highlighting the first season of the anime, for the sake of convenience, and for the sake of spoilers.&lt;/p&gt;
+&lt;p&gt;After that nightmare of a starting sentence, you&#39;re probably wondering what exactly is so bad about this series, and why I&#39;m shilling it to you. I don&#39;t really intend to tone down what&#39;s wrong about this series, in fact, I&#39;ll summarize it in a single sentence. I genuinely think it&#39;s impossible to find a series that juxtaposes masterful wriiting with pure degeneracy like the Monogatari series. There&#39;s plenty of other problematic shows, but people solely watch them because they&#39;re problematic, so they don&#39;t exactly fall into the same category as Monogatari.&lt;/p&gt;
+&lt;p&gt;I could probably go on and on about what&#39;s wrong with this series, but quite frankly, there&#39;s plenty of people who&#39;ve done it better than me, including the first 30 seconds of the show, find the show on your streaming service of choice, or elsewhere, and watch the first 30 seconds of Bakemonogatari, I was going to attach it here, but then I realized that my website host probably wouldn&#39;t appreciate that, so come back after you do that, or don&#39;t, I&#39;m not your dad.&lt;/p&gt;
+&lt;p&gt;Now, before I expalin what I like about the series (and there&#39;s a lot), I feel I should probably give some context as to who I was when I first consumed it, you see, I was the prime demographic for being able to ignore all of the borderline insanity I mentioned above, I was in my early teens. Quite frankly, I probably wouldn&#39;t touch the show with a 50 meter pole if I didn&#39;t get into the series then, as I don&#39;t think I&#39;d be able to turn a blind eye to a lot of the things in the show if I watched it for the first time now.&lt;/p&gt;
+&lt;p&gt;Okay, okay, the four paragraphs of disclaimers are done, I can get into what I wanted to write this for, now. I think the Monogatari Series has some of the most compelling characters, and easily, the best animation style of any modern anime. This show relies heavily on 25 minute long episodes that are solely comprised of a few monologues, or a single conversation, yet it&#39;s because of how fleshed out these characters are that they don&#39;t feel boring, it genuinely feels as though you&#39;re watching a standard conversation. Studio Shaft, however, not wanting for the viewer to get bored, relies on a visual style unlike any other series (except for other Shaft seriees) to provide visual stimulation to the watcher.&lt;/p&gt;
+&lt;p&gt;I obviously can&#39;t simply attach a full episode here to demonstrate the style, so instead, here&#39;s a trailer to the prequel of the series, which still shares that distinctive visual style:&lt;/p&gt;
+&lt;iframe style=&quot;display: block; margin: 0 auto&quot; frameborder=&quot;0&quot; width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://drive.google.com/file/d/1LEEczLPFlvbKm8x4PSBoJ6aYjA-hsR0y/preview?usp=drivesdk&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;I honestly would love to ramble on about this franchise for ages, but quite frankly, if what I said didn&#39;t make you hate the show, then you should watch it, if it did, then don&#39;t. That&#39;s basically it. I did what I could to shill it, and also did what I could to scare you away from it. My job here is done, I think..&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is a fifth post (draft)</title>
-		<link href="https://example.com/blog/fifthpost/"/>
-		<updated>2023-01-23T00:00:00Z</updated>
-		<id>https://example.com/blog/fifthpost/</id>
-		<content type="html">&lt;p&gt;This is a draft post&lt;/p&gt;
+		<title>Failure and Webdesign</title>
+		<link href="https://example.com/blog/ihatewebdesign/"/>
+		<updated>2024-08-06T00:00:00Z</updated>
+		<id>https://example.com/blog/ihatewebdesign/</id>
+		<content type="html">&lt;p&gt;About three weeks ago now, in the middle of July, I came to a sudden revelation, one, which, for a lesser man, may have caused great mental distress. I realized that my website completely sucked, was borderline impossible to modify, and was almost illegible. I, however, being the brave warrior that I am, chose not to let this decrease my morale, and instead set off on a brave journey to improve my site.&lt;/p&gt;
+&lt;p&gt;For context, allow me to present the website that I had at the time.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tm152.png&quot; alt=&quot;Version 1.5 of trademarkhell.net &quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;It&#39;s not bad... per se, especially given it was the product of me learning html the day before, but it&#39;s not good. It&#39;s very obviously the product of someone with little to no knowledge of compatability and the fundamentals of webdesign. I built content out horizontally instead overtically because I thought it looked cool, but that also meant that anyone with a monitor smaller than 1080p had to scroll to the side. I also had the brilliant idea of making the site yellow, orange, and white, which whilst pretty good for creamsicles, is god-awful for websites. Reading this site is a similar experience to trying to read grey text on a black background whilst wearing sunglasses. It was also built with no knowledge of flexbox, solely relying on CSS Grids, and no static site generator, so it was basically impossible for me to add more content to it.&lt;/p&gt;
+&lt;p&gt;In a lot of ways, it was a fitting site for what it was, a site in it&#39;s infacy, and similar to infants, it was pretty useless. In an exercise of great stupidity, I thought that the best way to fix this was to suck any personality the site had out of it. I created a soulless husk of a website that was solely black and white, which had a layout that served no purpose outside of being utilitarian. Shockingly, a personal website that&#39;s meant to express your creativity that was made with no creativity isn&#39;t that appealing, here&#39;s a photo of it:&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tm16.png&quot; alt=&quot; The unpublished version 1.6 of trademarkhell.net &quot; height=&quot;50%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;Thankfully, I quickly realized that Melankorin may be the only one actually able to make a visually appealing monochrome site, and quickly moved onto my next valiant attempt at webdesign, not yet feeling dejected (which I soon would be). For this layout, I thought, logically, if colorful backgrounds for text were too much, and if black and white was too boring, why not make the best of both worlds. This then led me to what may be the ultimate example of style over substance. It&#39;s cool, I won&#39;t deny that, but nothing really &amp;quot;clicked&amp;quot; for me with this site, it just, wasn&#39;t what I wanted. I admittedly don&#39;t have much to say about it, but here it is, even more unfinished than the last layout:&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tm17.png&quot; alt=&quot; The unpublished version 1.7 of trademarkhell.net &quot; height=&quot;50%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;We&#39;re now stepping into the territory of layouts I have literally no memory of making, so this should be interesting. At this point I was so engrossed in making the perfect website, that I wasn&#39;t even drafting layouts on paper anymore, I was just making them and crossing my fingers, and this also meant that I was making even less progress before dropping them immediately. There was about four layouts I did this for, and quite frankly they&#39;re all so unfinished that I don&#39;t feel the need to attach more than one image, but, here it is, the pinnacle of modern webdesign (i honestly don&#39;t know what this was meant to be???):&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tmv17.png&quot; alt=&quot; The unpublished version 1.8 of trademarkhell.net &quot; height=&quot;50%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;At this point, I had more drafts of webdesigns on paper than I could count, thinking that if my previous attempts didn&#39;t work, I&#39;d surely get a sudden revelation at some point, but, I never did, and so, I randomly picked a layout, and now that layout is the site you&#39;re on. I don&#39;t really &amp;quot;like&amp;quot; this layout, but, it meets the bare minimum of what I wanted. It has color, but not too much. It has visual elements, but not too many. It has various templates for webpages, but not too many. I&#39;ll redo this website eventually, but the issue is, I can&#39;t find anything wrong with this layout, I don&#39;t like it, but I don&#39;t know why.&lt;/p&gt;
+&lt;p&gt;This layout, in my eyes, is a failure, but to be fair, so were all the previous ones, I suspect webdesign for me will always be me chasing the high I think i&#39;ll get if I make a website I like,  I don&#39;t know if that will ever happen, but I&#39;m glad it probably won&#39;t, as it gives me a reason to keep working on websites, which others seem to like. Anyways, thanks for reading this ramble, my other posts should be more interesting, but I&#39;ve wanted to write this one since my first failed layout.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my fourth post!</title>
-		<link href="https://example.com/blog/fourthpost/"/>
-		<updated>2018-09-30T00:00:00Z</updated>
-		<id>https://example.com/blog/fourthpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/img/IdthKOzqFA-350.avif 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/img/IdthKOzqFA-350.webp 350w&quot;&gt;&lt;img alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/img/IdthKOzqFA-350.png&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/fourthpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+		<title>(my obsession with) Crappy Old Tech</title>
+		<link href="https://example.com/blog/lowqualityoldtech/"/>
+		<updated>2024-08-05T00:00:00Z</updated>
+		<id>https://example.com/blog/lowqualityoldtech/</id>
+		<content type="html">&lt;p&gt;I accidentally procured the extremely unfortunate hobby of collecting and restoring old technology, I&#39;ll probably write more extensively about this in another article, but that&#39;s not related to the point. Despite this hobby, some of my favorite pieces of technology are the arguably worthless pieces of low-quality black plastic that came out from the late 80s to the late 90s, that I&#39;ve done aproximately zero work on.&lt;/p&gt;
+&lt;p&gt;These things have absolutely zero reason to still work, they were made using extremely primitive computerized systems, that honestly had no place being in them, yet, for some reason, they seem impossible to kill.&lt;/p&gt;
+&lt;p&gt;Take this TV, it&#39;s a 13&amp;quot; RCA CRT that probably costed about 50 bucks new. It has no connections on it other than RF, and has remarkebly below average (but not bad!) video quality. It&#39;s been sitting to my right on my desk, playing random anime, everyday, for at least five hours, for five years now, and god knows what it went through before I got it.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tmcrt.jpg&quot; alt=&quot; My 13 inch RCA CRT &quot; height=&quot;30%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;This is insignificant enough that I didn&#39;t even bother moving it from it&#39;s eternal resting place to take a photo of it, I feel it&#39;s extremely important that I capture this device with it&#39;s natural lighting, and natural positioning. I legitimately have no idea why this thing still works, but I&#39;ll be sad when it stops working. The black magic that keeps this thing alive, along with many other devices that had the misfortune of being created in the &amp;quot;shitty black plastic&amp;quot; era of technological design is exactly why I love them so much.&lt;/p&gt;
+&lt;p&gt;Now, I do feel it&#39;s my duty to reflect that, despite the title of this article, some of these &amp;quot;crappy&amp;quot; pieces of old tech are held in high regard. Take this attached photo (ignore the cassette deck on top, that is actual crap but i love it dearly)&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/tmhifi.png&quot; alt=&quot; My desks HiFi Stack &quot; height=&quot;30%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;Picutred above (but below the cassette deck, once again, it still sucks, once again, I still use it daily and love it) is the Luxman R-115, something, which to the layman, is a prime example of black plastic crap. Despite it&#39;s appearence, however, it&#39;s generally regarded as one of the best amplifiers of the late 80s. I&#39;m listening to it as I write this article, and it&#39;s powered the speakers I use with my computer for years now, and I strongly agree with this statement. It doesn&#39;t look nearly as good as the silver faced equipment I use in my main HiFi stack, but man, it sounds good.&lt;/p&gt;
+&lt;p&gt;Despite the inherently satirical nature of the title of this article, I feel it&#39;s my duty to &amp;quot;enlighten&amp;quot; the masses that despite the awful appearence of technology from this era, it really holds up, and sometimes, it&#39;s even good. I have a lot more tech from this era that I use often, but this article would be pointlessly long if I covered them. Basically, TLDR, ugly old tech cool, ugly old tech good.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>This is my third post.</title>
-		<link href="https://example.com/blog/thirdpost/"/>
-		<updated>2018-08-24T00:00:00Z</updated>
-		<id>https://example.com/blog/thirdpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;code&quot; tabindex=&quot;-1&quot;&gt;Code &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;h3 id=&quot;styled-with-syntax&quot; tabindex=&quot;-1&quot;&gt;Styled (with Syntax) &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&quot;unstyled&quot; tabindex=&quot;-1&quot;&gt;Unstyled &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-
-// Test with a line break above this line.
-console.log(&#39;Test&#39;);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/thirdpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>holy mf post</title>
-		<link href="https://example.com/blog/secondpost/"/>
-		<updated>2018-07-04T00:00:00Z</updated>
-		<id>https://example.com/blog/secondpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/secondpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://example.com/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
-&lt;a href=&quot;https://example.com/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-</content>
-	</entry>
-	
-	<entry>
-		<title>This is my first post.</title>
-		<link href="https://example.com/blog/firstpost/"/>
-		<updated>2018-05-01T00:00:00Z</updated>
-		<id>https://example.com/blog/firstpost/</id>
-		<content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
-&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
-&lt;h2 id=&quot;section-header&quot; tabindex=&quot;-1&quot;&gt;Section Header &lt;a class=&quot;header-anchor&quot; href=&quot;https://example.com/blog/firstpost/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
-&lt;pre class=&quot;language-diff-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-diff-js&quot;&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token inserted-sign inserted language-js&quot;&gt;&lt;span class=&quot;token prefix inserted&quot;&gt;+&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token deleted-sign deleted language-js&quot;&gt;&lt;span class=&quot;token prefix deleted&quot;&gt;-&lt;/span&gt;  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;  counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class=&quot;token unchanged language-js&quot;&gt;&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
-&lt;span class=&quot;token prefix unchanged&quot;&gt; &lt;/span&gt;console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+		<title>Yeah, Breakcore Sucks (but i love it)</title>
+		<link href="https://example.com/blog/breakcore/"/>
+		<updated>2024-08-05T00:00:00Z</updated>
+		<id>https://example.com/blog/breakcore/</id>
+		<content type="html">&lt;p&gt;Breakcore, the official genre of 20-something NEETs that describe themselves as &amp;quot;lainpilled femcels&amp;quot; and use PFPs of Tomoko from WataMote in their extremist political Discords. This genre (according to the reputable source of Wikipedia) traces it&#39;s routes to the mid 90s, stemming from jungle, drum and bass, and other relatively small gneres, however, this form of Breakcore is so detached from what many consider to be modern Breakcore that I&#39;ll be skipping to the 2000s.&lt;/p&gt;
+&lt;p&gt;Alright, picture this, it&#39;s the late 2000s, you have to pick between three CDs, first, we have the objectively good CD, &amp;quot;Graduation&amp;quot; by Kanye West, with it&#39;s bright album art, but obviously, you won&#39;t pick this one, because you&#39;re here on this article. Beside it, you have &amp;quot;Detrimentalist&amp;quot; by Venetian Snares, which dawns fittingly complex album art, and &amp;quot;tomboyish love for daughter&amp;quot; by Goreshit, which featurees album art that is likely illegal in several regions. The latter two, in my opinion, represent the two quintessential Breakcore albums of the 2000s that led to the two branching Breakcore sub-genres that we see today.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/2x1.png&quot; alt=&quot; The album art of Detrimentalist by Venetian Snares and toboyish love for daughter by Goreshit &quot; height=&quot;20%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
+&lt;p&gt;Now, I know what you&#39;re thinking &amp;quot;what tf makes thse albums important&amp;quot; and &amp;quot;wtf is that goreshit album art.&amp;quot; I&#39;ll get to the first point briefly, but the album art is, you guessed it, cropped Touhou hentai. This is truly a genre defined by it&#39;s classiness and maturity. Now, back to the first point, these albums, whilst quite good, are arguably most important due to the cultural split they caused in breakcore. Take this song from Goreshit&#39;s album, titled &amp;quot;strawberry cheesecake&amp;quot;:&lt;/p&gt;
+&lt;iframe frameborder=&quot;0&quot; width=&quot;400&quot; height=&quot;60&quot; src=&quot;https://drive.google.com/file/d/1Ps5KFM_7DbCy-CoMHW99eNLHELdnY7Jx/preview?usp=drivesdk&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;And then compare it to this song, &amp;quot;Gentlemen&amp;quot; by Venetian Snares:&lt;/p&gt;
+&lt;iframe frameborder=&quot;0&quot; width=&quot;400&quot; height=&quot;60&quot; src=&quot;https://drive.google.com/file/d/1MuksT2iE1mdgb-bE6yJJA-VQm7L8UKQ0/preview?usp=drivesdk&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;These songs, despite both being Breakcore, due to their usage of the Amen Break, arguably couldn&#39;t be any more different. Goreshit leans heavily towards sampling sounds and music from Anime, a trend that continues today in Breakcore through artists such as Rori in early 20s, and to a limited degree, through Sewerslvt&#39;s works (although it can be argued that the majority of her music isn&#39;t breakcore, and I largely agree with this). The latter represents a more traditional form of Breakcore, which is the other side of the modern Breakcore coin, being evident through artists such as Machine Girl, and once again, to a lesser extent, Nanoray.&lt;/p&gt;
+&lt;p&gt;I personally enjoy both genres of Breakcore, being a terminally online individual, but the point of this article wasn&#39;t really to say that &amp;quot;yeah i kinda like breakcore lol&amp;quot;, but rather, to demonstrate the sheer variety of Breakcore artists and songs. Many people do disregard Breakcore, for good reason, but for those that haven&#39;t already, listen to some, you&#39;ll probably like at least some of it, unless you don&#39;t, in which case, it&#39;s not my problem.&lt;/p&gt;
 </content>
 	</entry>
 </feed>

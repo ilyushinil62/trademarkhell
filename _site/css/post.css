@@ -199,6 +199,7 @@ list-style-type: none;
     text-indent: 50px;
     list-style-type: none;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
