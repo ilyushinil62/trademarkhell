@@ -6,7 +6,7 @@ tags:
     anime
 ---
 
-The Monogatari Series, published originally in light novel form by Nisio Isin in 2005, adapted into a manga by Oh! Great in 2018, and adapted into an anime by Studio Shaft in 2009 is probably one of the most, if not the most problematic series to come out of Japan. I've consumed the series in all of these formats numerous times, but for the sake of accessibility to the bulk of people, I'll be predominantly highlighting the first season of the anime, for the sake of convenience, and for the sake of spoilers.
+The Monogatari Series, published originally in light novel form by Nisio Isin in 2005, adapted into a manga by Oh! Great in 2013, and adapted into an anime by Studio Shaft in 2009 is probably one of the most, if not the most problematic series to come out of Japan. I've consumed the series in all of these formats numerous times, but for the sake of accessibility to the bulk of people, I'll be predominantly highlighting the first season of the anime, for the sake of convenience, and for the sake of spoilers.
 
 After that nightmare of a starting sentence, you're probably wondering what exactly is so bad about this series, and why I'm shilling it to you. I don't really intend to tone down what's wrong about this series, in fact, I'll summarize it in a single sentence. I genuinely think it's impossible to find a series that juxtaposes masterful wriiting with pure degeneracy like the Monogatari series. There's plenty of other problematic shows, but people solely watch them because they're problematic, so they don't exactly fall into the same category as Monogatari. 
 
