@@ -23,7 +23,7 @@ jobs:
         with:
           API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
           BUILD_DIR: "./_site"
-          DEPLOY_DIR: "/test"
-          CLEANUP: "False"
+          DEPLOY_DIR: "/"
+          CLEANUP: "True"
           DELAY: "0.5"
           NEKOWEB_PAGENAME: "trademark"

@@ -9,6 +9,27 @@ numberOfLatestPostsToShow: 2
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-people.css">
+  <link rel="stylesheet" href="https://hotel.nekoweb.org/hotel-onionring.css" />
+  <link href="css/index.css" rel="stylesheet" />
+  <script>
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `<em>Created</em>: ${created}`;
+      document.getElementById("updated").innerHTML = `<em>Updated</em>: ${updated}`;
+      document.getElementById("visitors").innerHTML = `<em>Visits</em>: ${json.views}`;
+      document.getElementById("followers").innerHTML = `<em>Followers</em>: ${json.followers}`;
+    };
+    getStats();
+
+  </script>
   <link href="/css/navbase.css" rel="stylesheet" />
 </head>
 
@@ -55,7 +76,7 @@ numberOfLatestPostsToShow: 2
       {{ content | safe }}
     </div>
     <div class="footer">
-      <p>Hosted on Nekoweb // Powered by 11ty // All Rights Reserved</p>
+      Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
     </div>
     <div class="sidebar">
       <ul class="sidebarflex">
@@ -81,13 +102,31 @@ numberOfLatestPostsToShow: 2
           <li class="maintexttop">
             <p>NekoStats</p>
           </li>
-          <li class="statstext"></li>
+          <ul class="statstext">
+            <div id="created"><em>Created</em>:</div>
+            <div id="updated"><em>Updated</em>:</div>
+            <div id="visitors"><em>Visits</em>:</div>
+            <div id="followers"><em>Followers</em>:</div>
+
+          </ul>
         </ul>
         <ul class="playing">
           <li class="maintexttop">
             <p>internet stuff</p>
           </li>
-          <li class="playingtext">webrings</li>
+          <li class="playingtext">
+
+            <div id="nekohotel">
+              <script type="text/javascript" src="https://hotel.nekoweb.org/hotel-variables.js"></script>
+              <script type="text/javascript" src="https://hotel.nekoweb.org/hotel-widget.js"></script>
+            </div>
+            <div id='neko-tag'>
+              <script type="text/javascript"
+                src="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-variables.js"></script>
+              <script type="text/javascript"
+                src="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-widget.js"></script>
+            </div>
+          </li>
         </ul>
         <ul class="square">
           <li class="maintexttop">
@@ -102,17 +141,20 @@ numberOfLatestPostsToShow: 2
           <li class="maintexttop">
             <p>not sponsors</p>
           </li>
-          <li class="squaretext"></li>
+          <li class="squaretext">
+            <img width="200px" height="170px" alt="tempshitpost" src="https://trademarkhell.net/IMG_4794.png"
+              margin="auto" />
+          </li>
         </ul>
         <ul class="follow">
-          <li class="followtext"></li>
+          <li class="followtext">
+            <a href="https://nekoweb.org/follow/trademark" l>follow me!!!</a>
+          </li>
         </ul>
       </ul>
     </div>
   </div>
   <script src="/scripts/playingsong.js"></script>
-  <script src="/scripts/nekostats.js"></script>
-
 </body>
 <style>
   body {
@@ -120,7 +162,7 @@ numberOfLatestPostsToShow: 2
     display: block;
     width: 95%;
     height: 95%;
-    background-image: url("https://trademarkhell.net/checker25.png");
+    background-image: url("/img/checker26.png");
     animation: bgScroll 35s linear infinite;
   }
 </style>

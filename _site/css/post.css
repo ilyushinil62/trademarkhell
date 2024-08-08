@@ -37,23 +37,24 @@
 .content {
     justify-self: center;
     grid-area: content;
-    width: 870px;
+    width: 880px;
     height: 1065px;
 }
 
 .footer {
-    justify-self: top;
-    grid-area: footer;
-    width: 870px;
-    height: 40px;
-    font-family: hel2;
-    font-size: 20px;
-    text-align: center;
-    font-family: hel2;
-    color: white;
-    font-size: 16px;
-    overflow: hidden;
+	justify-self: center;
+	grid-area: footer;
+	vertical-align: bottom;
+	width: 100%;
+	height: 40px;
+	font-family: hel2;
+	font-size: 20px;
+	text-align: center;
+	font-family: hel2;
+	color: white;
+	padding-top: 5px
 }
+
 
 .sidebar {
     justify-self: center;

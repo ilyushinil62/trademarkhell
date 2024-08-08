@@ -51,7 +51,7 @@
 	text-align: center;
 	font-family: hel2;
 	color: white;
-	font-size: 16px;
+	padding-top: 5px
 }
 
 .sidebar {
@@ -253,6 +253,9 @@ body {
 	background-color: rgb(69, 71, 90);
 	overflow: auto;
 	text-align: center;
+	font-family: w95;
+	color: white;
+	font-size: 15px;
 }
 
 .sidebarflex {
@@ -397,12 +400,17 @@ body {
 	width: 200px;
 	height: 45px;
 	list-style: none;
+	font-family: bepop;
+	font-size: 30px;
+	text-align: center;
 }
 
 .followtext {
 	height: 40px;
 	width: 200px;
-	background-color: rgb(69, 71, 90)
+	background-color: rgb(69, 71, 90);
+	margin: 0px;
+	padding: 0px;
 }
 
 @font-face {
