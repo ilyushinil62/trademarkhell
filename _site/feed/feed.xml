@@ -4,12 +4,28 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-10T00:00:00Z</updated>
+	<updated>2024-08-11T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Top ten worst  interests; Polish Rock</title>
+		<link href="https://example.com/blog/polishrock/"/>
+		<updated>2024-08-11T00:00:00Z</updated>
+		<id>https://example.com/blog/polishrock/</id>
+		<content type="html">&lt;p&gt;As a terminally online individual, who&#39;s life revolves around a select group of internet forums and Discord servers, it&#39;s my duty to exclusively maintain interests  that are either solely maintained by terminally online people, or maintained by 2.5 people total. As this website probably indicates, I&#39;ve fulfilled this requirement quite well, and today I&#39;ll be talking about one of the stranger ones. Polish Rock.&lt;/p&gt;
+&lt;p&gt;A few years ago I played through the game &#39;SUPERHOT&#39;, the most innovative shooter I&#39;ve played in years, but this isn&#39;t about SUPERHOT, rather, it&#39;s about the song that played in it&#39;s credits, &amp;quot;Psy Pawłowa&amp;quot;, by Republika.&lt;/p&gt;
+ &lt;iframe frameborder=&quot;0&quot; width=&quot;400&quot; height=&quot;60&quot; src=&quot;https://drive.google.com/file/d/14l0W9762h2UZpwtEq2mcV5EPUa48b8Yz/preview?usp=drivesdk&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;In hindsight, this is honestly one of the weaker songs on Republika&#39;s discography, but I think it&#39;s important for the rabbithole it led me down. It effectively made me realize that music I couldn&#39;t understand was actually pretty good, and opened the floodgates of Polish rock to me, as opposed to the same few Chinese and Japanese songs I was listening to at the time.&lt;/p&gt;
+&lt;p&gt;Ironically, I still have no real interest in learning Polish, but, I have continued to discover many more bands and songs hailing from Poland. Just to list off a few, Turbo has a pretty strong discography, with nearly all the songs from their &#39;00 album &amp;quot;Remix 92&amp;quot; sounding really good, and Kazik na Żywo has a really good collection of grunge-esque songs, albeit, the mastering on some of them leaves something to be desired (also pretty similar to grunge songs of the era...)&lt;/p&gt;
+&lt;p&gt;Republika has still remained my favorite of the Polish bands I&#39;ve heard, perhaps because they were the first, or perhaps due to the sheer number of songs they have. My favorites are easily &amp;quot;Fast (New)&amp;quot;, and &amp;quot;Raz na milion lat&amp;quot;. The latter of which is one of my favorite songs of all time.&lt;/p&gt;
+&lt;p&gt;Now, despite this article largely being about my dumb interests and such, I would like for the 0.5 people reading this to at least consider listening to music from regions and languages outside of where they reside. It can be a really interesting experience, and if you&#39;re lucky (or unlucky), you may actually like the music. Anyways, that&#39;s it for today&#39;s rambling session, thanks for coming. Leave your bingoboards where you picked them up.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Indie Web Described By a True Idiot</title>

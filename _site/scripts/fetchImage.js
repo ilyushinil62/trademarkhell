@@ -5,7 +5,8 @@ const images = [
     'thbanner2.png',
     'lsstare.png',
     'ciasan2.png',
-    'math22.png'
+    'math22.png',
+    'tcpbanner.png'
   ];
   
   function getRandomImage() {
