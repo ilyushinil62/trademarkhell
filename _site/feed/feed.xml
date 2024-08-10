@@ -4,12 +4,25 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-07T00:00:00Z</updated>
+	<updated>2024-08-10T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>The Indie Web Described By a True Idiot</title>
+		<link href="https://example.com/blog/indieweb/"/>
+		<updated>2024-08-10T00:00:00Z</updated>
+		<id>https://example.com/blog/indieweb/</id>
+		<content type="html">&lt;p&gt;As of late( well not really, more so for the past 15 years ), the concept of the &#39;Indie Web&#39; has been in resurgence, with many seeking to partake in an internet free of the constraints of corporations or ruling powers, as the internet once was. Despite this, I&#39;d argue that the term &#39;Indie Web&#39; has really lost it&#39;s original meaning.&lt;/p&gt;
+&lt;p&gt;This term suggests that these websites are truly independent from external influence, yet, the majority of self-declared &#39;Indie&#39; sites are still being hosted on services such as Neocities or Nekoweb, both of which have their own external rules and the ability to delete/moderate sites. These rules, of course, exist for reasons, but it&#39;s because of this external influence that I feel it&#39;s disingenous to say that these websites are truly &#39;Indie&#39;.&lt;/p&gt;
+&lt;p&gt;In the modern sense being an independent site seems to be more of a design philosophy than that of a literal thing. The Indie Web seems to be defined by sites, which, for lack of better terminology, serve no real purpose. Take this site for example, it just serves to host my pretentious ramblings. The purposes of these sites suit their owners and, at times, a select group of people, but rarely venture outside of that small niche.&lt;/p&gt;
+&lt;p&gt;What I&#39;m trying to say is that, in effect, &#39;Indie Web&#39; no longer means websites independent from external influence, rather, it means sites made for self indulgence, sites made for recreation rather than for profit, sites made by hobbyists, for hobbyists. Despite losing it&#39;s original meaning, I&#39;d argue that the concept of the &#39;Indie Web&#39; is stronger than ever, with more websites made for leisure existing now than there has been in years.&lt;/p&gt;
+&lt;p&gt;Furthermore, I&#39;d like to specify that this article is not a criticism of the &#39;Indie Web&#39; whatsoever, given I&#39;m an avid participant in the community. This article merely serves to provide an exteremly unscientific, and unproven theory as to what the &#39;Indie Web&#39; truly is, in it&#39;s current evolution. Albeit, I suspect that the defenition of the &#39;Indie Web&#39; will continue to change for as long as people continue to make websites for non commercial use.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>My Irrational Love for Monogatari</title>

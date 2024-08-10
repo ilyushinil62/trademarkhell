@@ -9,6 +9,7 @@
 }
 
 .container {
+    scrollbar-color: rgba(49, 50, 68, 0.9) rgb(69, 71, 90);
     display: grid;
     grid-template-columns: 210px 680px;
     grid-template-rows: 160px 190px 875px 45px;

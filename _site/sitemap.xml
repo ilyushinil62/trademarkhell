@@ -60,4 +60,9 @@
 		<loc>https://example.com/blog/monogatariseries/</loc>
 		<lastmod>2024-08-07</lastmod>
 	</url>
+	
+	<url>
+		<loc>https://example.com/blog/indieweb/</loc>
+		<lastmod>2024-08-10</lastmod>
+	</url>
 </urlset>
