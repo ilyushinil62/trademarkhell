@@ -8,6 +8,7 @@
 	}
 }
 
+
 .container {
 	scrollbar-color: rgba(49, 50, 68, 0.9) rgb(69, 71, 90);
 	display: grid;
@@ -26,7 +27,8 @@
 	margin-top: 5px;
 	background-color: rgba(49, 50, 68, 0.9)
 }
-
+.navitem:hover {transform: scale(1.1);
+}
 .header {
 	justify-self: center;
 	align-self: end;
@@ -129,6 +131,7 @@ body {
 }
 
 .navitem {
+	transition: transform .3s;
 	display: flex;
 	background-color: rgb(69, 71, 90);
 	justify-content: space-between;
