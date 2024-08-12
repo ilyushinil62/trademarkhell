@@ -4,12 +4,24 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-12T00:00:00Z</updated>
+	<updated>2024-08-13T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Please Actually Use Your Blog Sections</title>
+		<link href="https://example.com/blog/useyourblog/"/>
+		<updated>2024-08-13T00:00:00Z</updated>
+		<id>https://example.com/blog/useyourblog/</id>
+		<content type="html">&lt;p&gt;Tm here, if you haven&#39;t noticed, I quite like writing blog articles, in fact, I&#39;ve been publishing them daily since I made this site revision (albeit, i don&#39;t expect this pace to continue forever). As such, I feel it is my duty to preach the gospel of article creation, for I&#39;ve encountered many sites which have entire sections dedicated to this practice, yet rarely, if ever, publish blog articles. I&#39;m here to put a stop to this heresy.&lt;/p&gt;
+&lt;p&gt;Contrary to popular belief, running a blog actually serves a purpose outside of filing the section of your site that you had no idea what to do with. In my opinion, blogs are the best way to capture your mental state at a given time. A case could be made for diaries, of course, but diaries merely serve to recount events, not what you truly think from an external perspective. Blogs capture the way you think and act, even if it&#39;s just through your writing mannerisms. Furthermore, I feel as though the self restraint induced from publishing blogs publically leads to a more accurate depiction of how one truly behaved at the time.&lt;/p&gt;
+&lt;p&gt;In effect, what I&#39;m trying to depict, is that, blogs can actually be useful tools to look back on who you are/were as a person, whilst also honing your writing skills for no real reason. Blogs can be a lot more than obligatory sections on your website that you ignore, and I really hope people realize that. You don&#39;t have to make a blog, but honestly, don&#39;t bother putting the section on your site if you don&#39;t intend to use it. Oh, also, maybe refrain from putting your extremist 4chan political takes on your blogs, just a word of advice. Tm out, this one&#39;s a short post, but I have nothing more to say on the matter.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/osakaism.png&quot; alt=&quot;osaka with the autism hat?????&#39;&quot; height=&quot;40%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The 2000s Happened; Haruhi Suzumiya</title>
