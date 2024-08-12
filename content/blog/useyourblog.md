@@ -14,3 +14,4 @@ In effect, what I'm trying to depict, is that, blogs can actually be useful tool
 
 <img src="/img/osakaism.png" alt="osaka with the autism hat?????'" height=40% style="display: block; margin: 0 auto"/>
 
+pic unrelated
