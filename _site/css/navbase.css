@@ -25,7 +25,7 @@
 	height: 1270px;
 	margin: auto;
 	margin-top: 5px;
-	background-color: rgba(49, 50, 68, 0.9)
+	background-color: rgba(49, 50, 68, 0.9);
 }
 .navitem:hover {transform: scale(1.1);
 }
@@ -416,7 +416,7 @@ a:active {
 }
 
 .posttexttop {
-	width: 670px;
+	width: 653px;
 	display: flex;
 	min-width: 0px;
 	background: rgb(255, 172, 28);
@@ -437,10 +437,10 @@ a:active {
 
 .posttextcontent {
 	height: 100px;
-	width: 670px;
+	width: 653px;
 	background-color: rgb(69, 71, 90);
 	overflow: visible;
-	font-size: 18px;
+	font-size: 17.75px;
 	color: white;
 	font-family: w95;
 	align-items: top;
