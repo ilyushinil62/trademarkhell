@@ -1,6 +1,6 @@
 ---
 title: The 2000s Happened; Haruhi Suzumiya
-description: Weebs nowadays have to endure countless low quality isekai adaptions as the generic seasonal Anime of choice. In the 2000s, however, light novel adaptions were the new fad of the time, which brought countless pieces of seasonal shows that nobody remembers, and, also, The Melancholy of Haruhi Suzumiya anime adaption, a masterpiece characterized by absurdity and jokes that probably don't age for the majority of people watching it today.
+description: Weebs nowadays have to endure countless low quality isekai adaptions as the generic seasonal Anime of choice. In the 2000s, however, light novel adaptions were the new fad of the time, which brought countless pieces of seasonal shows that nobody remembers, and, also, The Melancholy of Haruhi Suzumiya anime adaption, a masterpiece characterized by absurdity and jokes that probably don't land for the majority of people watching it today.
 date: 2024-08-12
 tags: 
     anime

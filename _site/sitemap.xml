@@ -22,11 +22,6 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/tags/music/</loc>
-		<lastmod>2024-07-15</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://example.com/tags/anime/</loc>
 		<lastmod>2024-07-15</lastmod>
 	</url>
@@ -38,6 +33,11 @@
 	
 	<url>
 		<loc>https://example.com/tags/tech/</loc>
+		<lastmod>2024-07-15</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/tags/music/</loc>
 		<lastmod>2024-07-15</lastmod>
 	</url>
 	
