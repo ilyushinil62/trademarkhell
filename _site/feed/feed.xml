@@ -4,12 +4,31 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-13T00:00:00Z</updated>
+	<updated>2024-08-14T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>SSGs Are Good, Actually</title>
+		<link href="https://example.com/blog/ssg/"/>
+		<updated>2024-08-14T00:00:00Z</updated>
+		<id>https://example.com/blog/ssg/</id>
+		<content type="html">&lt;p&gt;This article is sorta an addendum to my previous article about people not using blogs, so read that first if you want to. Anyways, people don&#39;t seem to like SSGs, as my friend bravely demonstrated here in an act of true determination.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/ssgslander.png&quot; alt=&quot; SSG SLANDER!!!&quot; height=&quot;42%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
+&lt;p&gt;His brave sacrifice will be immortalized through this article.&lt;/p&gt;
+&lt;p&gt;The dislike of SSGs, from my observations seems to stem from two primary sources, people feeling as though it looks too difficult, and people who feel it takes the &amp;quot;fun&amp;quot; out of website creation. For the sake of maintaining rationality, I&#39;ll primarily be focusing on the former, until I get bored, in which case I will certainly rant about the latter.&lt;/p&gt;
+&lt;p&gt;Now, I fully understand why many people feel as though SSGs look difficult, I mean you&#39;re going from a few HTML and CSS files to whatever the hell this is...&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/sitecomposition.png&quot; alt=&quot; The file structure of the site you&#39;re reading this on&quot; height=&quot;52%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
+&lt;p&gt;However, the barrier to entry of reading a few docs (or a 6 minute video... https://www.youtube.com/watch?v=kzf9A9tkkl4) is very much worth the ease of use you gain, and nowadays, a lot of static site generators seem to be easy to set up in mere minutes. (I hear good things about Hugo, I of course chose the one SSG with terrible documentation and like two tutorials, shoutout to 11ty). The benefit of using an SSG isn&#39;t in how easy they are to set up (in my opinion...), but rather, how easy they make maintaining your site. This whole article is being written on a single markdwon document, I haven&#39;t even touched HTML or CSS for it, my SSG does all the work for me, provided I give it the templates needed.&lt;/p&gt;
+&lt;p&gt;Building on yesterdays point, and the words of an anonymous commenter that I agree with, a large part of why there&#39;s so many untouched blogs on the Indie Web is because of how much work it takes to publish an article without an SSG. People need to manually create new HTML and CSS files, and format the whole thing with HTML text elements, which, speaking from experience, is a pain in the ass.&lt;/p&gt;
+&lt;p&gt;I encourage literally anyone looking to update or remake their sites to at least try using an SSG when they do it, all you need to do is follow the documentation and give it a few templates, after that, maintaining your site is as simple as writing. Don&#39;t be one of those people that has whole sections of their sites that they update once every two years, use an SSG. It&#39;s that easy.&lt;/p&gt;
+&lt;p&gt;Alright, before I finish this article up, I feel it&#39;s my duty to address the not using an SSG being &amp;quot;fun&amp;quot; part of the argument, and I&#39;ll do so in a single sentence. If it&#39;s so fun to run your website without an SSG, why do you never post anything???? (and if you do maitnain a blog without an SSG, shoutout to you, but there&#39;s something wrong with you)&lt;/p&gt;
+&lt;p&gt;TL;DR: SSGs make everything easier and save your firstborn child&#39;s life, use them or suffer. Tm out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Please Actually Use Your Blog Sections</title>
