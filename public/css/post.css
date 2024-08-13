@@ -253,7 +253,7 @@ a:active {
 }
 
 .posttexttop {
-	width: 870px;
+	width: 100%;
 	display: flex;
 	min-width: 0px;
 	background-color: rgb(49, 50, 68);
