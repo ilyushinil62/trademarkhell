@@ -4,12 +4,25 @@
 	<subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2024-08-15T00:00:00Z</updated>
+	<updated>2024-08-16T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Personal Information and the Indie Web</title>
+		<link href="https://example.com/blog/infoprivacy/"/>
+		<updated>2024-08-16T00:00:00Z</updated>
+		<id>https://example.com/blog/infoprivacy/</id>
+		<content type="html">&lt;p&gt;I think just about everyone has heard the generic preamble about internet privacy before, &amp;quot;blah blah don&#39;t say your name and location blah blah,&amp;quot; but, I&#39;ve begun to notice that some people didn&#39;t take this one to heart when it comes to personal sites. So, before I say anything else, please, for the love of god, don&#39;t put your location and full legal name on your site, or your age, especially if you&#39;re a minor. I keep seeing sites that start with &amp;quot;hey guys i&#39;m 13, my name is [FULL LEGAL NAME], i live in [STATE/PROVINCE/PREFECTURE] and this is my site&amp;quot; and then proceed to link their Discord. Please don&#39;t do this, people on the internet are weird.&lt;/p&gt;
+&lt;img src=&quot;https://example.com/img/mynameiswalter.jpeg&quot; alt=&quot; Walter White from Breaking Bad during his confession &quot; height=&quot;30%&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+(I felt my article would be incomplete if I didn&#39;t include a screenshot of this)
+&lt;p&gt;This isn&#39;t to say you can&#39;t have an about webmaster page (although i also kinda dislike those, but that&#39;s another day&#39;s article), or write about stuff you like in a blog, but maybe just talk about what you&#39;re interested in, rather than the exact person you are. Personal sites, in my opinion, are meant to serve as places to depict who you are based on your interests and actions, rather than based on literal personal information. I think it&#39;s extremely important to keep this in mind whenever you do just about anything on your site. As the old saying goes, albeit, I don&#39;t think it was meant to be used in this context, &amp;quot;Let your actions speak for themselves.&amp;quot;&lt;/p&gt;
+&lt;p&gt;I&#39;m not just saying all this because I&#39;m some fiend for anonymity (I mean I am), but rather, because I think some people are genuinely putting themselves at risk by putting so much info in an easy to access place. The world&#39;s a lot smaller than you think it is, especially if you live in a heavily populated country with a lot of internet usage. Keep that in mind. Anyways, TM out, don&#39;t dox yourself, bye.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>I Owe a Lot to Welcome to the N.H.K.</title>
