@@ -20,7 +20,7 @@ const getTrack = async () => {
         // Trigger if a song isn't playing
         document.getElementById("listeningStatus").innerHTML = "last played...";
         document.getElementById("listening").innerHTML = `
-            <img src="${json.track.image[1]['#text']}" alt="Cover Image">
+            <img src="${json.track.image[1]['#text']}" alt="Cover Image Not Found // trademarkhell.net">
             <div id="trackInfo">
                 <h3 id="trackName">${createMarqueeText(json.track.name)}</h3>
                 <p id="artistName">${createMarqueeText(json.track.artist['#text'])}</p>
@@ -31,7 +31,7 @@ const getTrack = async () => {
         // Trigger if a song is playing
         document.getElementById("listeningStatus").innerHTML = "listening to...";
         document.getElementById("listening").innerHTML = `
-            <img src="${json.track.image[1]['#text']}" alt="Cover Image">
+            <img src="${json.track.image[1]['#text']}" alt="Cover Image Not Found // trademarkhell.net">
             <div id="trackInfo">
                 <h3 id="trackName">${createMarqueeText(json.track.name)}</h3>
                 <p id="artistName">${createMarqueeText(json.track.artist['#text'])}</p>
