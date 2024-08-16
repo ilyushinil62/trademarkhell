@@ -1,6 +1,6 @@
 ---
 title: Local Car Culture as Viewed by an Idiot
-description: As I was adding the 'web' tag to my site I realized that my web section and blog section were identical, so I figured I should talk about something new. Here it is, an article about shoddily put together vehicles predominently owned by secondary school students, which I somehow always see around town. I literally have no idea who will read this, it sounded more interesting in my head. This article has no real meaning, and there'll still be another article today.
+description: As I was adding the 'web' tag to my site I realized that my web section and blog section were identical, so I figured I should talk about something new. Here it is, an article about shoddily put together vehicles predominently owned by secondary school students. I literally have no idea who will read this, it sounded more interesting in my head. This article has no real meaning, and there'll still be another article today.
 date: 2024-08-17
 tags: 
     blog
