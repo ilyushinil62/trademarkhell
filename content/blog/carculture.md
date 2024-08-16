@@ -1,0 +1,23 @@
+---
+title: Local Car Culture as Viewed by an Idiot
+description: As I was adding the 'web' tag to my site I realized that my web section and blog section were identical, so I figured I should talk about something new. Here it is, an article about shoddily put together vehicles predominently owned by secondary school students, which I somehow always see around town. I literally have no idea who will read this, it sounded more interesting in my head. This article has no real meaning, and there'll still be another article today.
+date: 2024-08-17
+tags: 
+    blog
+---
+
+I think it's a mandate of every small town to have two things, a car scene solely comprised of riced out economy cars, and an excessive amount of unoccupied retail space. I can't really think of much to say about grocery stores that closed, so this article will be about the former.
+
+I feel the need to preface this article by saying that I fell into these groups in my younger years (RIP '92 Miata, you were a real one till the end), and this isn't intended to be a criticism of them. If I weren't moving countries in the near future, I'd likely still own a shitbox of some variety. However, it is my duty as someone with an unreasonable interest in poorly modified vehicles to write about them.
+
+Now, generally speaking, the types of modified vehicles you'll see being driven around in my unnamed hellscape esque small town in the middle of the night can be divided into three categories. The Civic category, the not a Civic category, and the trust fund category. All three of these categories are occupied by teenage drivers of equal inexperience, but are not equal in terms of raw power.
+
+To start with, let me highlight 'ol reliable,' the Honda Civic, it doesn't really matter what year, it could be 10 years old, it could be 25 years old, the modifications always remain the same. It's mandatory that the engine itself remains untouched, it wouldn't be a true broke secondary schooler vehicle otherwise. Rather, they invest all of their money into absurd 18" shining gold wheels that are usually spaced in a way completely disproportionate to the car body. One mustn't forget the most important component either, an absurdly large wing purchased from eBay, likely held on by adhesive strips. If you're looking to find these drivers, they can generally be found in ditches, and doing 70km on a 25km residential street.
+
+Now, the second category, in practice, the modifications mentioned in the Civic category remain identical, but rather, the car changes. These are vehicles owned by true contrarians who want to defy societal norms, so instead of buying a Civic, they bought a Miata or a Corolla. These are cars that are objectively worse for a secondary school student, be it in convenience or reliability, but they represent a act of true defiance. Instead of taking to the streets and protesting, they did something braver, driving a mildly diferent vehicle. Deeply inspiring stuff.
+
+Society is inevitably divided into social classes, this is a fundamental principle of humanity following the agricultural revolution, yet, some people remain in a fringe category between the two. These are those that fall into the trust fund category, those with enough wealth to get an absurd vehicle, yet simultaneously lack the intellect or wealth to attend an educational institution outside of the unremarkable town in which you reside. The trust fund, unsurprisingly maintains the same modifications as the previous categories, but not due to a lack of funds.Rather, they maintain these modifications because they have no idea what they're looking at in the engine bay, and are currently contacting their vehicle's manufacturer to ask about blinker fluid. These pseudo-nepotists can be found driving brand new WRXs, EVOs, and in some cases, Civic SIs. 
+
+None of these categories actually know how to drive, and their semi-annual attempts at street racing result in three cars ending up in a ditch, and them waiting another six months to try and street race again. Those who belong to these categories either mature into automotive enthusiasts who look fondly upon their days as an idiotic student, or simply move on with life and get an unremarkable vehicle as most do. 
+
+This article is of absolutely no substance and I solely wrote it for fun, it's more or less just a way for me to mess with falvor text whilst recounting things I see around time. Thanks for reading this if you did, for some reason, I apopreciate it. TM out.

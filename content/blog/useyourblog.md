@@ -3,7 +3,8 @@ title: Please Actually Use Your Blog Sections
 description: I have procured a strong hatred for blog sections with nothing in them other than a single post saying "yo guys check it out i just made this dope ass blog... gonna use it daily" that was made six months ago. This article is my desperate plea for webmasters to actually use their blogs for y'know... blogging... Click the title for one of the greatest rants of the past three minutes.
 date: 2024-08-13
 tags: 
-    blog
+    - blog
+    - web
 ---
 
 Tm here, if you haven't noticed, I quite like writing blog articles, in fact, I've been publishing them daily since I made this site revision (albeit, i don't expect this pace to continue forever). As such, I feel it is my duty to preach the gospel of article creation, for I've encountered many sites which have entire sections dedicated to this practice, yet rarely, if ever, publish blog articles. I'm here to put a stop to this heresy.

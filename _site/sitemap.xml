@@ -27,12 +27,17 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/tags/anime/</loc>
+		<lastmod>2024-07-15</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/tags/blog/</loc>
 		<lastmod>2024-07-15</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/tags/anime/</loc>
+		<loc>https://trademarkhell.net/tags/web/</loc>
 		<lastmod>2024-07-15</lastmod>
 	</url>
 	
@@ -94,5 +99,10 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/infoprivacy/</loc>
 		<lastmod>2024-08-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/carculture/</loc>
+		<lastmod>2024-08-17</lastmod>
 	</url>
 </urlset>

@@ -3,7 +3,8 @@ title: The Indie Web Described By a True Idiot
 description: The Independent Web, or Indie Web, has gained a lot of popularity in the past decade or so, I mean, you're on this site, but what exactly is the Indie Web? I still don't really know, but I sure as hell am going to ramble about it for a page, it's my duty as one of the many egotistical personal-site oweners.
 date: 2024-08-10
 tags: 
-    blog
+    - blog
+    - web
 ---
 
 As of late( well not really, more so for the past 15 years ), the concept of the 'Indie Web' has been in resurgence, with many seeking to partake in an internet free of the constraints of corporations or ruling powers, as the internet once was. Despite this, I'd argue that the term 'Indie Web' has really lost it's original meaning.

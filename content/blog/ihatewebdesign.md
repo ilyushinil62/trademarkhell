@@ -3,7 +3,8 @@ title: Failure and Webdesign
 description: I've spent the past three weeks spending the bulk of my freetime in webdesign hell, and after this experience akin to that of what Sisyphus went through, I learned one thing. I'll probably never like my site, but at least I can get a cool blog post out of it. Click the title above if you want to read a masterfully crafted text about my perilous journey.
 date: 2024-08-06
 tags: 
-    blog
+    - blog
+    - web
 ---
 
  About three weeks ago now, in the middle of July, I came to a sudden revelation, one, which, for a lesser man, may have caused great mental distress. I realized that my website completely sucked, was borderline impossible to modify, and was almost illegible. I, however, being the brave warrior that I am, chose not to let this decrease my morale, and instead set off on a brave journey to improve my site.
