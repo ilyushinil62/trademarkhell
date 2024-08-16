@@ -8,7 +8,7 @@ tags:
 
 I think it's a mandate of every small town to have two things, a car scene solely comprised of riced out economy cars, and an excessive amount of unoccupied retail space. I can't really think of much to say about grocery stores that closed, so this article will be about the former.
 
-I feel the need to preface this article by saying that I fell into these groups in my younger years (RIP '92 Miata, you were a real one till the end), and this isn't intended to be a criticism of them. If I weren't moving countries in the near future, I'd likely still own a shitbox of some variety. However, it is my duty as someone with an unreasonable interest in poorly modified vehicles to write about them.
+I feel the need to preface this article by saying that I fell into these groups in my younger years (RIP '92 Miata, you were a real one till the end), and this isn't intended to be a criticism of them. If I weren't moving countries in the near future, I'd likely still own a shitbox of some variety (ignoring the fact i still have one). However, it is my duty as someone with an unreasonable interest in poorly modified vehicles to write about them.
 
 Now, generally speaking, the types of modified vehicles you'll see being driven around in my unnamed hellscape esque small town in the middle of the night can be divided into three categories. The Civic category, the not a Civic category, and the trust fund category. All three of these categories are occupied by teenage drivers of equal inexperience, but are not equal in terms of raw power.
 
