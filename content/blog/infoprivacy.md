@@ -3,8 +3,7 @@ title: Personal Information and the Indie Web
 description: I like to think that I've seen a reasonable amount of personal sites, and in large part, I think they're awesome. However, I can't help but notice that some people may take the personal part a little too seriously.. maybe don't say  "My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane Albuquerque New Mexico 87104." on the front page. This article is basically just my excuse to ramble about the importance of internet privacy.
 date: 2024-08-16
 tags: 
-    - blog
-    - web
+     web
 ---
 
 
