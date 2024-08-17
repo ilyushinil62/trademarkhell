@@ -68,7 +68,8 @@
 
 html,
 body {
-	height: 99%;
+	height: auto;
+	width: auto;
 	margin: 0;
 }
 
