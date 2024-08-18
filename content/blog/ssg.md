@@ -3,7 +3,8 @@ title: SSGs Are Good, Actually
 description: Throughout my brief stint in the brainrot/Indie Web community, I've noticed that a lot of people seem to be heavily opposed to the use of static site generators, seemingly feeling as though the use of one would make their site less legitimate. I think this is stupid, so I'm going to ramble about how awesome SSGs are.
 date: 2024-08-14
 tags: 
-    tech
+    - tech
+    - web
 ---
 This article is sorta an addendum to my previous article about people not using blogs, so read that first if you want to. Anyways, people don't seem to like SSGs, as my friend bravely demonstrated here in an act of true determination.
 
