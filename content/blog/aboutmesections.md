@@ -1,5 +1,5 @@
 ---
-title: What's The Point of About Me Sections?
+title: Why Use About Me Sections?
 description: My IBM 5160 article is taking longer than I thought it would, and I've been on a roll with random website articles, so I figured I'd keep the trend going. I kinda think about me sections are pointless on personal sites, and in this article I use extremely pretentious reasoning to justify my opinion on the subject. (I swear I can do things other than rant about webdevelopment...)
 date: 2024-08-19
 tags: 
