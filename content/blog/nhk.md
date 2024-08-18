@@ -4,7 +4,7 @@ description: Welcome to the N.H.K. is far from the best show I've watched, and q
 date: 2024-08-15
 tags: 
     - anime
-    - blog
+    - opinion
 ---
 
 

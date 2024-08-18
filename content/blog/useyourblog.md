@@ -3,7 +3,7 @@ title: Please Actually Use Your Blog Sections
 description: I have procured a strong hatred for blog sections with nothing in them other than a single post saying "yo guys check it out i just made this dope ass blog... gonna use it daily" that was made six months ago. This article is my desperate plea for webmasters to actually use their blogs for y'know... blogging... Click the title for one of the greatest rants of the past three minutes.
 date: 2024-08-13
 tags: 
-    - blog
+    - opinion
     - web
 ---
 

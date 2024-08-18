@@ -3,7 +3,7 @@ title: Computer Addiction in the Modern Era
 description: If you haven't noticed by the fact I've been posting articles daily, I have something of a computer addiction, and odds are, if you're on this site, you use your computer far more than the average person. This article is my extremely unscientific analysis of the phenomenon of computer addiction. I assume that Harvard will be publishing this soon.
 date: 2024-08-18
 tags: 
-    blog
+    tech
 ---
 I'd like to paint a picture for you all, it's a weekend, you have no work or school to worry about, what do you do? Do you go out and partake in your hobby perhaps, or maybe hang out with friends? No, you obviously sit at your desk and use your computer until you get tired again. This is just theoretical, of course, but if it sounds anything like you, odds are you're a computer addict. Welcome to the club, I guess.
 

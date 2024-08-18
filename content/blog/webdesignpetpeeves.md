@@ -4,7 +4,7 @@ description: Just yesterday I recognized that my web and article sections were n
 date: 2024-08-17
 tags: 
     - web
-    - blog
+    - opinion
 ---
 
 Throughout life, I've always been irregularly good at one thing, hating. I usually tend to keep this out of my blog, but these takes were obviously far too important to not share with my loyal 0.5 readers. I've been working on recreational websites for a little over a month and a half now, and whilst I have learned what I like in designing websites, I also learned a lot about what bothers me in web design, in other words, pet peeves. The former is boring, and as aforementioned, I'm a professional hater, so this'll be about the latter.

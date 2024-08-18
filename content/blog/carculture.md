@@ -3,7 +3,7 @@ title: Local Car Culture as Viewed by an Idiot
 description: As I was adding the 'web' tag to my site I realized that my web section and blog section were identical, so I figured I should talk about something new. Here it is, an article about shoddily put together vehicles predominently owned by secondary school students. I literally have no idea who will read this, it sounded more interesting in my head. This article has no real meaning, and there'll still be another article today.
 date: 2024-08-17
 tags: 
-    blog
+    opinion
 ---
 
 I think it's a mandate of every small town to have two things, a car scene solely comprised of riced out economy cars, and an excessive amount of unoccupied retail space. I can't really think of much to say about grocery stores that closed, so this article will be about the former.
