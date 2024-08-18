@@ -3,7 +3,8 @@ title: I Owe a Lot to Welcome to the N.H.K.
 description: Welcome to the N.H.K. is far from the best show I've watched, and quite frankly, I doubt I'll ever be in the right mental state to watch it again. Despite this, it impacted me more than any other piece of media I've consumed in my life, and I suspect it could have a similar effect on many people in a similar position to where I once was.
 date: 2024-08-15
 tags: 
-    anime
+    - anime
+    - blog
 ---
 
 

@@ -3,8 +3,8 @@ title: Why Use About Me Sections?
 description: My IBM 5160 article is taking longer than I thought it would, and I've been on a roll with random website articles, so I figured I'd keep the trend going. I kinda think about me sections are pointless on personal sites, and in this article I use extremely pretentious reasoning to justify my opinion on the subject. (I swear I can do things other than rant about webdevelopment...)
 date: 2024-08-19
 tags: 
-     web
-     blog
+     - web
+     - blog
 ---
 
 If you look at a personal website, odds are you'll see a link on the navbar that goes to something roughly equating to an about me section. At first glance, this does make sense, I mean it's a personal site, you'd want to put details about the person who runs the site on it. However, it's exactly because personal sites are meant to be personal that I oppose about me sections. In everyday conversations you don't get handed a list of bullet points about the person you're talking to, you deduce who they are based on how they act and what they say. I think that personal sites should operate in a similar manner.
