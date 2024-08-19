@@ -97,11 +97,6 @@
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/</loc>
-		<lastmod>2024-08-16</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://trademarkhell.net/blog/carculture/</loc>
 		<lastmod>2024-08-17</lastmod>
 	</url>
@@ -117,7 +112,17 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/</loc>
+		<lastmod>2024-08-18</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/blog/aboutmesections/</loc>
 		<lastmod>2024-08-19</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/ibm5160/</loc>
+		<lastmod>2024-08-20</lastmod>
 	</url>
 </urlset>
