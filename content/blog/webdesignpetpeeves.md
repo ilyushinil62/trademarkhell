@@ -11,7 +11,7 @@ Throughout life, I've always been irregularly good at one thing, hating. I usual
 
 I certainly could've introduced the talking points of this article in the first paragraph, but that would almost make this too structured, and structure almost implies that I have valid criticisms, which I don't. So I'll start off here, I have always been irrationally bothered by absurdly large headers, I actually tried using one on this (questionable) webdev attempt:
 
-<img src="/img/tm16.png" alt=" The unpublished version 1.6 of trademarkhell.net " height="50%" style="display: block; margin: 0 auto"/>
+<img src="/img/tm16.png" alt=" The unpublished version 1.6 of trademarkhell.net " height="600px" style="display: block; margin: 0 auto"/>
 
 I'm a firm believer in substance over style, and this carries over to my current web design philosophy. By having a header which takes up a great deal of screen real estate, you're effectively reducing the functionality your site has prior to scrolling. This is exactly why I believe headers should be small relative to the main content area, for you can use the content to express yourself and add value to your site, as opposed to adding a silly image. Once more, these are all just my unfounded opinions, don't take them too seriously, unless you  agree with them, in which case they're completely evidence backed and real.
 

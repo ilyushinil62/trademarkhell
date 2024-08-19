@@ -10,7 +10,7 @@ tags:
 
 I think just about everyone has heard the generic preamble about internet privacy before, "blah blah don't say your name and location blah blah," but, I've begun to notice that some people didn't take this one to heart when it comes to personal sites. So, before I say anything else, please, for the love of god, don't put your location and full legal name on your site, or your age, especially if you're a minor. I keep seeing sites that start with "hey guys i'm 13, my name is [FULL LEGAL NAME], i live in [STATE/PROVINCE/PREFECTURE] and this is my site" and then proceed to link their Discord. Please don't do this, people on the internet are weird.
 
-<img src="/img/mynameiswalter.jpeg" alt=" Walter White from Breaking Bad during his confession " height="30%" style="display: block; margin: 0 auto"/>
+<img src="/img/mynameiswalter.jpeg" alt=" Walter White from Breaking Bad during his confession " height="300px" style="display: block; margin: 0 auto"/>
 (I felt my article would be incomplete if I didn't include a screenshot of this)
 
 This isn't to say you can't have an about webmaster page (although i also kinda dislike those, but that's another day's article), or write about stuff you like in a blog, but maybe just talk about what you're interested in, rather than the exact person you are. Personal sites, in my opinion, are meant to serve as places to depict who you are based on your interests and actions, rather than based on literal personal information. I think it's extremely important to keep this in mind whenever you do just about anything on your site. As the old saying goes, albeit, I don't think it was meant to be used in this context, "Let your actions speak for themselves."

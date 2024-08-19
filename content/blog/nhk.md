@@ -13,7 +13,7 @@ This article spoils A LOT about Welcome to the N.H.K. and isn't really a review 
 Welcome to the N.H.K. is, for all intents and purposes, an unremarkable anime, light novel, and manga series from the 2000s. Featuring animation that didn't age particularly well, time-period correct degeneracy, and a cast of characters, that appear to be rather generic at first glance. I, however, being the brave explorer that I was in 2021, chose to watch it, and to be honest, it was probably one of the best choices I've made in my life, which seems weird to say about an anime.
 
 
-<img src="/img/nhk.jpeg" alt=" The coverart of the aforementioned Welcome to the N.H.K." height="32%" style="display: block; margin: 0 auto"/> 
+<img src="/img/nhk.jpeg" alt=" The coverart of the aforementioned Welcome to the N.H.K." height="500px" style="display: block; margin: 0 auto"/> 
 
 
 N.H.K. originally released as a light novel in 2002, written by Tatsuhiko Takimoto, and illustrated by Yoshitonshi Abe, it was later adapted into a manga in 2003, which was illustrated by Kenji Oiwa, and into an anime by Studio Gonzo in 2008. I've only seen the anime, and have no intention of experiencing the former two, so it'll be the focus of this article. 

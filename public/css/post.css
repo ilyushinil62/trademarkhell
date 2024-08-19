@@ -12,7 +12,7 @@
     scrollbar-color: rgba(49, 50, 68, 0.9) rgb(69, 71, 90);
     display: grid;
     grid-template-columns: 210px 680px;
-    grid-template-rows: 160px 190px 875px 45px;
+    grid-template-rows: 160px   45px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -21,7 +21,6 @@
         "content content"
         "footer footer";
     width: 890px;
-    height: 1270px;
     margin: auto;
     margin-top: 5px;
     background-color: rgba(49, 50, 68, 0.9)
@@ -39,7 +38,7 @@
     justify-self: center;
     grid-area: content;
     width: 880px;
-    height: 1065px;
+
 }
 
 .footer {
@@ -53,7 +52,7 @@
 	text-align: center;
 	font-family: hel2;
 	color: white;
-	padding-top: 5px
+	padding-top: 10px
 }
 
 
@@ -167,8 +166,7 @@ list-style-type: none;
     margin: 0px;
     margin-top: 10px;
     padding: 0px;
-    height: 100%;
-    overflow: auto;
+    overflow: hidden;
     list-style-type: none;
 }
 
@@ -196,7 +194,6 @@ list-style-type: none;
     padding: 0px;
     height: 100%;
     background-color: rgb(69, 71, 90);
-    overflow: visible;
     font-size: 18px;
     color: white;
     font-family: w95;

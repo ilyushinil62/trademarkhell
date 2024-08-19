@@ -10,7 +10,7 @@ Breakcore, the official genre of 20-something NEETs that describe themselves as 
 
 Alright, picture this, it's the late 2000s, you have to pick between three CDs, first, we have the objectively good CD, "Graduation" by Kanye West, with it's bright album art, but obviously, you won't pick this one, because you're here on this article. Beside it, you have "Detrimentalist" by Venetian Snares, which dawns fittingly complex album art, and "tomboyish love for daughter" by Goreshit, which featurees album art that is likely illegal in several regions. The latter two, in my opinion, represent the two quintessential Breakcore albums of the 2000s that led to the two branching Breakcore sub-genres that we see today. 
 
-<img src="/img/2x1.png" alt=" The album art of Detrimentalist by Venetian Snares and toboyish love for daughter by Goreshit " height="20%" style="display: block; margin: 0 auto"/> 
+<img src="/img/2x1.png" alt=" The album art of Detrimentalist by Venetian Snares and toboyish love for daughter by Goreshit " height=300px style="display: block; margin: 0 auto"/> 
 
 Now, I know what you're thinking "what tf makes thse albums important" and "wtf is that goreshit album art." I'll get to the first point briefly, but the album art is, you guessed it, cropped Touhou hentai. This is truly a genre defined by it's classiness and maturity. Now, back to the first point, these albums, whilst quite good, are arguably most important due to the cultural split they caused in breakcore. Take this song from Goreshit's album, titled "strawberry cheesecake":
 

@@ -11,7 +11,7 @@ When people think of the 2000s, they probably think about things like the 2008 r
 
 The Melancholy of Haruhi Suzumyia aired it's first season in Spring of 2006, to largely positive reviews. It adapted the light novel series of thes same name, which had it's first novel released in 2003, and is not yet complete. The anime series, however, seems to be significantly better known, and in my opinion, is the superior way to consume the arcs it adapts, and as such, is the focus of this article. Attached below is the art of the movie because I think it goes too hard not to include, and it shows the cast.
 
-<img src="/img/haruhiposter.jpg" alt="The poster of the movie 'The Disappearence of Haruhi Suzumiya'" height=40% style="display: block; margin: 0 auto"/>
+<img src="/img/haruhiposter.jpg" alt="The poster of the movie 'The Disappearence of Haruhi Suzumiya'" height= 600px style="display: block; margin: 0 auto"/>
 
 The show is told from the point of view of Kyon, a character with no actual name, nor a last name. He served as one of the original "straight man" characters in anime, a trend which seems to have become rather common today. Complimenting him is a cast of proportionately, but for the sake of not sucking the joy out of whoever chooses to watch this show, I'll just highlight the namesake of the show, Haruhi Suzumiya. Haruhi is a delusional character with god-like powers who effectively has the ability to do whatever she wants.
 

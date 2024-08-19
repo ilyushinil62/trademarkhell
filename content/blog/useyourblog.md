@@ -13,6 +13,6 @@ Contrary to popular belief, running a blog actually serves a purpose outside of 
 
 In effect, what I'm trying to depict, is that, blogs can actually be useful tools to look back on who you are/were as a person, whilst also honing your writing skills for no real reason. Blogs can be a lot more than obligatory sections on your website that you ignore, and I really hope people realize that. You don't have to make a blog, but honestly, don't bother putting the section on your site if you don't intend to use it. Oh, also, maybe refrain from putting your extremist 4chan political takes on your blogs, just a word of advice. Tm out, this one's a short post, but I have nothing more to say on the matter.
 
-<img src="/img/osakaism.png" alt="osaka with the autism hat?????'" height=40% style="display: block; margin: 0 auto"/>
+<img src="/img/osakaism.png" alt="osaka with the autism hat?????'" height=600px style="display: block; margin: 0 auto"/>
 
 pic unrelated

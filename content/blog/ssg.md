@@ -8,7 +8,7 @@ tags:
 ---
 This article is sorta an addendum to my previous article about people not using blogs, so read that first if you want to. Anyways, people don't seem to like SSGs, as my friend bravely demonstrated here in an act of true determination.
 
-<img src="/img/ssgslander.png" alt=" SSG SLANDER!!!" height="42%" style="display: block; margin: 0 auto"/> 
+<img src="/img/ssgslander.png" alt=" SSG SLANDER!!!" height="400px" style="display: block; margin: 0 auto"/> 
 
 His brave sacrifice will be immortalized through this article.
 
@@ -16,7 +16,7 @@ The dislike of SSGs, from my observations seems to stem from two primary sources
 
 Now, I fully understand why many people feel as though SSGs look difficult, I mean you're going from a few HTML and CSS files to whatever the hell this is... 
 
-<img src="/img/sitecomposition.png" alt=" The file structure of the site you're reading this on" height="52%" style="display: block; margin: 0 auto"/> 
+<img src="/img/sitecomposition.png" alt=" The file structure of the site you're reading this on" height="800px" style="display: block; margin: 0 auto"/> 
 
 However, the barrier to entry of reading a few docs (or a 6 minute video... https://www.youtube.com/watch?v=kzf9A9tkkl4) is very much worth the ease of use you gain, and nowadays, a lot of static site generators seem to be easy to set up in mere minutes. (I hear good things about Hugo, I of course chose the one SSG with terrible documentation and like two tutorials, shoutout to 11ty). The benefit of using an SSG isn't in how easy they are to set up (in my opinion...), but rather, how easy they make maintaining your site. This whole article is being written on a single markdwon document, I haven't even touched HTML or CSS for it, my SSG does all the work for me, provided I give it the templates needed. 
 
