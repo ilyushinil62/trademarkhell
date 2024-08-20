@@ -18,6 +18,6 @@ On a similar note of screen variations, color temperature is another rather impo
 
 <img src="/img/unlegible.png" alt="black text on a grey background saying this isnt legible, sorry" height="50px" style="display: block; margin: 0 auto"/>
 
-This is on a very different ntoe, but don't feel the need to push your site out right away, I published my first site after a few hours of working on it, and it had aproximately nothing of substance. There's no need to rush your website out, take your time to get all the links filled out, nobody's going to mind waiting a few days to see your site. A more complete site is always better than a site with twenty links that all lead to nothing but a "sowwy coming soon" page.
+This is on a very different note, but don't feel the need to push your site out right away, I published my first site after a few hours of working on it, and it had aproximately nothing of substance. There's no need to rush your website out, take your time to get all the links filled out, nobody's going to mind waiting a few days to see your site. A more complete site is always better than a site with twenty links that all lead to nothing but a "sowwy coming soon" page.
 
 I tried to hit all the bases of things I've noticed on others sites and from my old sites, but there's absolutely more things you'll end up learning through trial and error. If anyone else can think of some major things I missed, feel free to put them in the comments. TM out.
