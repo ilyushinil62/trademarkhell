@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Advice for New Web Devs</title>
-		<link href="https://trademarkhell.net/blog/legibility/"/>
+		<link href="https://trademarkhell.net/blog/newwebdevs/"/>
 		<updated>2024-08-21T00:00:00Z</updated>
-		<id>https://trademarkhell.net/blog/legibility/</id>
+		<id>https://trademarkhell.net/blog/newwebdevs/</id>
 		<content type="html">&lt;p&gt;There&#39;s not really a formal set of guidelines to web development, and I don&#39;t intend to make them, rather, my intention with this article is to make it so you don&#39;t have to completely remake your site after 3 weeks as I did. I&#39;ll mostly be covering things on the back-end that help with convenience, but I will touch briefly on accessibility.&lt;/p&gt;
 &lt;p&gt;The worst trend I&#39;ve been seeing as of late has to do with iframes. Iframes themselves aren&#39;t bad, and can be very useful, but improper usage of them is terrible to work with and terrible for the user. Iframes should not be used as a substitute for seperate pages, this makes your site a royal pain to work on, and effectively makes the site useless to screen reader users. If you need a way to keep a consistent layout on every page, either make a boiler plate layout you can copy paste, or put your site into an SSG with a templating engine.&lt;/p&gt;
 &lt;p&gt;On a similar templating note, make sure your site has a consistent navbar layout. It&#39;s fine to change the layout of the individual pages if you want to, but the navbar is effectively the core of how your site is operated. It&#39;s important for the layout of it to be consistent, as it allows the user to orient themselves, and if needed, return to a previous page. Don&#39;t be the type of person to have the navbar mysteriously disappear and just expect the user to go back manually, your site viewers are more lazy than you think.&lt;/p&gt;
