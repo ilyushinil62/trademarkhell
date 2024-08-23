@@ -4,7 +4,7 @@ const USERNAME = "trademarkhell"; // Put your LastFM username here
 const BASE_URL = `https://lastfm-last-played.biancarosa.com.br/${USERNAME}/latest-song`;
 
 const createMarqueeText = (text) => {
-    if (text.length > 9) {
+    if (text.length > 8) {
         return `<marquee>${text}</marquee>`;
     }
     return text;
