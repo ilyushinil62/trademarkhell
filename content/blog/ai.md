@@ -13,7 +13,9 @@ I find it ignorant to consider the entirety of AI to be this terrible thing, whe
 
 I also see a lot of people which (justifiably) dislike AI due to the inherent belief that it will take human jobs. In my eyes, however, this is simply improbable for the majority of jobs, because governments will likely pass regulations forbidding it. Governments would end up being the people having to deal with the homeless cleanup, unemployment checks, and reduction in tax income, and believe it or not, they don't want to. 
 
-AI in and of itself has already begun to become a buzzword similar to what happened with NFTs and a lot of cryptocurrencies. I think the most likely outcome will be that it simply becomes a tool for research (and larping...) like any other, albiet far more efficient. So, no, your thriving job as an artist in which you depict catgirls 7/11 parking lots will likely not be at risk, nobody really wants an AI version.. TM out.
+AI in and of itself has already begun to become a buzzword similar to what happened with NFTs and a lot of cryptocurrencies. I think the most likely outcome will be that it simply becomes a tool for research (and larping...) like any other, albiet far more efficient. So, no, your thriving job as an artist in which you depict catgirls 7/11 parking lots will likely not be at risk, nobody really wants an AI version.. 
+
+It's just another product of a constantly changing era that we'll have to adapt to, nothing more, nothing less. It's foolish to feel as though this'll be the end of all jobs and art as a whole. Sure, some fields may change to a degree, but I doub that it'll be the radical shift that some people suspect it to be. TM out.
 
 
 <img src="/img/ruukoto.png" alt=" Ruukoto from the Touhou Franchise; a robot maid " height=300px style="display: block; margin: 0 auto"/> 
