@@ -1,0 +1,79 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #nekohotel with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+
+
+
+    
+
+
+#nekohotel {
+    font-family: "w95";
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px; /* creates some space around the widget */
+	padding-top: 0px;
+	font-size: 6px;
+	overflow: hidden ;
+    height: 40px;
+    width: 230px;
+    margin-bottom: 10px;
+	
+}
+
+#nekohotel table {
+    font-family: "w95";
+    color: white;
+	font-size: 8px;
+	margin: 0 auto; /* centers the widget */
+	background-color: rgb(49, 50, 68);
+}
+
+#nekohotel table tr td {
+    font-family: "w95";
+	text-align: center;
+}
+
+#nekohotel .webring-prev {
+    font-family: "w95";
+	text-align: right;
+	font-size: 12px;
+	;
+}
+
+#nekohotel .webring-info {
+    font-family: "w95";
+    height:44px;
+    width: 88px;
+    	background-image: url(https://hotel.nekoweb.org/keycard2.png);
+    	    align-content: center;
+	background-repeat: no-repeat;
+	overflow: visible;
+	text-align: center;
+	font-size: 7px;
+	padding-bottom:30px;
+
+}
+
+#nekohotel .webring-next {
+    font-family: "w95";
+	text-align: left;
+	font-size: 12px;
+	
+}
+
+#nekohotel .webring-links {
+    Font-Family: "w95";
+	font-size: 6px;
+	text-align: center;
+
+		
+}
+
+#nekohotel a {
+    color: #FFFFFF;
+}

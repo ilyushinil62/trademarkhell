@@ -1,0 +1,144 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #neko-tag with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+
+#neko-tag {
+    margin: 0 auto !important;
+    width:230px;
+    height:200px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 13px!important;
+    color: white;
+    font-family: "w95";
+  }
+  
+  #neko-tag a{
+  color:white;
+  text-decoration: underline;
+  }
+  
+  #neko-tag .webring-bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(49, 50, 68);
+  }
+  
+  
+  
+  #neko-tag .webring-wrapper{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+  }
+  
+  #neko-tag .placename {
+  width: fit-content;
+  height: fit-content;
+  }
+  
+  #neko-tag .webring-subtitle {
+  text-align: center !important;
+  }
+  
+  #neko-tag .webring-flex{
+    display:flex;
+    justify-content: center!important;
+    position: relative;
+  }
+  
+  #neko-tag .webring-title {
+    text-align: center!important;
+    margin-top: 5px;
+  }
+  
+  #neko-tag .webring-title img {
+    margin:0;
+    width: 25px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    filter: drop-shadow(3px 3px 0px black);
+  }
+  
+  #neko-tag .box {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  margin: 5px 0;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  }
+  
+  #neko-tag .webring-footer {
+     text-align:center;
+     
+  }
+  #neko-tag .webring-next, #neko-tag .webring-prev{
+    display:flex;
+    flex-direction: column;
+    justify-content: center!important;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+  }
+  
+  #neko-tag .webring-next img, #neko-tag .webring-prev img {
+  width: 50px;
+  }
+  
+  #neko-tag .webring-links {
+    font-size:11px!important;
+  }
+  
+  #neko-tag .arrow-image{
+    width:40px;
+  }
+  
+  #neko-tag .webring-next {
+  margin-left: 5px;
+  animation: 2s bobright ease-in-out infinite;
+  }
+  
+  #neko-tag .webring-prev {
+  margin-right: 5px;
+  animation: 2s bobleft ease-in-out infinite;
+  }
+  
+  @keyframes bobleft {
+      0% {
+          transform: translateX(0px);
+      }
+      50% {
+          transform: translateX(-5px); /* Move left by 10px */
+      }
+      100% {
+          transform: translateX(0px);
+      }
+  }
+  
+  @keyframes bobright {
+      0% {
+          transform: translateX(0px);
+      }
+      50% {
+          transform: translateX(5px); /* Move right by 10px */
+      }
+      100% {
+          transform: translateX(0px);
+      }
+  }
