@@ -244,6 +244,17 @@ body {
 	overflow: visible;
 }
 
+.shilltext {
+	width: 200px;
+	height: 100px;
+	background-color: rgb(69, 71, 90);
+	overflow: hidden;
+	text-align: center;
+	font-family: w95;
+	color: white;
+	font-size: 17px;
+}
+
 #listening {
 	width: 200px;
 	height: 100px;
@@ -290,7 +301,7 @@ body {
 	padding: 0px;
 	margin-top: 10px;
 	width: 200px;
-	height: 240px;
+	height: 210px;
 	list-style: none;
 	margin-left: 0px;
 	padding: 0px;
@@ -301,7 +312,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	list-style: none;
-	height: 210px;
+	height: 180px;
 	width: 200px;
 	background-color: rgb(69, 71, 90);
 	margin: 0px;
@@ -311,6 +322,7 @@ body {
 	font-size: 23px;
 	justify-content: space-evenly;
 }
+
 .square {
 	padding: 0px;
 	margin-top: 10px;
@@ -323,6 +335,21 @@ body {
 	height: 170px;
 	width: 200px;
 	background-color: rgb(69, 71, 90)
+}
+
+.acsquaretext {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(69, 71, 90);
+	align-content: center;
+
+}
+.acsquare {
+	padding: 0px;
+	margin-top: 10px;
+	width: 200px;
+	height: 230px;
+	list-style: none;
 }
 
 .follow {
