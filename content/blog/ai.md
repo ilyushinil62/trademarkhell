@@ -3,7 +3,7 @@ title: AI Does More Than Steal Jobs and Art
 description: AI does a lot of awful things, and I fully recognize this, but I also feel as though many people are under a false premonition as to what AI can/will be able to do. This article is basically just my thoughts on AI as a whole, and why I think it does have a lot of valid use cases in medical/science research.
 date: 2024-08-24
 tags: 
-     - web
+     - tech
      - opinion
 ---
 
