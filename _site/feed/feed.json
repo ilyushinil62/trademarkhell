@@ -11,14 +11,6 @@
 	},
 	"items": [
 		{
-			"id": "https://trademarkhell.net/blog/anime/",
-			"url": "https://trademarkhell.net/blog/anime/",
-			"title": "",
-			"content_html": "",
-			"date_published": "2024-08-25T02:27:03Z"
-		}
-		,
-		{
 			"id": "https://trademarkhell.net/blog/indiewebdemographics/",
 			"url": "https://trademarkhell.net/blog/indiewebdemographics/",
 			"title": "The Demographics of the Indie Web",
