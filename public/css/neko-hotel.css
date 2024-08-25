@@ -50,14 +50,20 @@
     font-family: "w95";
     height:44px;
     width: 88px;
-    	background-image: url(https://hotel.nekoweb.org/keycard2.png);
-    	    align-content: center;
 	background-repeat: no-repeat;
+	
 	overflow: visible;
 	text-align: center;
 	font-size: 7px;
-	padding-bottom:30px;
+    margin-top: 10px;
+}
 
+#nekohotel .webring-info:before {
+  content: "Neko Hotel";
+  font-family: bepop;
+  margin-bottom: 25px;
+  font-size: 15px;
+  ;
 }
 
 #nekohotel .webring-next {
