@@ -4,12 +4,46 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-08-26T00:00:00Z</updated>
+	<updated>2024-08-27T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>A Brief Overview of the PC-9821 Cs2</title>
+		<link href="https://trademarkhell.net/blog/pc98/"/>
+		<updated>2024-08-27T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/pc98/</id>
+		<content type="html">&lt;p&gt;I pride myself in my ability to publish articles of absolutely no substance, but from time to time, it is my duty to publish actual content to this site. I&#39;m fulfilling this contractual obligation by writing an article on one of my favorite computers of all time, and probably the one I mess around with the most, the PC-9821 Cs2.&lt;/p&gt;
+&lt;p&gt;I&#39;m currently in the middle of recapping the monitor that usually accompanies it, but here&#39;s a photo of the device itself:&lt;/p&gt;
+&lt;img src=&quot;https://trademarkhell.net/img/pc98.jpg&quot; alt=&quot; A photo of the aforementioned PC-98&quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
+&lt;p&gt;If you think this looks like a generic computer from the mid 90s, you&#39;re correct. The PC-98 was NEC&#39;s answer to the increasingly popular IBM PC standard in the west, which I also wrote an article on. The IBM PC lacked the ability to display Japanese characters, and as such, a Japanese variant came in the form of the PC-88, originally, and later the PC-98 (divided into pc-9801 and pc-9821). Fundamentally, this is a rather standard computer, but it has vastly superior graphics to the IBM PC compatible&#39;s of it&#39;s time, due to the fact that the Japanese characters required far greater resolution.&lt;/p&gt;
+&lt;p&gt;In effect, by making a machine capable of displaying comprehensible text, they also made a pixel-art based visual novel/shmup machine, oh, and eroge, lots of that, for some reason. So whilst people everywhere else got to enjoy these stunning graphics:&lt;/p&gt;
+&lt;img src=&quot;https://trademarkhell.net/img/doom1.png&quot; alt=&quot; A screenshot from Doom&quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
+(Doom screenshot; from Wikipedia)
+&lt;p&gt;Japan got this:
+&lt;img src=&quot;https://trademarkhell.net/img/policenautsop.png&quot; alt=&quot; A screenshot from the Policenauts opening&quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+(Screenshot from Policenauts; taken from Reddit. hideo kojima made this VN and it&#39;s one of my faovrites of all time, read it.)&lt;/p&gt;
+&lt;h2 id=&quot;cool-but-what-actually-made-these-graphics&quot; tabindex=&quot;-1&quot;&gt;Cool, but what actually made these graphics? &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/pc98/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The PC-9821 CS2, what I have, and what I&#39;ll be covering, is, in most ways, very comprable to IBM PC compati
+bles of the same time. It features an Intel 486SX with a 33mhz clock speed, 4.6mb of ram, a 340mb HDD from the factory, dual 3.5&amp;quot; floppy drives, and a CD-Rom drive. What made the device stand out was what it output through analogue RGB, 640x480 with 256 colors. At the time, 1992 to be exact, The IBM ecosystem was using VGA, which output 640x480 with merely 16 colors, or 320x200 with 256 colors. In effect, you had to choose between color and resolution on the IBM PC, but not with the 98, which is why the screenshot from it looked so much better.&lt;/p&gt;
+&lt;p&gt;This is all just a really long way to say that the PC-98 just flat out had better graphics, in part because it was necesitated by the Japanese character set, which would&#39;ve been virtually illegible at 320x200. For all the linguistics people out there, make languages more complicated so that we get cooler graphics, please and thank you.&lt;/p&gt;
+&lt;h2 id=&quot;the-sound-is-pretty-cool-too&quot; tabindex=&quot;-1&quot;&gt;The sound is pretty cool too.. &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/pc98/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don&#39;t intend for this article to just be me ragging on IBM for a page, but I do feel as though the YM3812 sound cards IBM PCs used were, whilst charming, rather ineffective. The YM3812 is the Yamaha produced chip that you&#39;ll find on Soundblaster cards and similar from the era, and is also what you&#39;ll hear playing the soundtrack to Doom, and in some cases, Half-life. It&#39;s not bad by any means, but was very limited.&lt;/p&gt;
+&lt;p&gt;The PC-98 used the YM2203 chip, also from Yamaha, which utilized FM synthesis. I could probably try to explain what makes this better, but instead I&#39;ll just attach a piece of music from it:&lt;/p&gt;
+&lt;p&gt;This is Vanishing Dream ~ Lost Dream (Kana&#39;s theme) from Touhou 3&lt;/p&gt;
+ &lt;iframe frameborder=&quot;0&quot; width=&quot;400&quot; height=&quot;60&quot; src=&quot;https://drive.google.com/file/d/1yoQwZih2I0OzrxtPJebtDgP0K1VcuEuQ/preview?usp=drivesdk&quot;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;This isn&#39;t to discredit the musicians who composed the soundtracks of IBM PC games, either, but rather to show the fact that the PC-98 allowed for music to, y&#39;know, sound like music, as opposed to videogame music. I found that it really added a lot, especially when playing visual novels.&lt;/p&gt;
+&lt;h2 id=&quot;the-games&quot; tabindex=&quot;-1&quot;&gt;The Games &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/pc98/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;m just going to be fully honest here, the games may&#39;ve looked better, but the IBM PC and it&#39;s compatibles had a significantly larger, and often better catalogue. The PC-98 only really had the IBM PC beat out in two areas, shmups, and visual novels. Most modern shmup franchises got their start on the PC-98, and to be honest, still hold up extremely well today. Visual novels from the 98 era have also fared much better graphically than their late 90s/early 2000s successors, when Japan switched to the IBM PC format, still looking quite stunning today.&lt;/p&gt;
+&lt;p&gt;I&#39;d only really consider getting a 98 if you&#39;re a complete dweeb who likes visual novels (me) or if you&#39;re a complete dweeb who likes shmups (me). There&#39;s a decent bit of RPGs and other games, but in large part, go to consoles for those. The 98 was still a business machine at the end of the day.&lt;/p&gt;
+&lt;h2 id=&quot;what-s-the-point&quot; tabindex=&quot;-1&quot;&gt;What&#39;s the point? &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/pc98/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There&#39;s no point to this article, I just think the PC-98 series, and my PC-9821 Cs2 are cool as hell, and I wanted to share it with others. If you do want to pick one up, you can still get them for reasonably cheap, assuming you&#39;re willing to recap them, and are able to supply them with the appropriate voltage. As always, if you have any questions on the subject, I&#39;ll try to answer them, but no promises. TM out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Wait, Anime Became Popular?</title>
