@@ -256,6 +256,7 @@ body {
 }
 
 .bottext {
+
 	height: 152.25px;
 	background-color: rgb(69, 71, 90);
 	overflow: auto;
@@ -586,3 +587,4 @@ background-image {
 	margin: 0px;
 	padding: 0px;
 }
+
