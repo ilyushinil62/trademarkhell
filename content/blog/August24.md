@@ -12,7 +12,7 @@ I don't have any intentions to fundamentally change this website operates, and, 
 
 This website has garnered a lot more attention than I ever expected it to, and I'm extremely grateful to those who have interacted with this site in one way or another. Admittedly, though, I don't think the attention this site has received is proportional to the minimal effort I put into it whatsoever. Please do consider going past the first page of Nekoweb, there's a lot of interesting sites to be seen. 
 
-I do feel as though I should at least briefly touch on the statistics of the site, mostly for my own sake. The site currently as 11815 visits, and 59 Nekoweb followers. I touched further on the rate of growth a few days ago, so I won't dive into that here. I don't really know how I ended up here, but once again, thanks everyone, watching the funny numbers going up is very satisfying.
+I do feel as though I should at least briefly touch on the statistics of the site, mostly for my own sake. The site currently has 11815 visits, and 59 Nekoweb followers. I touched further on the rate of growth a few days ago, so I won't dive into that here. I don't really know how I ended up here, but once again, thanks everyone, watching the funny numbers going up is very satisfying.
 
 I don't really have all that much more to say, to be honest. Nothing will really change, which also means that I've probably broken the indie web curse of dropping your site after 3 days, no promises, though. See you at the next article, I suppose. TM out.
 
