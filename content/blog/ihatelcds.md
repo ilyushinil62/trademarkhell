@@ -1,5 +1,5 @@
 ---
-title: CRTs Are Still Better Than LCDs (kinda)
+title: CRTs Are Still Better Than LCDs 
 description: Another trademarkhell.net article praising obsolete technology? Who could've seen that coming. I believe that CRTs haven't been mathced in quality by modern LCDs, and in this article I try to justify my increasingly unpopular take.
 date: 2024-09-01
 tags: 
