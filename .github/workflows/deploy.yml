@@ -1,22 +1,29 @@
+name: Deploy to Nekoweb
 
-
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
-    name: deploy2nekoweb
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      # your build step here
-        
-      - name: deploy2nekoweb
-        uses: deploy2nekoweb/deploy2nekoweb@v4
-        with:
-          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
-          nekoweb-folder: './'
-          directory: './_site'
 
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare build
+        run: |
+          mkdir -p ./_site
+          cp -r ./public/* ./_site
+
+      - name: Deploy to Nekoweb
+        uses: mp-pinheiro/nekoweb-deploy@main
+        with:
+          API_KEY: ${{ secrets.NEKOWEB_API_KEY }}
+          BUILD_DIR: "./_site"
+          DEPLOY_DIR: "./"
+          CLEANUP: "False"
+          DELAY: "0.5"
+          NEKOWEB_PAGENAME: "trademark"
