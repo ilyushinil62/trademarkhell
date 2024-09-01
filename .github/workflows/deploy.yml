@@ -15,6 +15,6 @@ jobs:
       - name: deploy2nekoweb
         uses: deploy2nekoweb/deploy2nekoweb@v4
         with:
-          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
+          nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY}}
           nekoweb-folder: './'
           directory: './_site'
