@@ -147,6 +147,11 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/about/</loc>
+		<lastmod>2024-09-01</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/blog/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
@@ -183,11 +188,6 @@
 	
 	<url>
 		<loc>https://trademarkhell.net/tags/music/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/about/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
 </urlset>
