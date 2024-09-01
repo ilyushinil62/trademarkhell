@@ -1,12 +1,4 @@
-@keyframes bgScroll {
-    0% {
-        background-position: 0px 0px
-    }
 
-    100% {
-        background-position: -700px 808px
-    }
-}
 
 .container {
     scrollbar-color: rgba(49, 50, 68, 0.9) rgb(69, 71, 90);
@@ -267,4 +259,52 @@ a:active {
 	list-style: none;
 	align-content: flex-start;
     margin-top: 20px;
+}
+
+.follow {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	justify-self: left;
+	width: 200px;
+	height: 30px;
+	list-style: none;
+	font-family: bepop;
+	font-size: 16px;
+	text-indent: 0;
+	margin-right: 250px;
+}
+
+.followtext {
+
+	margin: auto;
+	height: 30px;
+	width: 200px;
+	background-color:rgba(49, 50, 68, 0.9);
+	margin: 0px;
+	padding: 0px;
+	clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
+}
+
+.followr {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	justify-self: left;
+	width: 440px;
+	height: 30px;
+	list-style: none;
+	font-family: bepop;
+	font-size: 16px;
+}
+
+.followtextr {
+	height: 30px;
+	width: 440px;
+	background-color:rgba(49, 50, 68, 0.9);
+	margin: 0px;
+	padding: 0px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 18.3px 100%);
 }

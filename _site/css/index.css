@@ -21,9 +21,9 @@
 		"header header"
 		"sidebar content"
 		"sidebar content"
-		"sidebar footer";
+		"footer footer";
 	width: 890px;
-	height: 1270px;
+	height: 1225px;
 	margin: auto;
 	margin-top: 5px;
 	background-color: rgba(49, 50, 68, 0.9)
@@ -47,17 +47,16 @@
 }
 
 .footer {
-	justify-self: center;
+	display: flex;
+	flex-direction: row;
+	padding: 0px;
+	margin: 0px;
 	grid-area: footer;
-	vertical-align: bottom;
-	width: 670px;
+	width: 890px;
 	height: 40px;
 	font-family: hel2;
-	font-size: 20px;
 	text-align: center;
-	font-family: hel2;
 	color: white;
-	padding-top: 5px
 }
 
 .sidebar {
@@ -65,7 +64,7 @@
 	align-self: start;
 	grid-area: sidebar;
 	width: 200px;
-	height: 1105px;
+	height: 1065px;
 }
 
 
@@ -272,7 +271,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	width: 200px;
-	height: 1105px;
+	height: 1065px;
 	list-style: none;
 }
 
@@ -430,23 +429,54 @@ body {
 }
 
 .follow {
+	display: flex;
+	margin: 0px;
 	padding: 0px;
-	margin-top: 10px;
+	margin-left: 0px;
+	justify-self: left;
 	width: 200px;
-	height: 45px;
+	height: 30px;
 	list-style: none;
 	font-family: bepop;
-	font-size: 30px;
-	text-align: center;
+	font-size: 16px;
+	text-indent: 0;
+	margin-right: 250px;
 }
 
 .followtext {
-	height: 40px;
+
+	margin: auto;
+	height: 30px;
 	width: 200px;
-	background-color: rgb(69, 71, 90);
+	background-color:rgba(49, 50, 68, 0.9);
 	margin: 0px;
 	padding: 0px;
+	clip-path: polygon(0 0, 100% 0, 88% 100%, 0 100%);
 }
+
+.followr {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 0px;
+	justify-self: left;
+	width: 440px;
+	height: 30px;
+	list-style: none;
+	font-family: bepop;
+	font-size: 16px;
+}
+
+.followtextr {
+	height: 30px;
+	width: 440px;
+	background-color:rgba(49, 50, 68, 0.9);
+	margin: 0px;
+	padding: 0px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 18.3px 100%);
+}
+
+
 
 @font-face {
 	font-family: bepop;
