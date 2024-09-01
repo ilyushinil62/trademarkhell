@@ -17,6 +17,6 @@ jobs:
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-folder: './'
-          directory: '_site/'
+          directory: '/_site/'
 
 
