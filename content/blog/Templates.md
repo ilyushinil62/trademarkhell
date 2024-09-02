@@ -16,3 +16,5 @@ Odds are, if you have a personal site, at one point, you used a template for it.
 I'd also argue that templates save us from a lot of sites that'd be even worse without a template, my first site is a testament to this. Templates pretty much teach you the fundamentals of golden ratio web-design, so you don't end up expanding your site horizontally for some reason. (like i did...) Templates are more or less the only thing saving us from even more white background sites with a single line of text saying "welcome to my site, i made this to escape social media, i'll add more soon" for 8 months straight.
 
 Basically, despite semi-popular belief, templates aren't going to destroy the indie web as you know it, just let people use them, maybe they'll make a custom layout eventually. If they don't, yeah, my bad, you can still boil them. Besides, the whole idea behind the indie web is that you control your site, why care about what other people do? TM out. 
+
+(i still hate templates tho dont worry)
