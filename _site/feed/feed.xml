@@ -4,12 +4,25 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-09-02T00:00:00Z</updated>
+	<updated>2024-09-03T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>Site Templates Aren&#39;t a Bad Thing</title>
+		<link href="https://trademarkhell.net/blog/Templates/"/>
+		<updated>2024-09-03T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/Templates/</id>
+		<content type="html">&lt;p&gt;If you use Neocities or Nekoweb at all, and spend any amount of time of time in the Recently Updated sections, odds are you&#39;ll notice a lot of the sites look the same. You either have dementia, or the sites are using templates. Template based sites have sorta gotten a bad reputation, and that&#39;s fair, they&#39;re usually pretty boring, but they serve an important role in the &#39;Indie Web Ecosystem&#39;.&lt;/p&gt;
+&lt;p&gt;Unfortunately, some people aren&#39;t born as perfect as me, lacking the W3Schools implant I got in a secret government facility. This means that they need to actually start somewhere, and usually, somewhere doesn&#39;t involve making a full website from scratch despite having no experience. Templates, especially simple ones like the sadgrl template, allow for people to get one foot in the door for webdesign.&lt;/p&gt;
+&lt;p&gt;Odds are, if you have a personal site, at one point, you used a template for it. Hell, even this site was based on a template for 35 minutes, before I took it down because I thought it was boring. Templates basically exist to get more people into HTML/CSS in a less daunting way, because unless you&#39;re an idiot like I was, you won&#39;t try to make a whole site after an hour.&lt;/p&gt;
+&lt;p&gt;I&#39;d also argue that templates save us from a lot of sites that&#39;d be even worse without a template, my first site is a testament to this. Templates pretty much teach you the fundamentals of golden ratio web-design, so you don&#39;t end up expanding your site horizontally for some reason. (like i did...) Templates are more or less the only thing saving us from even more white background sites with a single line of text saying &amp;quot;welcome to my site, i made this to escape social media, i&#39;ll add more soon&amp;quot; for 8 months straight.&lt;/p&gt;
+&lt;p&gt;Basically, despite semi-popular belief, templates aren&#39;t going to destroy the indie web as you know it, just let people use them, maybe they&#39;ll make a custom layout eventually. If they don&#39;t, yeah, my bad, you can still boil them. Besides, the whole idea behind the indie web is that you control your site, why care about what other people do? TM out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Decline of Computer Literacy</title>
