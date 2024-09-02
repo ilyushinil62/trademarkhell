@@ -17,4 +17,3 @@ I'd also argue that templates save us from a lot of sites that'd be even worse w
 
 Basically, despite semi-popular belief, templates aren't going to destroy the indie web as you know it, just let people use them, maybe they'll make a custom layout eventually. If they don't, yeah, my bad, you can still boil them. Besides, the whole idea behind the indie web is that you control your site, why care about what other people do? TM out. 
 
-(i still hate templates tho dont worry)
