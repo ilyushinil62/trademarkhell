@@ -4,12 +4,25 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-09-03T00:00:00Z</updated>
+	<updated>2024-09-04T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>Quality vs Quantity (for websites)</title>
+		<link href="https://trademarkhell.net/blog/qualityvsquantity/"/>
+		<updated>2024-09-04T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/qualityvsquantity/</id>
+		<content type="html">&lt;p&gt;Do you ever see a  site and think a bit later &#39;Man that site was cool I want to see it again,&#39; that&#39;s probably just me, but it seems that half the time I go back to sites like that, they a completely different layout a week later. That&#39;s not to say I have anything against redesigning sites, I mean, most people have personal sites because they like making them. It&#39;s just that, when you&#39;re changing your site multiple times in just a few weeks, your site begins to lose it&#39;s identity.&lt;/p&gt;
+&lt;p&gt;It&#39;s almost impossible to establish a, for lack of a better word, site identity, when your site is always changing. Especially when the changes often result in mismatched page styling, and for some sites, just flat out dead links. Most people won&#39;t look at your site for more than 30 seconds, that&#39;s just how it is, the aesthetics of it are pretty much what define how your site is viewed.&lt;/p&gt;
+&lt;p&gt;In my, completely subjective and unstudied opinion, you should only really update your site layout when you have a solid plan in mind, and have actually learned things that make it fundamentally better than the previous layout. It&#39;s kinda pointless to keep pushing out new re-designs, over, and over, when they add nothing markedly better than the previous version.&lt;/p&gt;
+&lt;p&gt;If you somehow are a black magic practing wizard who learns a bunch of new things every week, then my bad, keep updating your layout weekly, I guess. I just think for the majority of people, it&#39;s best to sit on your current site design for a few weeks/months so that you can really think about what you like/dislike about it, and how to improve it.&lt;/p&gt;
+&lt;p&gt;Hell, I even have a new layout on the draftboard for this site, but I don&#39;t intend to publish it until I can really think of &lt;em&gt;how&lt;/em&gt; it&#39;d be better. If it&#39;s just the same quality as before, but different looking, why bother? This is all just my 2 cents, and quite frankly, I don&#39;t know nearly enough about webdevelopment to actually be qualified to talk about any of this. TM out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Site Templates Aren&#39;t a Bad Thing</title>
