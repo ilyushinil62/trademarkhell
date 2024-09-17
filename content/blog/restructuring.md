@@ -1,6 +1,7 @@
 ---
 title: Moving Away From Daily Articles
 description: I've been remaking the layout of this site, behind the scenes, and that got me thinking again about how I operate the site itself. Basically, I'm bored of making slop, so instead of publishing articles every day, it'll be every two or three days now.
+date: 2024-09-09
 tags: 
     - opinion
 ---
