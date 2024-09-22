@@ -9,7 +9,7 @@ numberOfLatestPostsToShow: 2
 
 <head>
     <link rel="icon" type="image/x-icon" href="/img/favico.png">
-    <link href="/css/index.css?=v1.4" rel="stylesheet" />
+    <link href="/css/index.css?=v1.5" rel="stylesheet" />
     <link href="/css/reset.css" rel="stylesheet" />
     <script>
 
@@ -208,7 +208,8 @@ numberOfLatestPostsToShow: 2
                 <p id="randomText">loading...</p>
             </div>
             <div class="blog">
-                <div class="mainheading"><a href="/blog">articles</a></div>
+                <div class="mainheading"><a href="/blog">articles</a><span class="scroll"> <a href="https://trademarkhell.net/feed/feed.xml" target="_blank"> <img src="/img/rss.png"
+                    width="25px" style="margin-top: 2px" /></a></span></div>
                 <div class="blogtext"> {% set postsCount = collections.posts | length %} {% set
                     latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
                     {% set postslist = collections.posts | head(-1 *
