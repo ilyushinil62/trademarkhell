@@ -100,8 +100,7 @@ For 'alive' sites, when the values are combined, we get 786.56 days, or 52% (0.5
 I've been writing this for like 2 hours now, I don't even know what I'm doing at this point, but here we are. The big takeaways are that sites are most likely to go inactive the longer they exist for, and that the average Neocities site has an interval between creation and being updated last of 1,505.38, whereas the average Nekoweb site has an interval of 122.31 days. The composite sections percentages present the data in the easiest to understand way, but to be honest, this is still a pretty stupid way to explain it, I don't have much experience with this stuff.
 
 If you want to look through the data yourself, here's a link to the spreadsheet, knock yourself out: 
-https://docs.google.com/spreadsheets/d/1SubkFjKPfKhwM7ocOEgQC7heT2cQFvUOmRzdcrqzj3Y/edit?usp=sharing 
-
+https://docs.google.com/spreadsheets/d/1SubkFjKPfKhwM7ocOEgQC7heT2cQFvUOmRzdcrqzj3Y/edit?usp=sharing
 I'm never doing this shit again, and I have no idea what I got out of this. TM out.
 
 tl;dr: popular websites last for awhile
