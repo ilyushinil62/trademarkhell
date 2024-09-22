@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // Planned Obsolescence in Technology // 28 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>My phone is currently getting the battery replaced, and that got me curious about how I even ended up in the position. Even just 15 years ago, nearly every device had a single panel to pop off if you wanted to replace the battery, and every other component could be replaced with a rudimentary tool set. Nowadays, however, it seems as though just about every device, regardless of size, feels the need to make it as hard as humanly possible to replace any components. I believe that this is a result of planned obsolescence.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Planned Obsolescence in Technology <div class="datebox"> 28 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>My phone is currently getting the battery replaced, and that got me curious about how I even ended up in the position. Even just 15 years ago, nearly every device had a single panel to pop off if you wanted to replace the battery, and every other component could be replaced with a rudimentary tool set. Nowadays, however, it seems as though just about every device, regardless of size, feels the need to make it as hard as humanly possible to replace any components. I believe that this is a result of planned obsolescence.</p>
 <p>Planned obsolescence, in laymans terms, is the concept of a product intentionally being designed to last a specific period of time. In modern technology, this seems to be present in numerous areas, far more than there once was in technology. I'm not an engineer, but I am certified terminally online, so I'll try to explain how this is happening.</p>
 <p>As aforementioned, electronics are now harder to open than ever before, many phones require specific tools to open them, and even past that point, use proprietary screwheads. This allows for the distributors of the devices, and a select group of repair stores willing to shill out the money for the required equipment, to have the ability to charge astronomical prices for repairs. I mean, why repair your phone if you can get a new one for almost the same amount? That's what makes it planned obsolescence, your phone, tablet, or really any portable device's shelf-life is effectively determined by the life of components that would previously be replaced, such as capacitors or batteries.</p>
 <p>This isn't solely a hardware issue, either, odds are if you use Windows you're being pushed heavily to &quot;upgrade&quot; to Windows 11, regardless of your current hardware, despite it's significantly higher operating requirements. This will ultimately result in your computer running slower, and in the process, lead to a large portion of individuals just going out and buying a new one, for your computer was magically made obsolete through an update. The same applies to a lot of modern phones, I mean, just look at how slow a phone runs after 5 years of updates.</p>
@@ -68,38 +64,26 @@
 <p>But, what changed, exactly? Consumer culture did, I suppose, for years technology was just a tool, rather than a status symbol, so companies had to make good, long lasting, tools. As of late, however, especially with the later iPods, and modern smartphones, having a new device has become something desirable. Companies are able to get away with making devices that go bad because they're targeting an audience who'll go and buy a new one a year later anyways. This'll leave those who don't want to in a rather poor position, but in a few years when your phone only last 2 hours on a charge, what choice do you have?</p>
 <p>This is all just a really long way to say that companies realized we're suckers, and now we get to deal with shitty technology that's designed to be awful to use after a few years. Kinda unfortunate, but nothing we can really do about it, go move to a country with 2G and use a Nokia, I guess. TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/sitecontent/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/english/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/sitecontent/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/english/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

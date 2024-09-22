@@ -1,102 +1,86 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // Sorry, I&#39;m Not Dead Yet // 17 September 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>It's been a bit, well, not really, but for this site it has been awhile. I haven't given up on this site just yet, ironically, it's because of this site that there's been nothing for awhile. I'm currently in the final stages of changing the layout for this site, because as of now it's the 2nd most generic site in the greater tri-webhost area. I've posted it in the Discord Server a few times, but I feel like it'd be dumb to spoil my own site here.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Sorry, I&#39;m Not Dead Yet <div class="datebox"> 17 September 2024</div>
+      </div>
+      <div class="maintext">
+        <p>It's been a bit, well, not really, but for this site it has been awhile. I haven't given up on this site just yet, ironically, it's because of this site that there's been nothing for awhile. I'm currently in the final stages of changing the layout for this site, because as of now it's the 2nd most generic site in the greater tri-webhost area. I've posted it in the Discord Server a few times, but I feel like it'd be dumb to spoil my own site here.</p>
 <p>Article-Wise, I had the brilliant idea of starting work on an article that needs 200-something datapoints, but that should also be done later this week, it's probably the first semi-objective thing I've ever posted here. I'm not gonna say this site will come back better than ever, because it won't, but it'll come back.</p>
 <p>Once I do get everything back up and running, my goals to get an article or two out a week, but it's the time of year where I actually have obligations to take care of, so no promises. Take care, don't do hard drugs, etc, etc. TM out.</p>
 <p>(yeah i opened the folder for this site for the first time in a week just to write this, move along)</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/restructuring/">previous</a></b>
-               //
-              
-              comments 
-               //
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/restructuring/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/websitelifespan/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

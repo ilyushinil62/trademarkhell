@@ -51,92 +51,155 @@
         .c-paginationButton - Both left and right directional <button>s
         #c_leftButton - The left <button>
         #c_rightButton - The right <button>
+        
 */
-
 /* Main */
+#c_form {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.c-replyButton {
+    
+    width: 100%;
+    border: 0px;
+    border-top: 1px dashed orange;
+    border-bottom: 1px dashed orange;
+    height: 25px;
+    margin: auto;
+}
+#c_submitButton{
+    border: 0px;
+    border-bottom: 1px dashed orange;
+    border-top: 1px dashed orange;
+    width: 100%;
+    height: 25px;
+    }
+
+.c-nameLabel {
+    padding: 3.2px;
+    border-bottom: 1px dashed orange;
+    border-left: 1px dashed orange;
+    padding-left: 15px;
+    float: right;
+    font-size: 16px;
+}
+
+.c-nameInput {
+    width: 657px;
+    line-height: 22px;
+    border: 0px;
+    border-bottom: 1px dashed orange;
+    background-color: black;
+    color: orange;
+    font-size: 16px;
+    float: left;
+    
+}
+
+.c-websiteInput {
+    width: 657px;
+    line-height: 22px;
+    border: 0px;
+    border-bottom: 1px dashed orange;
+    background-color: black;
+    font-size: 16px;
+    float: left;
+    color: orange;
+}
+.c-textInput {
+    border: 0px;
+    background-color: black;
+    width: 100%
+
+}
+.c-websiteLabel {
+    padding-right: 10px;
+    border-bottom: 1px dashed orange;
+    border-left: 1px dashed orange;
+    padding: 3.2px;
+    padding-left: 24px;
+    float: right;
+    font-size: 16px;
+}
+
 #c_widget {
     text-indent: 0px;
     box-sizing: border-box;
+    height: 100%;
     overflow: auto;
-    padding: 20px;
-    background-image: url('sparkle-bg.gif'); /* F2U background provided by https://sadgrl.online/webmastery/downloads/tiledbgs */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     background-attachment: fixed;
-    font-family: 'Courier New';
+    font-family: 'dos';
     font-size: 16px;
-    color: white;
+    color: orange;
+    width: 100%;
+    border: 1px solid orange;
+    border-top: hidden;
+
 }
 
-#c_widget button, #c_widget input[type=submit] {
-    padding: 4px;
-    font-family: 'hel2';
+#c_widget button,
+#c_widget input[type=submit] {
+    font-family: 'dos';
     text-decoration: none;
-	text-align: center;
-    background-color: rgb(69, 71, 90);
-     color: white;
-    border: 1px solid  rgba(49, 50, 68, 0.9);
+    text-align: center;
+    background-color: black;
+    color: orange;
+    margin: auto;
+
 }
-#c_widget button:hover, #c_widget input[type=submit]:hover {
-    color: white;
-    border: 1px solid #91d7e3;
+
+#c_widget button:hover,
+#c_widget input[type=submit]:hover {
+    color: orange;
+    border: 1px solid orange;
 }
 
 
 
 /* Input section */
 #c_inputDiv {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: rgba(49, 50, 68, 0.9)
+    background-color: black;
 }
 
 #c_widgetTitle {
-    margin: -10px;
-    margin-bottom: 10px;
-    padding: 5px;
-    padding-left: 30px;
-    height: 30px;
-    background: linear-gradient(149deg, #df8e1d 0%, rgba(254, 254, 254, 0) 99%);
-	font-family: bepop;
+    height: 3px;
+    font-size: 0px;
 }
 
 .c-inputWrapper {
-    font-family: hel2;
+    font-family: dos;
     display: block;
     text-align: right;
 }
-.c-input {
-    font-family: w95;
-    padding: 4px;
-    color: white;
-    background-color: rgb(69, 71, 90);
-    border: 1px solid rgba(49, 50, 68, 0.9);
-	outline: none;
-}
-.c-input:focus {border: 1px solid #91d7e3;
-}
+
+
 
 .c-textInput {
     width: calc(100% - 10px);
     max-width: 900px;
     resize: none;
+    color: orange;
 }
+
 #c_submitButton {
-    display: block; 
-    margin-left: auto; 
+    display: block;
+    margin-left: auto;
     margin-right: 0;
 }
+
 #c_replyingText {
-    color: white;
+    color: orange;
     text-align: right;
-    font-family: hel2
+    font-family: dos
 }
 
 /* Comment section */
 .c-comment {
-    margin-bottom: 15px;
-    padding: 10px;
-    background-color: rgba(49, 50, 68, 0.9)
+    background-color: black;
 }
+
 .c-reply {
     display: block;
     width: 90%;
@@ -146,7 +209,11 @@
     padding: 10px;
 
 }
-.c-reply:last-child {margin-bottom: 0;}
+
+.c-reply:last-child {
+    margin-bottom: 0;
+}
+
 .c-replyContainer {
     margin: -10px;
     margin-top: 10px;
@@ -156,43 +223,93 @@
 .c-name {
     display: inline-block;
     margin: 0;
-    margin-left: 30px;
-    margin-right: 15px;
-    font-family: bepop;
-    padding: 0;
+    padding-left: 30px;
+    font-family: dos;
+    width: 415px;
+    font-size: 19.0px;
+    padding-bottom: 2px;
+    font-style: italic;
 }
+
 .c-site {
     text-decoration: none;
-    font-family: bepop;
-}
-.c-site:hover {color: #91d7e3;}
-.c-timestamp {
-    font-family: hel2;
+    font-family: dos;
     float: right;
-    opacity: 75%;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 1px dashed orange;
+    font-size: 16px;
+    background-color: orange;
+    background-color: black;
 }
+
+
+.c-timestamp {
+    font-family: dos;
+    float: right;
+    border-left: 1px dashed black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2x;
+    font-size: 16px;
+    background-color: orange;
+    color: black;
+}
+
 .c-text {
-    width: 98%;
-    margin: 0 auto;
+    margin-left: 0%;
     padding: 10px;
-    font-family: w95;
+    justify-self: right;
+    font-family: dos;
     font-size: 14px;
     text-align: justify;
-    color: white;
-    background-color: rgb(69, 71, 90);
+    color: orange;
+    background-color: black;
+    border-top: 1px dashed orange;
 }
 
 /* Pagination */
-#c_pagination {text-align: center;}
+#c_pagination {
+    text-align: center;
+}
+
 .c-replyButton {
     margin-top: 10px;
     margin-right: 4px;
 }
+
 .c-expandButton {
     margin-top: 10px;
-    margin-left: 4px;
+    margin: auto;
+    width: 100%;
+    border: 0px;
+    height: 25px;
+    border-bottom: 1px dashed orange;
 }
+
 .c-paginationButton {
     margin-right: 4px;
     margin-left: 4px;
 }
+
+textarea {
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+  }
+
+  input {
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+  }
+
+  #c_rightButton {
+    border: 0px;
+  }
+
+  #c_leftButton {
+    border: 0px;
+  }

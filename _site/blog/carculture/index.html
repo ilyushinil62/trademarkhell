@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // Local Car Culture as Viewed by an Idiot // 17 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>I think it's a mandate of every small town to have two things, a car scene solely comprised of riced out economy cars, and an excessive amount of unoccupied retail space. I can't really think of much to say about grocery stores that closed, so this article will be about the former.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Local Car Culture as Viewed by an Idiot <div class="datebox"> 17 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>I think it's a mandate of every small town to have two things, a car scene solely comprised of riced out economy cars, and an excessive amount of unoccupied retail space. I can't really think of much to say about grocery stores that closed, so this article will be about the former.</p>
 <p>I feel the need to preface this article by saying that I fell into these groups in my younger years (RIP '92 Miata, you were a real one till the end), and this isn't intended to be a criticism of them. If I weren't moving countries in the near future, I'd likely still own a shitbox of some variety (ignoring the fact i still have one). However, it is my duty as someone with an unreasonable interest in poorly modified vehicles to write about them.</p>
 <p>Now, generally speaking, the types of modified vehicles you'll see being driven around in my unnamed hellscape esque small town in the middle of the night can be divided into three categories. The Civic category, the not a Civic category, and the trust fund category. All three of these categories are occupied by teenage drivers of equal inexperience, but are not equal in terms of raw power.</p>
 <p>To start with, let me highlight 'ol reliable,' the Honda Civic, it doesn't really matter what year, it could be 10 years old, it could be 25 years old, the modifications always remain the same. It's mandatory that the engine itself remains untouched, it wouldn't be a true broke secondary schooler vehicle otherwise. Rather, they invest all of their money into absurd 18&quot; shining gold wheels that are usually spaced in a way completely disproportionate to the car body. One mustn't forget the most important component either, an absurdly large wing purchased from eBay, likely held on by adhesive strips. If you're looking to find these drivers, they can generally be found in ditches, and doing 70km on a 25km residential street.</p>
@@ -69,38 +65,26 @@
 <p>None of these categories actually know how to drive, and their semi-annual attempts at street racing result in three cars ending up in a ditch, and them waiting another six months to try and street race again. Those who belong to these categories either mature into automotive enthusiasts who look fondly upon their days as an idiotic student, or simply move on with life and get an unremarkable vehicle as most do.</p>
 <p>This article is of absolutely no substance and I solely wrote it for fun, it's more or less just a way for me to mess with falvor text whilst recounting things I see around time. Thanks for reading this if you did, for some reason, I apopreciate it. TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/infoprivacy/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/webdesignpetpeeves/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/infoprivacy/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/webdesignpetpeeves/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

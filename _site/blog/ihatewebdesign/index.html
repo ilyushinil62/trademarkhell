@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // Failure and Webdesign // 06 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>About three weeks ago now, in the middle of July, I came to a sudden revelation, one, which, for a lesser man, may have caused great mental distress. I realized that my website completely sucked, was borderline impossible to modify, and was almost illegible. I, however, being the brave warrior that I am, chose not to let this decrease my morale, and instead set off on a brave journey to improve my site.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Failure and Webdesign <div class="datebox"> 06 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>About three weeks ago now, in the middle of July, I came to a sudden revelation, one, which, for a lesser man, may have caused great mental distress. I realized that my website completely sucked, was borderline impossible to modify, and was almost illegible. I, however, being the brave warrior that I am, chose not to let this decrease my morale, and instead set off on a brave journey to improve my site.</p>
 <p>For context, allow me to present the website that I had at the time.</p>
 <img src="/img/tm152.png" alt="Version 1.5 of trademarkhell.net "  style="display: block; margin: 0 auto"/>
 <p>It's not bad... per se, especially given it was the product of me learning html the day before, but it's not good. It's very obviously the product of someone with little to no knowledge of compatability and the fundamentals of webdesign. I built content out horizontally instead overtically because I thought it looked cool, but that also meant that anyone with a monitor smaller than 1080p had to scroll to the side. I also had the brilliant idea of making the site yellow, orange, and white, which whilst pretty good for creamsicles, is god-awful for websites. Reading this site is a similar experience to trying to read grey text on a black background whilst wearing sunglasses. It was also built with no knowledge of flexbox, solely relying on CSS Grids, and no static site generator, so it was basically impossible for me to add more content to it.</p>
@@ -73,38 +69,26 @@
 <p>At this point, I had more drafts of webdesigns on paper than I could count, thinking that if my previous attempts didn't work, I'd surely get a sudden revelation at some point, but, I never did, and so, I randomly picked a layout, and now that layout is the site you're on. I don't really &quot;like&quot; this layout, but, it meets the bare minimum of what I wanted. It has color, but not too much. It has visual elements, but not too many. It has various templates for webpages, but not too many. I'll redo this website eventually, but the issue is, I can't find anything wrong with this layout, I don't like it, but I don't know why.</p>
 <p>This layout, in my eyes, is a failure, but to be fair, so were all the previous ones, I suspect webdesign for me will always be me chasing the high I think i'll get if I make a website I like,  I don't know if that will ever happen, but I'm glad it probably won't, as it gives me a reason to keep working on websites, which others seem to like. Anyways, thanks for reading this ramble, my other posts should be more interesting, but I've wanted to write this one since my first failed layout.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/lowqualityoldtech/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/monogatariseries/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/lowqualityoldtech/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/monogatariseries/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // A Brief Overview of the IBM 5160 // 20 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>The IBM 5160, or, the IBM PC XT, is the direct successor to the IBM 5160, the IBM PC. There's technically some motherboard differences between the two, but in practice, the only real difference is that the IBM 5160 came from the factory with a HDD, as opposed to the IBM PC, which came with dual 5.25&quot; floppy drives. The IBM PC lineup has a very interesting history, but due to that deviating from the purpose of this article, all you really need to know is that the IBM PC was effectively the first readily available computer.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        A Brief Overview of the IBM 5160 <div class="datebox"> 20 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>The IBM 5160, or, the IBM PC XT, is the direct successor to the IBM 5160, the IBM PC. There's technically some motherboard differences between the two, but in practice, the only real difference is that the IBM 5160 came from the factory with a HDD, as opposed to the IBM PC, which came with dual 5.25&quot; floppy drives. The IBM PC lineup has a very interesting history, but due to that deviating from the purpose of this article, all you really need to know is that the IBM PC was effectively the first readily available computer.</p>
 <h2 id="graphics" tabindex="-1">Graphics <a class="header-anchor" href="#graphics">#</a></h2>
 <p>The IBM PC XT was available with three different graphics cards, the Monochrome Display Adapter, the Color Graphics Adapter, and the Enhanced Graphics Adapter. The Monochrome Display Adapter, as the name suggests, gives you monochrome graphics, with 80 columns and 25 lines of text. It was intended to be paired with the IBM 5151, which was the stereotypical black and green terminal-esque monitor that we've grown used to seeing in games such as Fallout. The Color Graphics Adapter, despite what the name may infer, barely gives you color, only giving you a limited palette of four colors at 320x200 . It was designed with the IBM 5153 in mind, and you can see a photo of mine running Microsoft Flight Simulator 3 (1988) below, in all of it's ugly glory. (Pardon the reflection)</p>
 <img src="/img/fs3closeup.jpg" alt="A photo of my IBM 5160 running MFS3 "  height=400px style="display: block; margin: 0 auto"/>
@@ -79,38 +75,26 @@
 <h2 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h2>
 <p>This was a lot different than my previous articles, and I hope to publish more semi-constructive works about things I find interesting. If you have questions about the IBM PC lineup for some reason, feel free to ask me, I like to think of myself as semi-knowledgeable about them. TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/aboutmesections/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/newwebdevs/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/aboutmesections/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/newwebdevs/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

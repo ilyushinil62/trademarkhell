@@ -1,48 +1,39 @@
-
 .posttext {
 	display: flex;
 	list-style: none;
 	flex-direction: column;
 	margin: 0px;
-	margin-top: 10px;
 	padding: 0px;
-	height: 300px;
-	overflow: visible;
+	height: 305px;
 	padding: 0px;
 }
 
 .posttexttop {
-	width: 670px;
-	display: flex;
-	min-width: 0px;
-    background-color: grey;
+	width: 586px;;
 	padding: 0px;
 	margin-top: 0px;
 	margin: 0px;
 	height: 30px;
-	color: white;
-	font-family: bepop;
 	text-align: left;
-	font-size: 25px;
+	font-size: 22px;
 	align-items: center;
 	list-style: none;
-	align-content: flex-start;
+	border-bottom: 1px dashed #ffa500;
+	line-height: 30px;
+	overflow: hidden;
 
 }
 
 .posttextcontent {
-	height: 100px;
-	width: 670px;
-	background-color: rgb(69, 71, 90);
-	overflow: visible;
-	font-size: 18px;
-	color: white;
-	font-family: w95;
+	height: 120px;
+	width: 586px;
+	font-size: 15px;
 	align-items: top;
 	text-indent: 50px;
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
+	border-bottom: 1px dashed #ffa500;
 
 }
 
@@ -50,3 +41,11 @@
 	margin: 0px;
 	padding: 0px;
 }
+
+.postdate {
+	float: right;
+	border-left: 1px dashed #ffa500;
+	text-indent: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+ }

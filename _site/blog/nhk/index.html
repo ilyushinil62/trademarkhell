@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // I Owe a Lot to Welcome to the N.H.K. // 15 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>This article spoils A LOT about Welcome to the N.H.K. and isn't really a review of it, it's a bit different than my other articles about anime, but I really wanted to write it.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        I Owe a Lot to Welcome to the N.H.K. <div class="datebox"> 15 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>This article spoils A LOT about Welcome to the N.H.K. and isn't really a review of it, it's a bit different than my other articles about anime, but I really wanted to write it.</p>
 <p>Welcome to the N.H.K. is, for all intents and purposes, an unremarkable anime, light novel, and manga series from the 2000s. Featuring animation that didn't age particularly well, time-period correct degeneracy, and a cast of characters, that appear to be rather generic at first glance. I, however, being the brave explorer that I was in 2021, chose to watch it, and to be honest, it was probably one of the best choices I've made in my life, which seems weird to say about an anime.</p>
 <img src="/img/nhk.jpeg" alt=" The coverart of the aforementioned Welcome to the N.H.K." height="500px" style="display: block; margin: 0 auto"/> 
 <p>N.H.K. originally released as a light novel in 2002, written by Tatsuhiko Takimoto, and illustrated by Yoshitonshi Abe, it was later adapted into a manga in 2003, which was illustrated by Kenji Oiwa, and into an anime by Studio Gonzo in 2008. I've only seen the anime, and have no intention of experiencing the former two, so it'll be the focus of this article.</p>
@@ -71,38 +67,26 @@
 <p>If you're going to be unhappy, you may as well be productive while you do it, and at least give yourself a chance to become happy. That's what I took from the show, and quite frankly, I owe my social life and academics to this show, as I probably would've just kept rotting away as I did during COVID if not for the reality check this show gave.</p>
 <p>This isn't that good of a show, and I've barely actually mentioned anything about it, but trust me, there's a lot of impactful elements in it, and a decent bit of funny segments, honestly, if anything I said stuck with you, just watch the show. It'll probably hit a different chord than most of the seemingly &quot;life changing&quot; shows were meant to. This isn't Evangelion, this isn't Cowboy Bepop, it's not some deep freudian psychological thing, it's just a reality check. Tm out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/ssg/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/infoprivacy/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/ssg/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/infoprivacy/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

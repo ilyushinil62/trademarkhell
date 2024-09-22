@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // My Pointless Web Design Pet Peeves // 17 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>Throughout life, I've always been irregularly good at one thing, hating. I usually tend to keep this out of my blog, but these takes were obviously far too important to not share with my loyal 0.5 readers. I've been working on recreational websites for a little over a month and a half now, and whilst I have learned what I like in designing websites, I also learned a lot about what bothers me in web design, in other words, pet peeves. The former is boring, and as aforementioned, I'm a professional hater, so this'll be about the latter.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        My Pointless Web Design Pet Peeves <div class="datebox"> 17 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>Throughout life, I've always been irregularly good at one thing, hating. I usually tend to keep this out of my blog, but these takes were obviously far too important to not share with my loyal 0.5 readers. I've been working on recreational websites for a little over a month and a half now, and whilst I have learned what I like in designing websites, I also learned a lot about what bothers me in web design, in other words, pet peeves. The former is boring, and as aforementioned, I'm a professional hater, so this'll be about the latter.</p>
 <p>I certainly could've introduced the talking points of this article in the first paragraph, but that would almost make this too structured, and structure almost implies that I have valid criticisms, which I don't. So I'll start off here, I have always been irrationally bothered by absurdly large headers, I actually tried using one on this (questionable) webdev attempt:</p>
 <img src="/img/tm16.png" alt=" The unpublished version 1.6 of trademarkhell.net " height="600px" style="display: block; margin: 0 auto"/>
 <p>I'm a firm believer in substance over style, and this carries over to my current web design philosophy. By having a header which takes up a great deal of screen real estate, you're effectively reducing the functionality your site has prior to scrolling. This is exactly why I believe headers should be small relative to the main content area, for you can use the content to express yourself and add value to your site, as opposed to adding a silly image. Once more, these are all just my unfounded opinions, don't take them too seriously, unless you  agree with them, in which case they're completely evidence backed and real.</p>
@@ -70,38 +66,26 @@
 <p>Now, these previous two points almost had too much backing evidence, so  I feel it's my duty to highlight one of my completely irrational pet peeves, sites with a bunch of gifs and images. I literally have no reason for disliking them, they look cool, but for some reason part of me takes this way too seriously and thinks people should cover their sites in their schizo ramblings instead of photos or whatever. Don't take this as advice from me, it sucks the soul out of your website, I mean, just look at mine.</p>
 <p>Take this article as inspiration if you want, but I'd highly advise not doing so. Web design is meant to be fun, do whatever the hell you want, I just wanted to write this for fun, as my form of web design fun is publishing my stupid ramblings. Have a good one, keep making cool sites, TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/carculture/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/computeraddiction/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/carculture/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/computeraddiction/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

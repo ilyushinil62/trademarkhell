@@ -1,104 +1,88 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // trademarkhell.net Month in Review // 31 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>So, it's the end of August now, and that means the current iteration of trademarkhell.net is about a month old. It's not perfect, and I'm still not really sure why I have this site, but none the less, here we are. The first article I published to this site had a whole paragraph about why I disliked the way the site looked, and quite frankly, that sentiment remains, but I do at least have plans for the next minor revision.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        trademarkhell.net Month in Review <div class="datebox"> 31 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>So, it's the end of August now, and that means the current iteration of trademarkhell.net is about a month old. It's not perfect, and I'm still not really sure why I have this site, but none the less, here we are. The first article I published to this site had a whole paragraph about why I disliked the way the site looked, and quite frankly, that sentiment remains, but I do at least have plans for the next minor revision.</p>
 <p>I don't have any intentions to fundamentally change this website operates, and, against my own better judgement, I'll stay true to my promise of daily articles for at least another month. There'll be some minor layout changes in the coming days, as I've been meaning to move the navbar to the right, and make articles only 700px wide. In general, though, it'll be the same site, as I don't have any better ideas just yet.</p>
 <p>This website has garnered a lot more attention than I ever expected it to, and I'm extremely grateful to those who have interacted with this site in one way or another. Admittedly, though, I don't think the attention this site has received is proportional to the minimal effort I put into it whatsoever. Please do consider going past the first page of Nekoweb, there's a lot of interesting sites to be seen.</p>
 <p>I do feel as though I should at least briefly touch on the statistics of the site, mostly for my own sake. The site currently has 11815 visits, and 59 Nekoweb followers. I touched further on the rate of growth a few days ago, so I won't dive into that here. I don't really know how I ended up here, but once again, thanks everyone, watching the funny numbers going up is very satisfying.</p>
 <p>I don't really have all that much more to say, to be honest. Nothing will really change, which also means that I've probably broken the indie web curse of dropping your site after 3 days, no promises, though. See you at the next article, I suppose. TM out.</p>
 <img src="/img/killmenow.jpeg" alt=" An image from the manga 'Watamote' in which the main character says ' Just kill me now' " height="270px" style="display: block; margin: 0 auto"/> 
 pic unrelated i just needed an excuse to use it
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/discord/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/ihatelcds/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/discord/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/ihatelcds/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

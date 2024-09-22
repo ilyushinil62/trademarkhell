@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // A Brief Overview of the PC-9821 Cs2 // 27 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>I pride myself in my ability to publish articles of absolutely no substance, but from time to time, it is my duty to publish actual content to this site. I'm fulfilling this contractual obligation by writing an article on one of my favorite computers of all time, and probably the one I mess around with the most, the PC-9821 Cs2.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        A Brief Overview of the PC-9821 Cs2 <div class="datebox"> 27 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>I pride myself in my ability to publish articles of absolutely no substance, but from time to time, it is my duty to publish actual content to this site. I'm fulfilling this contractual obligation by writing an article on one of my favorite computers of all time, and probably the one I mess around with the most, the PC-9821 Cs2.</p>
 <p>I'm currently in the middle of recapping the monitor that usually accompanies it, but here's a photo of the device itself:</p>
 <img src="/img/pc98.jpg" alt=" A photo of the aforementioned PC-98" height="300px" style="display: block; margin: 0 auto"/> 
 <p>If you think this looks like a generic computer from the mid 90s, you're correct. The PC-98 was NEC's answer to the increasingly popular IBM PC standard in the west, which I also wrote an article on. The IBM PC lacked the ability to display Japanese characters, and as such, a Japanese variant came in the form of the PC-88, originally, and later the PC-98 (divided into pc-9801 and pc-9821). Fundamentally, this is a rather standard computer, but it has vastly superior graphics to the IBM PC compatible's of it's time, due to the fact that the Japanese characters required far greater resolution.</p>
@@ -90,38 +86,26 @@
 <h2 id="what-s-the-point" tabindex="-1">What's the point? <a class="header-anchor" href="#what-s-the-point">#</a></h2>
 <p>There's no point to this article, I just think the PC-98 series, and my PC-9821 Cs2 are cool as hell, and I wanted to share it with others. If you do want to pick one up, you can still get them for reasonably cheap, assuming you're willing to recap them, and are able to supply them with the appropriate voltage. As always, if you have any questions on the subject, I'll try to answer them, but no promises. TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/anime/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/sitecontent/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/anime/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/sitecontent/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

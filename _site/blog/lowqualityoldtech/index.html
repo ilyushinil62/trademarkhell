@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // (my obsession with) Crappy Old Tech // 05 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>I accidentally procured the extremely unfortunate hobby of collecting and restoring old technology, I'll probably write more extensively about this in another article, but that's not related to the point. Despite this hobby, some of my favorite pieces of technology are the arguably worthless pieces of low-quality black plastic that came out from the late 80s to the late 90s, that I've done aproximately zero work on.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        (my obsession with) Crappy Old Tech <div class="datebox"> 05 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>I accidentally procured the extremely unfortunate hobby of collecting and restoring old technology, I'll probably write more extensively about this in another article, but that's not related to the point. Despite this hobby, some of my favorite pieces of technology are the arguably worthless pieces of low-quality black plastic that came out from the late 80s to the late 90s, that I've done aproximately zero work on.</p>
 <p>These things have absolutely zero reason to still work, they were made using extremely primitive computerized systems, that honestly had no place being in them, yet, for some reason, they seem impossible to kill.</p>
 <p>Take this TV, it's a 13&quot; RCA CRT that probably costed about 50 bucks new. It has no connections on it other than RF, and has remarkebly below average (but not bad!) video quality. It's been sitting to my right on my desk, playing random anime, everyday, for at least five hours, for five years now, and god knows what it went through before I got it.</p>
 <img src="/img/tmcrt.jpg" alt=" My 13 inch RCA CRT " height="400px" style="display: block; margin: 0 auto"/>
@@ -70,38 +66,26 @@
 <p>Picutred above (but below the cassette deck, once again, it still sucks, once again, I still use it daily and love it) is the Luxman R-115, something, which to the layman, is a prime example of black plastic crap. Despite it's appearence, however, it's generally regarded as one of the best amplifiers of the late 80s. I'm listening to it as I write this article, and it's powered the speakers I use with my computer for years now, and I strongly agree with this statement. It doesn't look nearly as good as the silver faced equipment I use in my main HiFi stack, but man, it sounds good.</p>
 <p>Despite the inherently satirical nature of the title of this article, I feel it's my duty to &quot;enlighten&quot; the masses that despite the awful appearence of technology from this era, it really holds up, and sometimes, it's even good. I have a lot more tech from this era that I use often, but this article would be pointlessly long if I covered them. Basically, TLDR, ugly old tech cool, ugly old tech good.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/breakcore/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/ihatewebdesign/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/breakcore/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/ihatewebdesign/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

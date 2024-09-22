@@ -1,66 +1,62 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">  
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link href="/css/post.css?v=1.1" rel="stylesheet" />
+  <link href="/css/post.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // trademark's special hell</b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-           <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <ul class="maintext">
-        <li class="maintexttop">
-          <p> <a href="javascript:history.back()">back</a>
-            // Computer Addiction in the Modern Era // 18 August 2024 </p>
-        </li>
-        <ul class="maintextcontent">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
 
-          <p>I'd like to paint a picture for you all, it's a weekend, you have no work or school to worry about, what do you do? Do you go out and partake in your hobby perhaps, or maybe hang out with friends? No, you obviously sit at your desk and use your computer until you get tired again. This is just theoretical, of course, but if it sounds anything like you, odds are you're a computer addict. Welcome to the club, I guess.</p>
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Computer Addiction in the Modern Era <div class="datebox"> 18 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>I'd like to paint a picture for you all, it's a weekend, you have no work or school to worry about, what do you do? Do you go out and partake in your hobby perhaps, or maybe hang out with friends? No, you obviously sit at your desk and use your computer until you get tired again. This is just theoretical, of course, but if it sounds anything like you, odds are you're a computer addict. Welcome to the club, I guess.</p>
 <p>Computer addiction in and of itself is something that would've seemed incomprehensible just 25 years ago. However, over time computers have gained the ability to do significantly more than they were onced intended to do. This is a process I could probably spend an hour talking bout, but I'll sum it up in a few sentences. Computers used to be expensive, and as such, consumers didn't buy them, so consumer based programs didn't exist. Prices went down as more computers were made, and as such, the number of programs made for consumers increased. A bunch of wacky stuff happens, then bam, the internet, and bam, you have no social interaction outside of your AO3 proofreading Discord Server solely comprised of people living in different timezones.</p>
 <p>The reason so many people can be seen using their computers for absurd amounts of time is because of how much you can do on a computer now. Want to watch a movie or a show? Bet. Want to play some games? I gotchu man. Want to talk with some friends? Bet. Want to get an obscure question about the air vent trim on your E36 325i? Some old guy who's been a BMW technician for 50 years has got you covered. You don't need to go to a library to learn things anymore, you don't need to go out with frinds to hang out anymore. Everything is convenient now, arguably, too convenient.</p>
 <p>Rarely does a day go by where I'm not using my computer for at least a few hours, because I can gain so much knowledge and dopamine from it, so easily. It's just not rewarding to live life as people once did, sitting at your computer all day is objectively a more efficient way to do things. This thought process, however, is pretty terrible.</p>
@@ -69,38 +65,26 @@
 <p>This isn't to say computers aren't a brilliant thing, by providing easy access to the internet, we have nearly infinite knowledge at out finger tips, computers are arguably the most useful tool humanity has created in centuries. Yet, computers are merely just that, a tool, something to provide assistance in your everyday life, but not to supplant it. Use computers as an aid for acquiring knowledge and social interaction, but not as your sole method for either.</p>
 <p>As with many things in life, computer usage is excellent in moderation, but terrible in excess. When used in excess you end up writing articles on computer addiction for your personal site, which is a terrible fate. That's all for today, take this one with a grain of salt, it's all based on my opinions, TM out.</p>
 
-          <ul class="post-metadata">
+        <div class="post-metadata">
 
-          </ul>
-          <li class="posttexttop">
-            <p><b>  <a href="/blog/webdesignpetpeeves/">previous</a></b>
-               //
-              
-              comments 
-               //<b><a href=" /blog/aboutmesections/"> next</a></b>
-            </p>
-          </li>
-          <div id="c_widget"></div>
-          <script src="/scripts/comment-widget.js"></script>
-        </ul>
-      </ul>
-
-      <div class="footer">
-        Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+        </div>
       </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/webdesignpetpeeves/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/aboutmesections/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget.js"></script>
 
-
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
-<style>
-
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-  }
-  
-</style>
 
 </html>

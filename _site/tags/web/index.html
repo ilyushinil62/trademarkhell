@@ -3,14 +3,11 @@
 <html>
 
 <head>
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-  <meta http-equiv="Pragma" content="no-cache">
-  <meta http-equiv="Expires" content="0">
   <link rel="icon" type="image/x-icon" href="/img/favico.png">
-  <link rel="stylesheet" href="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-people.css">
-  <link rel="stylesheet" href="https://hotel.nekoweb.org/hotel-onionring.css" />
-  <link href="/css/index.css?v=1.1" rel="stylesheet" />
+  <link href="/css/navbase.css" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
   <script>
+
     const username = "trademark"; // Your username
 
     const getStats = async () => {
@@ -20,60 +17,188 @@
       const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
       const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
 
-      document.getElementById("created").innerHTML = `<em>Created</em>: ${created}`;
-      document.getElementById("updated").innerHTML = `<em>Updated</em>: ${updated}`;
-      document.getElementById("visitors").innerHTML = `<em>Visits</em>: ${json.views}`;
-      document.getElementById("followers").innerHTML = `<em>Followers</em>: ${json.followers}`;
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
     };
     getStats();
 
   </script>
-  <link href="/css/navbase.css" rel="stylesheet" />
+
 </head>
+
 
 <body>
   <div class="container">
     <div class="header">
-      <ul class="headertop">
-        <p>nav</p>
-        <li class="headertoptext">
-          <b>trademarkhell.net // stuff about web </b>
-        </li>
-      </ul>
-      <ul class="header-flex">
-        <ul class="nav">
-          <li class="navitem">
-            <p><a href="/" l>home</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/opinion/" l>opinion</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/tech/" l>tech</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/music/" l>music</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/anime/" l>anime</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/web/" l>web</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/tags/nil/" l>soon</a></p>
-          </li>
-          <li class="navitem">
-            <p><a href="/blog/" l>all</a></p>
-          </li>
-        </ul>
-        <li class="banner">
-          <img id="headerimage">
-          <script src="/scripts/fetchImage.js"></script>
-        </li>
-      </ul>
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+                                       -+*##*+-                                                                              
+                                  -*###############+=                                                                        
+                                *#################%%%##*-                                                                    
+                            =#####%#######################%*-                                                                
+                          =##############%%%*=-----=*%%######%#*++-*+*-*+-                                                   
+                         #########%####%=---------------%##%%##*%**=-:::.                                                    
+                       .#--=*%###%####+----+#%%####%%%#=-####*#***=.                                                         
+                      .**-----=#%#####+%##################%#******#* ..                                                      
+                      =***--++*-#####%###@###############*#*%#####-%#==:                                                     
+           #++=      :**#=--*-+#*###@#%#%-%########%#*######%###%###%#-                                                      
+         +::::.=    .=#####----*****#***--*****####%*%%#%%###@%##%##=-%---+                                                  
+       .=::::::.--  :#######*+*****%%%%%=--@%%%#####=-*%%#%%##%%##%##-+*-=+                                                  
+       :=:::::::==----#%##*==######@%%%+-:--%%#%%###%.:#%%#%%#%%%##%#*:*:::-:                                                
+      .-:::::::::-=-------++#=%####%%-%-:.=#-%%=%%###=::-*%%%%##%##*%#::- ..                                                 
+      .=.::::::::==--###%###--%####%*:*-:.:-:-+%:=%%#*:%@%*%@%#@#@#-%#.:.                                                    
+      :=.::::::::-:.-####*---#%####%*@@@@@@@-:::+=:-%@@%*%%%%%%@#@#:##=.                                                     
+      :-=:::::::::=.-#------%%%####@@#*%@%@::::::::::#@*++%@%%%@%#*:+#-                                                      
+      .:*--:::::::=-+=--####%%+###%%:-#@@*@.::::::::::.-..%%%@%%%#%-+#                                                       
+       ::*---::::::::#*%%###%@.####%#:.:=*#.::::::::::--::%%%@%@#%#%*:                                                       
+        ::-=---=:::-:#%%%###%%:####%#=::.:::::::::::::::::%%%%%%@#=+#                                                        
+          ::+---:::::#%#%#%%%%%%%###%#=::::::::...:-=::::=%%%#@%%##:+=                                                       
+        :--::---:::::.+=%%@#%%%%%####%*#::::::+++++*::::-%%%%%##%%#.:+                                                       
+       =.::::.:+::::::::#%%#%%%%%%%###%-.+:::.+====*:::%%%%%%%#+#%#.:.                                                       
+      -::::::::::::::=::+#%#*%%%@%%@####*:::::.+==*:.#%%%%%%%**#:%# .                                                        
+     :*::::::-:--=+=::::-+-.+-=.*+%**%###%-=*-.:::.#%%%%%%%%%%:#:==                                                          
+    =:--:::::-*--:::::::::=:.+-.-.##%+++%##%---%%#%+#%*#%%%%%%::::                                                           
+  .=::.=:::::-*---::::-:--::--+-:..*#%+++=:+%#-#*+*#*++%%+=*%%=.                                                             
+  :-.::=:::::-#+=-=+=--+:::::.:+-.:.+%%=++*.::-:--+*=++++%##::.                                                              
+  :+=::=:::::-+--=+--*::::::::..-..--=%%++++*::::.:=#+++++%#=-                                                               
+ .+:*::+:::::-=---+#--------:*.....*.*+%#+++++#=-----:#++++%=:=                                                              
+ -:::.:=::---=--=-*---------*......+..**#*++++=*+=.....++++*%#-.+                                                            
+.:=.:-:=.--------+-----+%%#--......+..-=%%++++++*+*----=+++=%*+..=:**=                                                       
+ ::-.+::.*=------+---*-+*%#--......*::.#+%%+++++++==----#+++*%*...:*++@+                                                     
+  .:-:*=----++---#**+-=*@#=-:.....-:=...+*##++++++=+=---=*+++%%*.=#*+@#@%+-                                                  
+   .::=:-==*#%*+*---=%*%%*--..----*-....=+##%=+++++=*----*+++*#+-#+*%%+%**%@+-                                               
+     :::::..*%%******%%*+------+---......*+*###++++++=---=#++=%%#++++*@%++##+=                                               
+       .:=...--+*****+-------#----........+=+#%##+++++---=#=++%%++++++++#@#++                                                
+        ::+..:-------------+::=---.........:*+=%#%++++#--=#+++%%*+++*+++++++-+.                                              
+         ::::--==++=-----+: .::=---:.......---#**@%%**+@%%%**#%#%#+++++++*:-....-                                            
+             ..:.::::::::.    ::=-----..--------#**%%**#%##**%%*****+++*+.......*                                            
+                               ::+---------------:#*%%#*@##*%%*##****#..........-                                            
+                                ::*----------------:#*%%#=**%#*-:-*#..:........-                                             
+                                 ::+-----------------=*@@**%%#= .::+-.....-....+                                             
+                                  ::+-----------------#%%@%%%=.   :=.....:.....-                                             
+                                   :-------------------%%%#%-:    ::...::......                                              
+                                  =--:..........:----=+=%@%%%#+: .=---........-                                              
+                                .:*-..............#####%%%%@%%##::-=..........-                                              
+                                 ::+--....::-----%####%%#%%####.=:...........=                                               
+                                  :*#*##=-------:..%###%%-%%##%.............-.                                               
+                                :**++++*****###*=-:-%*:+%##%%-..............+                                                
+                               .=*+++#+++***%*#****#+**#%%*#%#%:=*=----.....+                                                
+                               +**++++++=+*%*******#+**##%*#-%##%*++#@#%%%%#*-                                               
+                             -=++++++++++++++++*#***######***%%%%%@@%#######%:                                               
+                           -++++++++++++++++*++++=+#****###+*#*+++=*%#%**-###*                                               
+                          ==+++++++++++++++++++++++++++=%##+=:----#++*%%-::::.                                               
+                         ++++++++++++++++++++++++++++++++###%*:::-****%.    .                                                
+                       .*++++++++++++++++++++++++++++++++=%####-:-****.                                                      
+                      .*++++++++++++++++++++#+++++++++++++++%#####*+-:                                                       
+                      ++++++++++++##*++++++++++++++++++++++++*++#####+.                                                      
+                    .*++++++++++++++++#+++++=+++*+++++++++++++*-:::+:                                                        
+                   +=+++++++++++++++++++%+++=+**+++++++++++%*+++* ..                                                         
+                .*=+++++++++++++++++++++*#+**#=++++++++++++=*#+**=                                                           
+        -++=+++#+++++++++++++++++++++++++++%=*+++++++++++++++++*+++*-                                                        
+      .:*++++*=+++++++++++++++++++++++++++=##++#++++++++++++++++**+++=*-                                                     
+      .:-+++*+++++++++++++++++++++++++++++***++++#********++++++*+*#++++++===+                                               
+       .::*#**####+=++++++++++++++++++++++#***++++=+*++++++++++++#+++*++++++++.                                              
+         ::-****#****#*++++++++++++++++++=#++*#+++++++++++++++++++*++++*++++++                                               
+           :::-:::-****#-#=++++++++++++++=#++++*+++++++++++++++++++++++++#+++=                                               
+             .   .::::=#---+++++++++++++++#+++++*#+++++++++++++++++++*++++*#=                                                
+                     .::=----=++++++++++++#+++++++#+++++++++++++++++++#=+*:.                                                 
+                      .:+-------=*=+++++++#++++++++*#++++=*#+-=:::-=+***=.                                                   
+                       :------------=#*=++#=++++++++*##+------=-  ..::::                                                     
+                       .:=-::::::::------------==---------:::::=                                                             
+                       .:+:::::::::::::::::--=--------::::::::::+                                                            
+                        :-::::::::::::::::::::-----:::::::::::::-                                                            
+                        .:-::::::::::::::::::----::::::::::::::::+                                                           
+                         :+::::::::::::::::::--:::::::::::::::::::-                                                          
+                         :-::::::::::::::::::=.:::::::::::::::::::=                                                          
+                         .:=:::::::::::::::::=-::::::::::::::::::::+                                                         
+                          :=.::::::::::::::::=:-:::::::::::::::::::=                                                         
+                          :-:::::::::::::::::=::=::::::::::::::::::::                                                        
+                          .:+::::::::::::::::+ ::+::::::::::::::::::=                                                        
+                           :=.:::::::::::::::+  ::=::::::::::::::::::=                                                       
+                           ::::::::::::::::::+   ::=:::::::::::::::::+                                                       
+                           .:+:::::::::::::::+    ::=:::::::::::::::::-                                                      
+                            :=.::::::::::::::=     ::+::::::::::::::::=                                                      
+                            .::::::::::::::::-      ::+:::::::::::::::.=                                                     
+                            .:+::::::::::::::*       ::+:::::::::::::::=                                                     
+                             :=::::::::::::::-        ::+::::::::::::::.=                                                    
+                             ::::::::::::::::.         .:=.:::::::::::::=                                                    
+                             .:-:::::::::::::           ::-.::::::::::::.+                                                   
+                             .:+::::::::::::-            .:-.::::::::::::-                                                   
+                              :=.:::::::::::-             .:-:::::::::::::*                                                  
+                              :-::::::::::::=              .:=.:::::::::::.=                                                 
+                              .-::::::::::::=               .:=::::::::::::-                                                 
+                              .:-:::::::::::+                ::+:::::::::::.=                                                
+                               :=:::::::::::+                 ::=:::::::::::=                                                
+                               :=:::::::::::=                  :-:::::::::::==                                               
+                               :=:::::::::::+                  .:+:::::::::--=                                               
+                               :=:::::::::::+                   :::::::::::--+                                               
+                               :=:::::::::--=                   .:+::::::::::-=                                              
+                               :=::::::::---:                    :-:::::::::::-:                                             
+                               :=:::::::::-=.                    .:-:::::::::::=                                             
+                               :=:::::::::--=                     :=::::::::::::=                                            
+                               :=::::::::::--                     :-::::::::::::.-                                           
+                               :-:::::::::::+                     .:+::::::::::#%%:                                          
+                              .:-:::::::::::=                      :-.:..:=#%%%%%%#                                          
+                              .-:::::::::::::                      .:%%%%%%%%%%%%%%+                                         
+                              .-::::::::::::::                      :=%%%%%%%%%%%%%#:                                        
+                              .-=.::::::::.:=*                      .:#%%%%%%%%%%%%%%                                        
+                              .:%%%%%%%%%%%%%*                       ::%%%%%%%%%%%%%%#                                       
+                              .:%%%%%%%%%%%%%%                       .:-%%%%%%%%%%%%%%*                                      
+                               :*%%%%%%%%%%%%%                         :-%%%%%%%%%%%%%%:                                     
+                               :-%%%%%%%%%%%%%:                        .:-%%%%%%%%%%%%%#                                     
+                               .:%%%%%%%%%%%%%+                         .::%%%%%%%%%%%%%#                                    
+                                :=%%%%%%%%%%%%-                          .::#%%%%%%%%%%%%*                                   
+                                ::%%%%%%%%%%%%+                            ::*%%%%%%%%%%%%=                                  
+                                .:=%%%%%%%%%%%+                             ::=#%%%%%%%%%%%:                                 
+                                 ::%%%%%%%%%%%#                              ::-%%%%%%%%%%%#                                 
+                                  :-%%%%%%%%%%#                               .::#%%%%%%%%%%*                                
+                                  .:#%%%%%%%%%%:                                ::+#%%%%%%%%%*                               
+                                   ::%%%%%%%%%%#                                 .:-%%%%%%%%%%+                              
+                                    :+%%%%%%%%%+                                  .::#%%%%%%%%%+                             
+                                    ::%%%%%%%%%+                                    ::=%%%%%%%%%*                            
+                                     :-%%%%%%%%#                                     .:-%%%%%%%%%#                           
+                                     .:#%%%%%%%#                                       ::%%%%%%%%%%*#=                       
+                                      ::%%%%%%%%+                                       ::%%%%%%%##*###+                     
+                                      .:+%%%%%%%*                                        ::%%%%%%#*##*%%**###+*-:-++####*:   
+                                       ::%%%%%%%#                                         ::%%%%##%##***#########**@*###%%:  
+                                       .:+%%%%%%%=                                         :=%%**###*##%%%#######%#*#*%%%%%: 
+                                        ::%%%%%%%#                                         .*%%%######################%%%*#- 
+                                         :%%%#*####.                                       ::=%%###################*#%*#=:.  
+                                         :########**                                        .:%%%###########%%%**+++#-::     
+                                         =%%*####%%%#                                        ::%%%%%@*++++##=:::::::.        
+                                        :-#*%###*#####-                                      .:=#**+++++++#-.                
+                                        .:##*%#########*+                                     .:+*****+-::.                  
+                                        .:###*##*#######***.                                   .:::::..                      
+                                         -%#*####***#####***#*#:                                                             
+                                        .:*+*%##############%%%#                                                             
+                                         :-*+#*###*%%%%%%%%%%%%%-                                                            
+                                         .:::=#%##%%%%%%%%%%%#*#=                                                            
+                                            .:-*++*****###+-::::                                                             
+                                              ::::::::::::.                                                                  
+
+                                   
+                </pre>
+      </div>
     </div>
-    <div class="content">
+    <div class="main">
+      <div class="toptext">
+        <p>profound words that mean nothing // articles</p>
+      </div>
       
 
 
@@ -84,8 +209,18 @@
 </li>
 	<ul class="posttexttop">
 	<li class="postlist-item">
+		<a href="/blog/websitelifespan/" class="postlist-link">The Lifespan of Indie Sites</a>
+		<time class="postlist-date" datetime="2024-09-21"> <span class="postdate"> 21 September 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">I&#39;ve often wondered how long an indie website actually lasts, and by extension, how many sites actually keep getting updates. For the first time ever, I decided to actually take matters into my own hands and do some data collection, and in this article I&#39;ll present my conclusions.</ul>
+	
+
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
 		<a href="/blog/stillalive/" class="postlist-link">Sorry, I&#39;m Not Dead Yet</a>
-		<time class="postlist-date" datetime="2024-09-17"> // 17 September 2024</time>
+		<time class="postlist-date" datetime="2024-09-17"> <span class="postdate"> 17 September 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I feel the need to post something on this site as everything is taking awhile, so bam, here you go, another random status update, I&#39;ll probably take this down once I get stuff up and running again.</ul>
 	
@@ -95,7 +230,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/webdesignisfun/" class="postlist-link">Web Design is Kinda Fun?</a>
-		<time class="postlist-date" datetime="2024-09-08"> // 08 September 2024</time>
+		<time class="postlist-date" datetime="2024-09-08"> <span class="postdate"> 08 September 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I went through a fate worse than death for all terminally online individuals and was bored as hell, anyways, it made me realize web design is sorta fun. I still hate actually working on this site, but that won&#39;t stop me from talking about how it&#39;s actually fun. Read the thing.</ul>
 	
@@ -105,7 +240,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/qualityvsquantity/" class="postlist-link">Quality vs Quantity (for websites)</a>
-		<time class="postlist-date" datetime="2024-09-04"> // 04 September 2024</time>
+		<time class="postlist-date" datetime="2024-09-04"> <span class="postdate"> 04 September 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I&#39;ve noticed a lot of sites that seemingly have a completely different layout every week, and to be honest, I don&#39;t know that this is a very good idea. This isn&#39;t to say that I have any evidence proving otherwise, I just have the uncanny ability to ramble on with no evidence. Click the title...</ul>
 	
@@ -115,7 +250,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/Templates/" class="postlist-link">Site Templates Aren&#39;t a Bad Thing</a>
-		<time class="postlist-date" datetime="2024-09-03"> // 03 September 2024</time>
+		<time class="postlist-date" datetime="2024-09-03"> <span class="postdate"> 03 September 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">Sites that use templates tend to get a decent bit of criticism, and this is fair because they&#39;re boring as hell, but I honestly think templates do a lot more for the indie web than people think. I actually defend something in an article instead of making fun of things for once, shocker. Read it today.</ul>
 	
@@ -125,7 +260,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/discord/" class="postlist-link">Discord and the Death of Forums</a>
-		<time class="postlist-date" datetime="2024-08-30"> // 30 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-30"> <span class="postdate"> 30 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">Discord has somehow replaced just about every niche forum that once existed, and this mildly annoys me. This annoyance doesn&#39;t actually justify an article, but trademarkhell.net isn&#39;t about justification. Discord shot and killed my favorite forum, more on the article, click it, or else something may happen.</ul>
 	
@@ -135,7 +270,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/sitecontent/" class="postlist-link">Does Content Influence Site Growth?</a>
-		<time class="postlist-date" datetime="2024-08-27"> // 27 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-27"> <span class="postdate"> 27 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">If you haven&#39;t noticed, this site has been posting daily for the past few weeks, this was in part because I felt like it, and in part because I wanted to conduct an experiment. I saw many sites towards the top of Nekoweb&#39;s most following which were visually impressive, but often lacking in content, so I wanted to try making a site that was the opposite.</ul>
 	
@@ -145,7 +280,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/indiewebdemographics/" class="postlist-link">The Demographics of the Indie Web</a>
-		<time class="postlist-date" datetime="2024-08-25"> // 25 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-25"> <span class="postdate"> 25 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">Everyday, I&#39;m almost certain you think &quot;Wow, I see so many easily stereotyped groups on the indie web but I&#39;m not brave enough to categorize them.&quot; I&#39;m here to be the brave knight in shining warrior who&#39;ll stereotype entire broad groups of people, just as the lord intended. This article is *mostly* satire, but based off of genuine obervations.</ul>
 	
@@ -155,7 +290,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/whyneocitiesnekoweb/" class="postlist-link">Why Neocities/Nekoweb?</a>
-		<time class="postlist-date" datetime="2024-08-23"> // 23 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-23"> <span class="postdate"> 23 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">If you&#39;re reading this article, odds are you use Neocities or Nekoweb as a webhost, but that got me thinking. What is it that made these webhosts so popular? I still have no idea, and I don&#39;t really feel like doing actual research, so instead I provide unproven theories. This is another Harvard worthy article, I reckon.</ul>
 	
@@ -165,7 +300,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/personalsiteego/" class="postlist-link">Personal Sites Are a Result of Egotism</a>
-		<time class="postlist-date" datetime="2024-08-22"> // 22 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-22"> <span class="postdate"> 22 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">If you have an entire site dedicated to yourself and your opinions, you&#39;re egotistical. Despite this, I don&#39;t believe egotism to be an inherently bad thing. This is a rather strange take, so I won&#39;t try to compress it down further here, but read the article if you want, it&#39;s rather short compared to some of my other posts.</ul>
 	
@@ -175,7 +310,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/newwebdevs/" class="postlist-link">Advice for New Web Devs</a>
-		<time class="postlist-date" datetime="2024-08-21"> // 21 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-21"> <span class="postdate"> 21 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">The Indie Web doesn&#39;t exactly have a formal rulebook for good practice, and that&#39;s for good reason, you can do whatever you want. However, I still feel as though there&#39;s a few things people should know before getting into making their first site or a new site. (yes this article mentions SSGs again, no i&#39;m not sorry)</ul>
 	
@@ -185,7 +320,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/aboutmesections/" class="postlist-link">Why Use About Me Sections?</a>
-		<time class="postlist-date" datetime="2024-08-19"> // 19 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-19"> <span class="postdate"> 19 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">My IBM 5160 article is taking longer than I thought it would, and I&#39;ve been on a roll with random website articles, so I figured I&#39;d keep the trend going. I kinda think about me sections are pointless on personal sites, and in this article I use extremely pretentious reasoning to justify my opinion on the subject. (I swear I can do things other than rant about webdevelopment...)</ul>
 	
@@ -195,7 +330,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/webdesignpetpeeves/" class="postlist-link">My Pointless Web Design Pet Peeves</a>
-		<time class="postlist-date" datetime="2024-08-17"> // 17 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-17"> <span class="postdate"> 17 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">Just yesterday I recognized that my web and article sections were nearly identical, unfortunately, this will be keeping that trend going, as I&#39;ll be ranting about web design elements I dislike. This article is solely based on my opinions, and the evidence used is fringe at best. Deeply scientific stuff.</ul>
 	
@@ -205,7 +340,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/infoprivacy/" class="postlist-link">Personal Information and the Indie Web</a>
-		<time class="postlist-date" datetime="2024-08-16"> // 16 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-16"> <span class="postdate"> 16 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I like to think that I&#39;ve seen a reasonable amount of personal sites, and in large part, I think they&#39;re awesome. However, I can&#39;t help but notice that some people may take the personal part a little too seriously.. maybe don&#39;t say  &quot;My name is Walter Hartwell White. I live at 308 Negra Arroyo Lane Albuquerque New Mexico 87104.&quot; on the front page. This article is basically just my excuse to ramble about the importance of internet privacy.</ul>
 	
@@ -215,7 +350,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/ssg/" class="postlist-link">SSGs Are Good, Actually</a>
-		<time class="postlist-date" datetime="2024-08-14"> // 14 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-14"> <span class="postdate"> 14 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">Throughout my brief stint in the brainrot/Indie Web community, I&#39;ve noticed that a lot of people seem to be heavily opposed to the use of static site generators, seemingly feeling as though the use of one would make their site less legitimate. I think this is stupid, so I&#39;m going to ramble about how awesome SSGs are.</ul>
 	
@@ -225,7 +360,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/useyourblog/" class="postlist-link">Please Actually Use Your Blog Sections</a>
-		<time class="postlist-date" datetime="2024-08-13"> // 13 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-13"> <span class="postdate"> 13 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I have procured a strong hatred for blog sections with nothing in them other than a single post saying &quot;yo guys check it out i just made this dope ass blog... gonna use it daily&quot; that was made six months ago. This article is my desperate plea for webmasters to actually use their blogs for y&#39;know... blogging... Click the title for one of the greatest rants of the past three minutes.</ul>
 	
@@ -235,7 +370,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/indieweb/" class="postlist-link">The Indie Web Described By a True Idiot</a>
-		<time class="postlist-date" datetime="2024-08-10"> // 10 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-10"> <span class="postdate"> 10 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">The Independent Web, or Indie Web, has gained a lot of popularity in the past decade or so, I mean, you&#39;re on this site, but what exactly is the Indie Web? I still don&#39;t really know, but I sure as hell am going to ramble about it for a page, it&#39;s my duty as one of the many egotistical personal-site oweners.</ul>
 	
@@ -245,7 +380,7 @@
 	<ul class="posttexttop">
 	<li class="postlist-item">
 		<a href="/blog/ihatewebdesign/" class="postlist-link">Failure and Webdesign</a>
-		<time class="postlist-date" datetime="2024-08-06"> // 06 August 2024</time>
+		<time class="postlist-date" datetime="2024-08-06"> <span class="postdate"> 06 August 2024</span></time>
 	</ul>
 	<ul class="posttextcontent">I&#39;ve spent the past three weeks spending the bulk of my freetime in webdesign hell, and after this experience akin to that of what Sisyphus went through, I learned one thing. I&#39;ll probably never like my site, but at least I can get a cool blog post out of it. Click the title above if you want to read a masterfully crafted text about my perilous journey.</ul>
 	
@@ -255,99 +390,76 @@
 </ul>
 
 
-    </div>
-    <div class="footer">
-      <ul class="follow">
-        <li class="followtext">
-         Hosted on Nekoweb
-        </li>
-      </ul>
-      <ul class="followr">
-        <li class="followtextr">
-          Powered by 11ty // trademarkhell.net All Rights Reserved
-        </li>
+
     </div>
     <div class="sidebar">
-      <ul class="sidebarflex">
-        <ul class="status">
-          <li class="maintexttop">
-            <p>what's up?</p>
-          </li>
-          <li class="stattext">
-            <div id="statuscafe">
-              <div id="statuscafe-username"></div>
-              <div id="statuscafe-content"></div>
-            </div>
-            <script src="https://status.cafe/current-status.js?name=trademark" defer></script>
-          </li>
-        </ul>
-        <ul class="playing">
-          <li id="listeningStatus">
-          </li>
-          <li id="listening">
-          </li>
-        </ul>
-        <ul class="stats">
-          <li class="maintexttop">
-            <p>NekoStats</p>
-          </li>
-          <ul class="statstext">
-            <div id="created"><em>Created</em>:</div>
-            <div id="updated"><em>Updated</em>:</div>
-            <div id="visitors"><em>Visits</em>:</div>
-            <div id="followers"><em>Followers</em>:</div>
-
-          </ul>
-        </ul>
-        <ul class="playing">
-          <li class="maintexttop">
-            <p>shill my site..</p>
-          </li>
-          <li class="shilltext">
-            <a href="https://trademarkhell.net/"><img src="https://trademarkhell.net/tmsspecialhell.png"
-                alt="trademarkization company of 2003"></a>
-            <textarea cols="8" rows="2" readonly="readonly" onclick="this.setSelectionRange(0, this.value.length) "
-              style="background-color: rgb(69, 71, 90); border: 1px solid rgb(49, 50, 68); color: white; height: 30px;">
-              &lt;a href="https://trademarkhell.net/"&gt;&lt;img
-              src="https://trademarkhell.net/tmsspecialhell.png" alt="trademarkization company of 2003"&gt;&lt;/a&gt;
-            </textarea>
-            <p>hotlink it, i may change it.. click
-              <a href="https://nekoweb.org/follow/trademark" l>[this]</a> to follow me
-              </p>
-          </li>
-        </ul>
-        <ul class="acsquare">
-          <li class="maintexttop">
-            <p>sponsors</p>
-          </li>
-          <li class="acsquaretext">
-            <iframe width="200" height="200" style="border:none" src="https://dimden.neocities.org/navlink/"
-              name="neolink"></iframe>
-          </li>
-        </ul>
-        <ul class="square">
-          <li class="maintexttop">
-            <p>not sponsors</p>
-          </li>
-          <li class="squaretext">
-            <img width="200px" height="170px" alt="tempshitpost" src="https://piclog.blue/latest.php?id=635"
-              margin="auto" />
-          </li>
-        </ul>
+      <ul class="linkz">
+        <li class="linkitem"><a href="mailto:tm@trademarkhell.net">email</a></li>
+        <li class="linkitem"><a href="https://discord.com/users/808778883322347531">discord</a>d</li>
+        <li class="linkitem">8chan</li>
       </ul>
+      <div id="directory">
+        <div class="mainheading">directory</div>
+        <ul class="sidetext">
+          <li class="directoryitem"><a href="/">[1] index</a></li>
+          <li class="directoryitem"><a href="/blog">[2] articles</a></li>
+          <li class="directoryitem"><a href="/outgoing">[3] outgoing</a></li>
+          <li class="directoryitem"><a href="/archive">[4] ip grabber</a></li>
+        </ul>
+      </div>
+      <div class="statusdiv">
+        <div class="mainheading">status</div>
+        <div id="statuscafe">
+          <div id="statuscafe-username"></div>
+          <div id="statuscafe-content">
+            <p>loading...</p>
+          </div>
+        </div>
+        <script src="https://status.cafe/current-status.js?name=trademark" defer></script>
+      </div>
+      <div class="statistics">
+        <div class="mainheading">statistics</div>
+        <div class="stattext">
+          <li class="statitem" id="visitors">XXXX views</li>
+          <li class="statitem" id="created">x/x/x created</li>
+          <li class="statitem" id="visitors">x/x/x updated</li>
+          <li class="statitem" id="followers" style="border: 0px;">xx followers</li>
+        </div>
+      </div>
+      <div class="desperation">
+        <div class="mainheading">desperation</div>
+        <div class="sidetext">
+          <a href="https://trademarkhell.net/"><img src="https://trademarkhell.net/tmsspecialhell.png"
+              alt="trademarkization company of 2003"></a>
+          <textarea cols="10" rows="" readonly="readonly" onclick="this.setSelectionRange(0, this.value.length) "
+            style="background-color: black; border: 1px dashed orange; border-bottom: 0px; color: orange; height: 25px; resize: none; overflow:hidden">              &lt;a href="https://trademarkhell.net/"&gt;&lt;img
+                      src="https://trademarkhell.net/tmsspecialhell.png" alt="trademarkization company of 2003"&gt;&lt;/a&gt;
+                    </textarea>
+
+          <iframe class="button" src="https://nekoweb.org/frame/follow" scrolling="no" frameborder="0" width="170"
+            height="28"></iframe>
+        </div>
+      </div>
+      <div class="updates">
+        <div class="updheading">updates <span class="scroll">↕</span></div>
+        <div class="updtext ">
+          <li class="upditem">sep. 9: new layout (and made an update section)</li>
+          <li class="upditem">aug. 20: minor styling changes</li>
+          <li class="upditem">aug. 7: new layout, article posting started</li>
+          <li class="upditem">jul. 14: still nothing of substance... but more garbage..</li>
+          <li class="upditem">jul. 1: site launched, basically nothing of substance</li>
+        </div>
+      </div>
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+
+    <div class="footer">
+
     </div>
   </div>
-  <script src="/scripts/playingsong.js"></script>
+  </div>
 </body>
-<style>
-  body {
-    margin: auto;
-    display: block;
-    width: 95%;
-    height: 95%;
-    background-image: url("/img/checker26.png");
-    animation: bgScroll 90s linear infinite;
-  }
-</style>
 
 </html>
