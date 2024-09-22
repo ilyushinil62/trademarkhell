@@ -358,7 +358,9 @@ body {
 	float: right;
 	font-style: initial;
 	font-size: 19px;
-  }
+	font-family: arial;
+}
+
 
   a:link {
 	color: #ffa500;
