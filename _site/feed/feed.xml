@@ -4,12 +4,29 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-09-21T21:50:49Z</updated>
+	<updated>2024-09-26T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>Indecisiveness and Web Design</title>
+		<link href="https://trademarkhell.net/blog/webdesignindecisiveness/"/>
+		<updated>2024-09-26T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/webdesignindecisiveness/</id>
+		<content type="html">&lt;p&gt;If you haven&#39;t noticed by the fact that this website gets completely rebranded every month or two, I&#39;m rather indecisive. I doubt it&#39;s just me, though, I mean I see plenty of sites get updated an absurd amount, and the 4,282 scrapped layouts that my friends make.&lt;/p&gt;
+&lt;p&gt;Webdesign is sort of a trap, in that by just publishing a layout, you&#39;ll immediately notice every flaw it has. Besides, you like doing web development, so you&#39;ll just remake it anyways, and so the cycle continues.&lt;/p&gt;
+&lt;p&gt;The current layout you&#39;re looking at is the result of weeks of (off and on) work, and quite frankly, I don&#39;t like it at all. Everything on this site was the result of a concious decision, and yet, juat a week after publishing it, I&#39;ve &amp;quot;decided&amp;quot; to not like it.&lt;/p&gt;
+&lt;p&gt;I honestly think it may be impossible to fully decide on a layout, or even a style, unless you make it as bland and inoffensive as possible. That&#39;s not to say that this is a good thing, but honestly, I think it&#39;s what&#39;ll come in the near future for me.&lt;/p&gt;
+&lt;img src=&quot;https://trademarkhell.net/img/nixonmaxxing.png&quot; alt=&quot;A deeply profound Discord conversation.&quot; width=&quot;550px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
+&lt;p&gt;I put this so eloquently in a Discord conversation with someone who&#39;s name I won&#39;t bother to obscure, since it&#39;s some stupid esoteric nickname anyways.&lt;/p&gt;
+&lt;p&gt;To be honest, though, I think there&#39;s a beauty in a site that&#39;s simple and long-lasting. The backend of this site is genuinely atrocious, I think nearly all the stylesheets are over 500 lines, and that makes me want to simplify the site along with the stylesheets.&lt;/p&gt;
+&lt;p&gt;It&#39;s not a bad thing to always be changing layouts in some indecisive frenzy, but I don&#39;t think contentment will ever be reached until you make something absurdly simple and easy to tolerate.&lt;/p&gt;
+&lt;p&gt;I&#39;ve always liked creative site designs, but by the end of November, there&#39;s no way this site isn&#39;t some soulless Helvetica font using, mobile-responsive, grey/white themed thing. Remember this article as the one that killed trademarkhell.net, I guess, but also consider that there&#39;s more to having a website than re-styling it every week. TM out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Lifespan of Indie Sites</title>
