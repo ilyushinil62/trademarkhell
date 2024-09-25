@@ -19,7 +19,7 @@ I honestly think it may be impossible to fully decide on a layout, or even a sty
 
 I put this so eloquently in a Discord conversation with someone who's name I won't bother to obscure, since it's some stupid esoteric nickname anyways.
 
-To be honest, though, I think there's a beauty in a site that's simple and long-lasting. The backend of this site is genuinely atrocious, I think nearly all the stylesheets are over 500 lines, and that makes me want to simplify the site along with the stylesheets.
+Although, I think there's a beauty in a site that's simple and long-lasting. The backend of this site is genuinely atrocious, I think nearly all the stylesheets are over 500 lines, and that makes me want to simplify the site along with the stylesheets.
 
 It's not a bad thing to always be changing layouts in some indecisive frenzy, but I don't think contentment will ever be reached until you make something absurdly simple and easy to tolerate.
 
