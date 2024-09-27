@@ -127,6 +127,11 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/blog/websiteratrace/</loc>
+		<lastmod>2024-08-28</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/blog/english/</loc>
 		<lastmod>2024-08-29</lastmod>
 	</url>
@@ -172,17 +177,17 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/tags/music/</loc>
+		<lastmod>2024-09-01</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/tags/tech/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://trademarkhell.net/tags/anime/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/music/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
 	
@@ -239,10 +244,5 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/webdesignindecisiveness/</loc>
 		<lastmod>2024-09-26</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/blog/websiteratrace/</loc>
-		<lastmod>2024-09-27</lastmod>
 	</url>
 </urlset>

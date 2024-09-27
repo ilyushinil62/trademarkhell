@@ -1,6 +1,7 @@
 ---
 title: The Website Rat Race
 description: I feel like 50% of site owners get obsessed with followers immediately after making a website to "escape social media". This is just another article where I make fun of people. Good old fashioned pseudo-schizo pseudo-essays from yours truly.
+date: 2024-08-28
 tags: 
    - web
    - opinion
