@@ -4,12 +4,27 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-09-28T00:00:00Z</updated>
+	<updated>2024-09-30T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>Modern Web Design Isn&#39;t That Bad</title>
+		<link href="https://trademarkhell.net/blog/boringwebsites/"/>
+		<updated>2024-09-30T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/boringwebsites/</id>
+		<content type="html">&lt;p&gt;If you haven&#39;t noticed, commercial web design has largely been the same for the past ten years, and, in a lot of ways, it&#39;s pretty boring. I often see personal sites cite the boring state of the modern web as their rationale for making a website, but there&#39;s a lot more reason behind websites looking &amp;quot;boring&amp;quot; then lazy webdesigners.&lt;/p&gt;
+&lt;p&gt;In the past, especially in the 1990s/2000s, there was no real standard or rulebook to web design, and this led to websites looking pretty cool, but being absolutely awful to interact with. I think the bulk of personal site owners today (including myself) didn&#39;t get the chance to interact with these sites much, but if you go to any archived version of one, you&#39;ll hate everything about it other than the looks.&lt;/p&gt;
+&lt;p&gt;The monochromatic sites you see now are the result of sites being designed to actually be useful, as opposed to being stylistic statements. I won&#39;t deny the character of old websites, but I also won&#39;t deny the fact that I want to be able to see what a site&#39;s selling without going through 42 seizure inducing pages.&lt;/p&gt;
+&lt;p&gt;It makes perfect sense why a lot of personal sites are heavily stylized, I mean, they solely exist as a canvas for the owner, but I also feel as though it makes conversely zero sense to use modern website looking &amp;quot;boring&amp;quot; as your rationale for creating a site.&lt;/p&gt;
+&lt;p&gt;Personal sites will always exist as a seperate stylistic entity, but honestly, just accept the fact that the commercial web has moved on, and that, for the most part, it&#39;s better, even if it looks boring. TM out.&lt;/p&gt;
+&lt;p&gt;(im also gonna put some minor site developments here because why not:
+i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of money, so it may or may not be used in the next site version, and yet, the next site version will be just as boring as commercial websites.)&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Website Rat Race</title>
