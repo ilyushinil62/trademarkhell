@@ -4,12 +4,44 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-10-04T00:00:00Z</updated>
+	<updated>2024-10-05T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>Extremely Biased Webhosts Overview</title>
+		<link href="https://trademarkhell.net/blog/biasedwebhostreviews/"/>
+		<updated>2024-10-05T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/biasedwebhostreviews/</id>
+		<content type="html">&lt;p&gt;This weird thing happened as of the past few years where we went from the only webhost options being Neocities and Wix, to a bunch of cool things, and Wix. Wix still sucks, but it&#39;s worth noting the options that you have nowadays.&lt;/p&gt;
+&lt;h1 id=&quot;nekoweb-org&quot; tabindex=&quot;-1&quot;&gt;Nekoweb.org &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Obviously I had to put this first, I mean, I use it. Your site won&#39;t exactly go viral just from the explore page, as Nekoweb only has 6000-ish users as of now. Generally speaking, though, you will get more site interaction on Nekoweb due to your site not being buried among 4.2 trillion others.&lt;/p&gt;
+&lt;p&gt;From a solely factual standpoint, Nekoweb offers you a decent enough 500mb of storage for free, which is honestly more than most people will ever need, my whole site is like 25mb, and bandwidth that&#39;s (allegedly) unlimited for most usecases. If you step up to the $1 USD tier you get custom domain support, along with higher ratelimits. The $3 USD tier gets you endless bandwidth, support for 10 domains, and 10gb of storage. I can&#39;t really comment on if either of these price plans are worth it, but for the sake of transparency, I&#39;ve been on the $3 USD tier for a few months now, and have the financial literacy of a rock.&lt;/p&gt;
+&lt;h1 id=&quot;leprd-space&quot; tabindex=&quot;-1&quot;&gt;Leprd.space &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I&#39;m honestly convinced that this webhost is a conspiracy, it&#39;s like Switzerland, in that, all evidence points towards it being real, but you still sorta doubt it&#39;s existence. If you want the honor of using Leprd, you need to make it through an application process, where you need to select the &amp;quot;tier&amp;quot; you want to apply for. I&#39;ve seen a decent bit of sites hosted on Leprd, but I honestly can&#39;t comment on how easy it is to actually get accepted.&lt;/p&gt;
+&lt;p&gt;The first &amp;quot;tier&amp;quot; doesn&#39;t allow you a custom domain, and gives you 1gb of storage, along with 10 GB of bandwidth a month. The latter tiers allow custom domains, 5 and 10 respectively, an have some slight variations in disk space. The only difference really worth noting is the 20 vs. 50gb bandwidth between the two. I honestly have no idea what getting on any of these tiers entails, but godspeed if you try to get on one.&lt;/p&gt;
+&lt;p&gt;I&#39;d also like to mention that this is a &amp;quot;actual&amp;quot; webhost, as opposed to one more socially oriented like Nekoweb and Neocities, so you won&#39;t see a follower or explore system. Depending on your views, this may be a positive or an negative.&lt;/p&gt;
+&lt;h1 id=&quot;serv00-com&quot; tabindex=&quot;-1&quot;&gt;Serv00.com &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;If Leprd.space was a &amp;quot;actual&amp;quot; webhost, then I don&#39;t know what that makes this. Serv00 is honestly absurd value, and if you don&#39;t care about the social aspects of a webhost, it&#39;s dumb not to use it. Serv00 probably has paid options, but I haven&#39;t bothered to look into them because of how good the free one is.&lt;/p&gt;
+&lt;p&gt;Serv00 gets you 3gb of storage, an unlimited ratelimit, 100 sites, PHP support, and backups, because, why not. If this sounds like a lot more than the previous hosts, that&#39;s because it is. The speed isn&#39;t exceptional, and you will get that &amp;quot;background image loading line by line&amp;quot; effect sometimes, but it&#39;s not nearly as bad as the soon to be mentioned Github pages.&lt;/p&gt;
+&lt;h1 id=&quot;pages-github-com&quot; tabindex=&quot;-1&quot;&gt;Pages.Github.com &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;This is the default destination of personal sites after they get banned from Neocities, and it&#39;s not too bad. It lacks any social aspects, and it shares the same speed issues as Serv00, and also allows for custom domains.&lt;/p&gt;
+&lt;p&gt;It&#39;ll give you 100gb of bandwidth each month, 1gb of storage, and not much else. It does the job, but you won&#39;t get much extra, and it&#39;s not too fast either.&lt;/p&gt;
+&lt;h1 id=&quot;hosting-lexiqqq-com&quot; tabindex=&quot;-1&quot;&gt;Hosting.Lexiqqq.com &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The bastard stepchild of Neocities and Nekoweb, offering the same features, but none of the benefits. Being serious though, I can&#39;t really say much good or bad about Lexiqqq&#39;s hosting, it&#39;s spam-promotion on Nekoweb was pretty funny, but I don&#39;t really put much trust in it.&lt;/p&gt;
+&lt;p&gt;You get 500mb of storage, PHP support, unlimited bandwidth, and a subdomain for free, and when you pay for the $3 tier you get a custom domain and 10gb of storage.&lt;/p&gt;
+&lt;p&gt;This is &lt;em&gt;technically&lt;/em&gt; a social webhost with a explore page, but honestly, so few people use it that I can&#39;t honestly put it in the same category as Nekoweb and Neocities. Nekoweb&#39;s community is small, but active, but the community here is smaller, all whilst being inactive.&lt;/p&gt;
+&lt;h1 id=&quot;neocities-org&quot; tabindex=&quot;-1&quot;&gt;Neocities.org &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;This is it, the webhost you can&#39;t escape. Neocities by far has the largest userbase of all I&#39;ve gone over here, all whilst still falling into the social category of webhosts. I can&#39;t imagine it&#39;s too easy to climb up the follower ranks nowadays, but people will sure as hell see your site.&lt;/p&gt;
+&lt;p&gt;For free you get 200gb of monthly bandwidth and 1gb of storage, which is decent enough for what it is. Curiously, though, you get no cross-origin or hotlinking support for free, which honestly sucks. If you do step up to the $5 tier, though, you get those along with custom domain supprt, 50GB of storage, 3000GB of monthly bandwidth, and support for up to 30 sites.&lt;/p&gt;
+&lt;p&gt;To be honest though, nobody really uses Neocities for the storage it offers, or whatever, people just use it because it&#39;s what everyone else uses, and it works reliably.&lt;/p&gt;
+&lt;h1 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;I can&#39;t tell you what webhost is the best for &lt;em&gt;you&lt;/em&gt;, but I do hope this served to layout some of the options for you. Personally, I use Nekoweb, but that&#39;s mostly because I like the community and I&#39;m too far gone, if I had to do it over again I&#39;d probably take a crack at applying for Leprd, as it seems like a cool thing to mess around with. TM out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>SSGs Aren&#39;t Always Good</title>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Extremely Biased Webhosts Overview <div class="datebox"> 05 October 2024</div>
+      </div>
+      <div class="maintext">
+        <p>This weird thing happened as of the past few years where we went from the only webhost options being Neocities and Wix, to a bunch of cool things, and Wix. Wix still sucks, but it's worth noting the options that you have nowadays.</p>
+<h1 id="nekoweb-org" tabindex="-1">Nekoweb.org <a class="header-anchor" href="#nekoweb-org">#</a></h1>
+<p>Obviously I had to put this first, I mean, I use it. Your site won't exactly go viral just from the explore page, as Nekoweb only has 6000-ish users as of now. Generally speaking, though, you will get more site interaction on Nekoweb due to your site not being buried among 4.2 trillion others.</p>
+<p>From a solely factual standpoint, Nekoweb offers you a decent enough 500mb of storage for free, which is honestly more than most people will ever need, my whole site is like 25mb, and bandwidth that's (allegedly) unlimited for most usecases. If you step up to the $1 USD tier you get custom domain support, along with higher ratelimits. The $3 USD tier gets you endless bandwidth, support for 10 domains, and 10gb of storage. I can't really comment on if either of these price plans are worth it, but for the sake of transparency, I've been on the $3 USD tier for a few months now, and have the financial literacy of a rock.</p>
+<h1 id="leprd-space" tabindex="-1">Leprd.space <a class="header-anchor" href="#leprd-space">#</a></h1>
+<p>I'm honestly convinced that this webhost is a conspiracy, it's like Switzerland, in that, all evidence points towards it being real, but you still sorta doubt it's existence. If you want the honor of using Leprd, you need to make it through an application process, where you need to select the &quot;tier&quot; you want to apply for. I've seen a decent bit of sites hosted on Leprd, but I honestly can't comment on how easy it is to actually get accepted.</p>
+<p>The first &quot;tier&quot; doesn't allow you a custom domain, and gives you 1gb of storage, along with 10 GB of bandwidth a month. The latter tiers allow custom domains, 5 and 10 respectively, an have some slight variations in disk space. The only difference really worth noting is the 20 vs. 50gb bandwidth between the two. I honestly have no idea what getting on any of these tiers entails, but godspeed if you try to get on one.</p>
+<p>I'd also like to mention that this is a &quot;actual&quot; webhost, as opposed to one more socially oriented like Nekoweb and Neocities, so you won't see a follower or explore system. Depending on your views, this may be a positive or an negative.</p>
+<h1 id="serv00-com" tabindex="-1">Serv00.com <a class="header-anchor" href="#serv00-com">#</a></h1>
+<p>If Leprd.space was a &quot;actual&quot; webhost, then I don't know what that makes this. Serv00 is honestly absurd value, and if you don't care about the social aspects of a webhost, it's dumb not to use it. Serv00 probably has paid options, but I haven't bothered to look into them because of how good the free one is.</p>
+<p>Serv00 gets you 3gb of storage, an unlimited ratelimit, 100 sites, PHP support, and backups, because, why not. If this sounds like a lot more than the previous hosts, that's because it is. The speed isn't exceptional, and you will get that &quot;background image loading line by line&quot; effect sometimes, but it's not nearly as bad as the soon to be mentioned Github pages.</p>
+<h1 id="pages-github-com" tabindex="-1">Pages.Github.com <a class="header-anchor" href="#pages-github-com">#</a></h1>
+<p>This is the default destination of personal sites after they get banned from Neocities, and it's not too bad. It lacks any social aspects, and it shares the same speed issues as Serv00, and also allows for custom domains.</p>
+<p>It'll give you 100gb of bandwidth each month, 1gb of storage, and not much else. It does the job, but you won't get much extra, and it's not too fast either.</p>
+<h1 id="hosting-lexiqqq-com" tabindex="-1">Hosting.Lexiqqq.com <a class="header-anchor" href="#hosting-lexiqqq-com">#</a></h1>
+<p>The bastard stepchild of Neocities and Nekoweb, offering the same features, but none of the benefits. Being serious though, I can't really say much good or bad about Lexiqqq's hosting, it's spam-promotion on Nekoweb was pretty funny, but I don't really put much trust in it.</p>
+<p>You get 500mb of storage, PHP support, unlimited bandwidth, and a subdomain for free, and when you pay for the $3 tier you get a custom domain and 10gb of storage.</p>
+<p>This is <em>technically</em> a social webhost with a explore page, but honestly, so few people use it that I can't honestly put it in the same category as Nekoweb and Neocities. Nekoweb's community is small, but active, but the community here is smaller, all whilst being inactive.</p>
+<h1 id="neocities-org" tabindex="-1">Neocities.org <a class="header-anchor" href="#neocities-org">#</a></h1>
+<p>This is it, the webhost you can't escape. Neocities by far has the largest userbase of all I've gone over here, all whilst still falling into the social category of webhosts. I can't imagine it's too easy to climb up the follower ranks nowadays, but people will sure as hell see your site.</p>
+<p>For free you get 200gb of monthly bandwidth and 1gb of storage, which is decent enough for what it is. Curiously, though, you get no cross-origin or hotlinking support for free, which honestly sucks. If you do step up to the $5 tier, though, you get those along with custom domain supprt, 50GB of storage, 3000GB of monthly bandwidth, and support for up to 30 sites.</p>
+<p>To be honest though, nobody really uses Neocities for the storage it offers, or whatever, people just use it because it's what everyone else uses, and it works reliably.</p>
+<h1 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h1>
+<p>I can't tell you what webhost is the best for <em>you</em>, but I do hope this served to layout some of the options for you. Personally, I use Nekoweb, but that's mostly because I like the community and I'm too far gone, if I had to do it over again I'd probably take a crack at applying for Leprd, as it seems like a cool thing to mess around with. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/hatingwebdesign4dummies/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut">
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
