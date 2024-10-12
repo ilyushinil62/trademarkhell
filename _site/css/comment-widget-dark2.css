@@ -226,6 +226,8 @@
     font-size: 19.0px;
     padding-bottom: 2px;
     font-style: italic;
+    width: auto;
+    padding-right: 0px;
 }
 
 .c-site {
