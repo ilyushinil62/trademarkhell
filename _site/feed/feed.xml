@@ -4,12 +4,27 @@
 	<subtitle>ramblings from the 21st century</subtitle>
 	<link href="https://trademarkhell.net/feed/feed.xml" rel="self"/>
 	<link href="https://trademarkhell.net/"/>
-	<updated>2024-10-20T00:00:00Z</updated>
+	<updated>2024-10-23T00:00:00Z</updated>
 	<id>https://trademarkhell.net/</id>
 	<author>
 		<name>trademark</name>
 		<email>trademark@cock.li</email>
 	</author>
+	
+	<entry>
+		<title>The Indie Web Echo Chamber</title>
+		<link href="https://trademarkhell.net/blog/echochamber/"/>
+		<updated>2024-10-23T00:00:00Z</updated>
+		<id>https://trademarkhell.net/blog/echochamber/</id>
+		<content type="html">&lt;p&gt;If you go into any online community for a hobby, it&#39;ll likely fit into one of two categories, everyone hating what other people do, for no reason, or, everyone loving what other people do, for no reason. Neither of these are inherently good, but, it&#39;s pretty obvious that most indie web related spaces lean pretty far into the ladder.&lt;/p&gt;
+&lt;p&gt;There&#39;s this almost unspoken rule that someone leaves an overly superficial comment in your guestbook that praises your site, you do the same in their guestbook, and then you both follow one another. It&#39;s just a glorified echo chamber of praise, and whilst very enjoyable to be within, serves absolutely zero purpose.&lt;/p&gt;
+&lt;p&gt;That&#39;s not to say that people should start writing &amp;quot;this site fucking sucks and i hope your dog dies&amp;quot; when people ask for advice, or open their guestbook, but just baselessly praising sites without even saying &lt;em&gt;what&#39;s&lt;/em&gt; good, let alone &lt;em&gt;what&#39;s&lt;/em&gt; bad, won&#39;t help the site maker at all.&lt;/p&gt;
+&lt;p&gt;Criticism is pretty much the only way for people to improve, along side screwing up, but people will never know if they screwed something up with their site if they aren&#39;t told so. It&#39;s possible to be nice and comment about how you like something whilst still providing genuine feedback.&lt;/p&gt;
+&lt;p&gt;You aren&#39;t obligated to praise someone else&#39;s site just because they praised your site, either, nobody&#39;s holding a gun to your head saying that constructive criticism is forbidden. Guestbooks whole point for existence is feedback, say what you actually think, not the 50x dumbed down version that can be sumarized as &#39;cool site; i like it&#39;.&lt;/p&gt;
+&lt;p&gt;That&#39;s not to say I&#39;m some authority on web design either, my site has plenty of flaws, and I add more whenever I update it. I just think it&#39;s important that people recognize that criticism actually has a purpose, and that praise will only get you so far.&lt;/p&gt;
+&lt;p&gt;tl;dr: go around telling people that everything on their site is god-awful; tm out.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>The Politicization of Internet Spaces</title>
