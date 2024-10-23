@@ -15,7 +15,7 @@ That's not to say that people should start writing "this site fucking sucks and 
 
 Criticism is pretty much the only way for people to improve, along side screwing up, but people will never know if they screwed something up with their site if they aren't told so. It's possible to be nice and comment about how you like something whilst still providing genuine feedback. 
 
-You aren't obligated to praise someone else's site just because they praised your site, either, nobody's holding a gun to your head saying that constructive criticism is forbidden. Guestbooks whole point for existence is feedback, say what you actually think, not the 50x dumbed down version that can be sumarized as 'cool site; i like it'.
+You aren't obligated to praise someone else's site just because they praised your site, either, nobody's holding a gun to your head saying that constructive criticism is forbidden. Guestbooks whole point for existence is feedback, say what you actually think, not the 50x dumbed down version that can be summarized as 'cool site; i like it'.
 
 That's not to say I'm some authority on web design either, my site has plenty of flaws, and I add more whenever I update it. I just think it's important that people recognize that criticism actually has a purpose, and that praise will only get you so far.
 
