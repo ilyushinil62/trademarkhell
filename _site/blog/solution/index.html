@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        The Solution to All Global Problems <div class="datebox"> 26 October 2024</div>
+      </div>
+      <div class="maintext">
+        <p>War, famine, the closing of Familymarts, since the advent of society, these problems have plagued humanity. No longer, though, will we, as a species, be constrained by such trivial things, though.</p>
+<p>I had a true vision, a vision which will change the world. In my dreams, following my earlier consumption of aproximately 52 (fifty-two) benadryl tablets, a pale figure appeared to me. She spoke no words, but her message was evident, it was my duty as an agent of the true Lord to construct a 70km square photo of Hatsune Miku at 11.5504 N, 92.2335 E.</p>
+<p>I woke up with religious fervor unrivalled by any person, any object, any deity, prior to me. Jesus, Muhammad, Abraham, they know nothing. I knew that I had no choice but to construct a monument of the likeness of our Lord, Hatsune Miku, at 11.5504 N, 92.2335 E.</p>
+<p>But, I am merely one person, I simply lack the Earthly possessions to fund such a matter. As such, it is up to you, dear reader, to aid in spreading the gospel of Hatsune Miku, by sending me your (european) social security number, credit card details, bank account details, defining physical characteristics, and passport, as a testament of your dedication to Hatsune Miku. Reverend TM out.</p>
+<img src="/img/mikuoid.webp" alt=" Our Lord" height="450px"  style="display: block; margin: 0 auto"/> 
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/echochamber/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut">
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
