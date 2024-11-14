@@ -11,6 +11,14 @@
 	},
 	"items": [
 		{
+			"id": "https://trademarkhell.net/blog/procrastination/",
+			"url": "https://trademarkhell.net/blog/procrastination/",
+			"title": "META Webdev Strat- Procrastination",
+			"content_html": "<p>Hello all, it is I, the leading non-authority on webdevelopment, and I'm here to share the ultimate trick that big webdev won't tell you.</p>\n<p>We as a society, have accepted the reality that procrastination is a bad thing, but in recreational webdevelopment, this is simply false. There's this secret bug in the human psyche that hasn't gotten patched in the latest version that allows for a 58% efficiency boost for each day you delay working on your site.</p>\n<p>Take this article for example, I've been delaying the creation of it for over a week now, but since my site is about to be pronounced dead, I'm writing this whole thing in 5 minutes. If I wasn't about to get killed by the NekoGods because I waited so long, there's no way I would've had this done so quickly.</p>\n<p>As such, I implore you all to solely work on your websites at the most inconvenient times possible after delaying working on them for several weeks. This is my intention for my new (and hopefully final...) layout, and if this new procrastination master-method works, then it should be done my Monday.</p>\n<p>Thank me later for sharing the truth with all of you, it's unbelievable how fast you can work when you waste all of your time beforehand. Replace working time with slacking off, unless it's actually work, in which case, don't.... TM out.</p>\n",
+			"date_published": "2024-11-15T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://trademarkhell.net/blog/egosurfing/",
 			"url": "https://trademarkhell.net/blog/egosurfing/",
 			"title": "Ego Surfing, Indie Web-ified",
