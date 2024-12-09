@@ -8,7 +8,10 @@ tags:
 ---
 
 Nekopology
+
 10 December 1238
+
+Dresden, Germany
 
 It is I, Trademarkhell.net. I've come back for the first time in about a month, not to actually make a blog post, but to publish a formal recognition of my sins against the Nekoweb Discord Church. I'm a changed man; I'm a different man than I was 13 hours ago. I've repented; I can see where I've gone astray.
 
