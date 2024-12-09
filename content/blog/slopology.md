@@ -23,4 +23,3 @@ Best,
 
 TM
 
-### i tend to attract a very specific genre of autists to my blog posts, so for those not aware, this is satirical
