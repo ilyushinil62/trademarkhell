@@ -22,7 +22,6 @@ permalink: /feed/feed.xml
 		<link href="{{ absolutePostUrl }}"/>
 		<pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
 		<guid>{{ absolutePostUrl }}</guid>
-		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
 	</item>
 	{%- endfor %}
 </channel>
