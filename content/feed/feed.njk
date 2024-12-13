@@ -2,21 +2,23 @@
 # Metadata comes from _data/metadata.js
 permalink: /feed/feed.xml
 ---
+
 <rss version="2.0">
-	<title>{{ metadata.title }}</title>
-	<description>{{ metadata.description }}</description>
-	<link>{{ absolutePostUrl }}</link>
-	<channel>
-	{%- for post in collections.blog | reverse %}
-	{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
-	  <item>
-		  <title>{{ post.data.title }}</title>
-		  <description>{{ post.data.description }}</description>
-		  <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content>
-		  <link> {{ absolutePostUrl }} </link>
-		  <guid>{{ absolutePostUrl }}</guid>
-		  <pubDate>{{ post.date }}</pubDate>
-	  </item>
-	{%- endfor %}
-	</channel>
-  </rss>
+  <title>{{ metadata.title }}</title>
+  <description>{{ metadata.description }}</description>
+  <link>"{{ metadata.url | addPathPrefixToFullUrl }}"</link>
+  <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+  <guid>{{ metadata.url }}</guid>
+  <channel>
+  {%- for post in collections.blog | reverse %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+    <item>
+        <title>{{ post.data.title }}</title>
+        <content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
+        <link> "{{ absolutePostUrl }}" </link>
+        <guid>{{ absolutePostUrl }}</guid>
+        <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+    </item>
+  {%- endfor %}
+  </channel>
+</rss>
