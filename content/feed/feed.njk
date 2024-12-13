@@ -2,11 +2,36 @@
 # Metadata comes from _data/metadata.js
 permalink: /feed/feed.xml
 ---
+<rss version="2.0">
+	<channel>
+	<title>{{ metadata.title }}</title>
+	<description>{{ metadata.description }}</description>
+	<link>"{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self"</link>
+	<link>"{{ metadata.url | addPathPrefixToFullUrl }}"</link>
+	<pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+	<guid>{{ metadata.url }}</guid>
+	<author>
+		<name>{{ metadata.author.name }}</name>
+		<email>{{ metadata.author.email }}</email>
+	</author>
+	{%- for post in collections.posts | reverse %}
+	{% set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
+	<item>
+		<title>{{ post.data.title }}</title>
+		<link href="{{ absolutePostUrl }}"/>
+		<pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+		<guid>{{ absolutePostUrl }}</guid>
+		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
+	</item>
+	{%- endfor %}
+	</channel>
+</rss>
+
 
 <rss version="2.0">
 	<title>{{ metadata.title }}</title>
-	<description>moosyu is online</description>
-	<link>{{ metadata.description }}</link>
+	<description>{{ metadata.description }}</description>
+	<link>https://trademarkhell.net</link>
 	<channel>
 	{%- for post in collections.blog | reverse %}
 	{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
