@@ -12,7 +12,7 @@
 		<email>trademark@cock.li</email>
 	</author>
 	
-	<entry>
+	<item>
 		<title>Thoughts on Astro (vs. 11ty)</title>
 		<link href="https://trademarkhell.net/blog/astro/"/>
 		<updated>2024-11-17T00:00:00Z</updated>
@@ -24,9 +24,9 @@
 &lt;p&gt;Astro is absolutely the more feature rich SSG, in fact, an SSG is just part of Astro, but, for my usecase, and I imagine a great deal of personal site&#39;s usecases, a lot of Astro&#39;s featured would just go unused. I love 11ty for it&#39;s simplicity, even if it doesn&#39;t do everything, and even if it has the worst documentation ever written.&lt;/p&gt;
 &lt;p&gt;I&#39;ll finish the new layout eventually, with 11ty. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>META Webdev Strat- Procrastination</title>
 		<link href="https://trademarkhell.net/blog/procrastination/"/>
 		<updated>2024-11-15T00:00:00Z</updated>
@@ -37,9 +37,9 @@
 &lt;p&gt;As such, I implore you all to solely work on your websites at the most inconvenient times possible after delaying working on them for several weeks. This is my intention for my new (and hopefully final...) layout, and if this new procrastination master-method works, then it should be done my Monday.&lt;/p&gt;
 &lt;p&gt;Thank me later for sharing the truth with all of you, it&#39;s unbelievable how fast you can work when you waste all of your time beforehand. Replace working time with slacking off, unless it&#39;s actually work, in which case, don&#39;t.... TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Ego Surfing, Indie Web-ified</title>
 		<link href="https://trademarkhell.net/blog/egosurfing/"/>
 		<updated>2024-11-04T00:00:00Z</updated>
@@ -53,9 +53,9 @@
 &lt;p&gt;In my eyes, 88x31s owe their existence to being the earliest form of ego surfing. It was just a way to see how popular site was, and to a degree, it still is, albeit, it&#39;s far more of an art form now, some people have some really cool stuff on their buttons.&lt;/p&gt;
 &lt;p&gt;I wrote this all after being awake for 30 hours, 50/50 shot it&#39;s incoherent. I&#39;m not proofreading this shit, though, TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Extremely Biased Guestbook Overview</title>
 		<link href="https://trademarkhell.net/blog/guestbooks/"/>
 		<updated>2024-10-27T00:00:00Z</updated>
@@ -72,9 +72,9 @@
 &lt;h2 id=&quot;so-what&quot; tabindex=&quot;-1&quot;&gt;So what? &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/guestbooks/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Honestly, nowadays, there&#39;s no reason to use a guestbook other than Atabook, something you made yourself, or Ayano&#39;s Widget. There&#39;s other options, even outside of what I listed, but they just don&#39;t offer much more, and often lack proper security measures. With Ayano&#39;s widget the information is all handled by Google, and with Atabook, it has some insurance in the form of being created by Dimden, who&#39;s worked on more things than I can list off.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Stupid Overpriced Hobbies</title>
 		<link href="https://trademarkhell.net/blog/dumbasshobbies/"/>
 		<updated>2024-10-27T00:00:00Z</updated>
@@ -85,9 +85,9 @@
 &lt;p&gt;I&#39;ve tried to find someone who isn&#39;t afflicted by this cruel and unusual money sink disorder, and I can&#39;t. It seems to be a mandate of existence that you&#39;re just a little too into one hobby. Weirdly enough, this also seems to rarely be the hobby that they talk about. I have a friend who dumps all his money into an old Civic he&#39;s K24 swapping, and I didn&#39;t even know he had a car until he randomly brought it up.&lt;/p&gt;
 &lt;p&gt;Someone who actually has a functional braincell needs to look into this, as it makes no sense to me how people manage to defy all known living expenses in order to dump money into random overpriced hobbies. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Solution to All Global Problems</title>
 		<link href="https://trademarkhell.net/blog/solution/"/>
 		<updated>2024-10-26T00:00:00Z</updated>
@@ -97,9 +97,9 @@
 &lt;p&gt;I woke up with religious fervor unrivalled by any person, any object, any deity, prior to me. Jesus, Muhammad, Abraham, they know nothing. I knew that I had no choice but to construct a monument of the likeness of our Lord, Hatsune Miku, at 11.5504 N, 92.2335 E.&lt;/p&gt;
 &lt;p&gt;But, I am merely one person, I simply lack the Earthly possessions to fund such a matter. As such, it is up to you, dear reader, to aid in spreading the gospel of Hatsune Miku, by sending me your (european) social security number, credit card details, bank account details, defining physical characteristics, and passport, as a testament of your dedication to Hatsune Miku. Reverend TM out.&lt;/p&gt;
 &lt;img src=&quot;https://trademarkhell.net/img/mikuoid.webp&quot; alt=&quot; Our Lord&quot; height=&quot;450px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Indie Web Echo Chamber</title>
 		<link href="https://trademarkhell.net/blog/echochamber/"/>
 		<updated>2024-10-23T00:00:00Z</updated>
@@ -112,9 +112,9 @@
 &lt;p&gt;That&#39;s not to say I&#39;m some authority on web design either, my site has plenty of flaws, and I add more whenever I update it. I just think it&#39;s important that people recognize that criticism actually has a purpose, and that praise will only get you so far.&lt;/p&gt;
 &lt;p&gt;tl;dr: go around telling people that everything on their site is god-awful; tm out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Politicization of Internet Spaces</title>
 		<link href="https://trademarkhell.net/blog/internetpolitics/"/>
 		<updated>2024-10-20T00:00:00Z</updated>
@@ -128,9 +128,9 @@
 &lt;p&gt;This analogy is god-awful, but it&#39;s honestly akin to how people argue about Intel VS. AMD, even though these are subject matters that effect the lives of countless people, and are far more complicated than picking a side and arguing.&lt;/p&gt;
 &lt;p&gt;Basically, form your political beliefs, but maybe don&#39;t go waving them around and arguing, 99% of people don&#39;t want to hear or know. It&#39;s a lot easier to just keep quiet than to argue, anyways. If you actually want to make a difference, donate to charities, vote, or do literally anything other than &amp;quot;debating&amp;quot; over semantics. On an unrelated note, FREE CANADA o7 o7 o7 o7 o7 o7, END THE OPPRESSION. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Pessimism is Pointless</title>
 		<link href="https://trademarkhell.net/blog/webpessimism/"/>
 		<updated>2024-10-09T00:00:00Z</updated>
@@ -142,9 +142,9 @@
 &lt;p&gt;Is that naive? Probably, but I&#39;d argue that it&#39;s better to turn a blind eye to something and be happy than it is to only think about everything bad in the world. There&#39;s always gonna be something terrible happening, but there&#39;s also a great deal of good happening that you nver hear about.&lt;/p&gt;
 &lt;p&gt;Honestly, I&#39;m just writing this because I&#39;m tired of going on websites that talk about how society will collapse in 2 months and that we need to start a communist revolution tomorrow. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Extremely Biased Webhosts Overview</title>
 		<link href="https://trademarkhell.net/blog/biasedwebhostreviews/"/>
 		<updated>2024-10-05T00:00:00Z</updated>
@@ -174,9 +174,9 @@
 &lt;h1 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/biasedwebhostreviews/&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;I can&#39;t tell you what webhost is the best for &lt;em&gt;you&lt;/em&gt;, but I do hope this served to layout some of the options for you. Personally, I use Nekoweb, but that&#39;s mostly because I like the community and I&#39;m too far gone, if I had to do it over again I&#39;d probably take a crack at applying for Leprd, as it seems like a cool thing to mess around with. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>SSGs Aren&#39;t Always Good</title>
 		<link href="https://trademarkhell.net/blog/hatingwebdesign4dummies/"/>
 		<updated>2024-10-04T00:00:00Z</updated>
@@ -189,9 +189,9 @@
 &lt;p&gt;This is awesome for the first week or two, until you realize that your hobby just became another mundane task that you put zero effort into. It&#39;s not like you can just stop using one either, I&#39;d be lying if SSGs didn&#39;t make everything easier, there&#39;s no way I&#39;m going back.&lt;/p&gt;
 &lt;p&gt;Just maybe consider what you want your site to be before you listen to somebody (like me) who hypes them up as the second coming of Christ which will forever change your website for the better. Do you want a hobby or a task? I&#39;m indifferent, and that&#39;s why the site you&#39;re on looks the way it does. TM out.&lt;/p&gt;
 &lt;img src=&quot;https://trademarkhell.net/img/coolestthingever.png&quot; alt=&quot; coolest thing ever &quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto; padding-bottom: 10px&quot;&gt;</content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Modern Web Design Isn&#39;t That Bad</title>
 		<link href="https://trademarkhell.net/blog/boringwebsites/"/>
 		<updated>2024-09-30T00:00:00Z</updated>
@@ -204,9 +204,9 @@
 &lt;p&gt;(im also gonna put some minor site developments here because why not:
 i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of money, so it may or may not be used in the next site version, and yet, the next site version will be just as boring as commercial websites.)&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Website Rat Race</title>
 		<link href="https://trademarkhell.net/blog/websiteratrace/"/>
 		<updated>2024-09-28T00:00:00Z</updated>
@@ -217,9 +217,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;With how many sites have a paragraph about how they want to get away from social media after changing the world or something, it just seems weird to see the same people worrying about every single view and follower.&lt;/p&gt;
 &lt;p&gt;It&#39;s not that deep, just make a website you like, and if it gets popular, congrats, otherwise, oh well. TM out..&lt;/p&gt;
  &lt;img src=&quot;https://trademarkhell.net/img/shitsoass.png&quot; alt=&quot;this shit so ass...&quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto; padding-bottom: 10px&quot;&gt;</content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Indecisiveness and Web Design</title>
 		<link href="https://trademarkhell.net/blog/webdesignindecisiveness/"/>
 		<updated>2024-09-26T00:00:00Z</updated>
@@ -234,9 +234,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;It&#39;s not a bad thing to always be changing layouts in some indecisive frenzy, but I don&#39;t think contentment will ever be reached until you make something absurdly simple and easy to tolerate.&lt;/p&gt;
 &lt;p&gt;I&#39;ve always liked creative site designs, but by the end of November, there&#39;s no way this site isn&#39;t some soulless Helvetica font using, mobile-responsive, grey/white themed thing. Remember this article as the one that killed trademarkhell.net, I guess, but also consider that there&#39;s more to having a website than re-styling it every week. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Lifespan of Indie Sites</title>
 		<link href="https://trademarkhell.net/blog/websitelifespan/"/>
 		<updated>2024-09-21T21:50:49Z</updated>
@@ -291,9 +291,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;I&#39;m never doing this shit again, and I have no idea what I got out of this. TM out.&lt;/p&gt;
 &lt;p&gt;tl;dr: popular websites last for awhile&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Sorry, I&#39;m Not Dead Yet</title>
 		<link href="https://trademarkhell.net/blog/stillalive/"/>
 		<updated>2024-09-17T00:00:00Z</updated>
@@ -303,9 +303,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;Once I do get everything back up and running, my goals to get an article or two out a week, but it&#39;s the time of year where I actually have obligations to take care of, so no promises. Take care, don&#39;t do hard drugs, etc, etc. TM out.&lt;/p&gt;
 &lt;p&gt;(yeah i opened the folder for this site for the first time in a week just to write this, move along)&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Moving Away From Daily Articles</title>
 		<link href="https://trademarkhell.net/blog/restructuring/"/>
 		<updated>2024-09-09T00:00:00Z</updated>
@@ -315,9 +315,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;As such, it is my intention to transition this site towards more constructive works that a bit longer, as I can only really rant on for so long before I get bored. If you do for some reason feel strongly one way or the other, please do comment, I mean it probably won&#39;t change my mind, but it&#39;d be funny to look at.&lt;/p&gt;
 &lt;p&gt;I&#39;ve been meaning to write about watches for awhile, so I guess that&#39;ll be what I publish next, probably later this week. I&#39;m also in the middle of a site rework, as I mentioned before, it should be up later this week, but I&#39;ve been busy as of late, so no promises. Sorry that the schizo ramblings aren&#39;t daily anymore, but you also get more sentences of schizo ramblings, so it&#39;s a net gain. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Web Design is Kinda Fun?</title>
 		<link href="https://trademarkhell.net/blog/webdesignisfun/"/>
 		<updated>2024-09-08T00:00:00Z</updated>
@@ -328,9 +328,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;Regrettably, I actually realize everything that&#39;s wrong with this site version now, and I&#39;m in the process of redesigning it, but even that&#39;s fun, as it&#39;s becoming increasingly evident what I&#39;ve learned. I guess as long as you&#39;re stupid enough, anything can be fun, even if that&#39;s staring blankly at MDN Web Docs for a full weekend.&lt;/p&gt;
 &lt;p&gt;If you actually do understand the principles of web development, I&#39;m sorry for your loss, that must be terribly boring, but also, GIWTWM. For everyone else, keep at the struggle, it&#39;s pretty fun. TM out. (you should still learn how to make a proper site; don&#39;t be like me)&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Pointless Blogs</title>
 		<link href="https://trademarkhell.net/blog/pointlessblogs/"/>
 		<updated>2024-09-05T00:00:00Z</updated>
@@ -341,9 +341,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;I think that could be exactly why there&#39;s a demographic for blogs, though, they provide the opinions of people who have no real credentials to be sharing them, and in a way, I suppose that&#39;s entertaining, even if unintentionally. I mean, there&#39;s even a few blogs I keep up with, but I sure know it&#39;s not because I view them as experts in their fields, I just do so because they&#39;re entertaining.&lt;/p&gt;
 &lt;p&gt;Blogs are more or less a somewhat more complex version of those comments you see on forums of idiot&#39;s claiming they know everything. If you combine enough of them, you almost get information out of them, and in the process, you get a lot of entertainment. I still do take pity on you if you willingly go to this blog, but I appreciate it nonetheless. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Quality vs Quantity (for websites)</title>
 		<link href="https://trademarkhell.net/blog/qualityvsquantity/"/>
 		<updated>2024-09-04T00:00:00Z</updated>
@@ -354,9 +354,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;If you somehow are a black magic practing wizard who learns a bunch of new things every week, then my bad, keep updating your layout weekly, I guess. I just think for the majority of people, it&#39;s best to sit on your current site design for a few weeks/months so that you can really think about what you like/dislike about it, and how to improve it.&lt;/p&gt;
 &lt;p&gt;Hell, I even have a new layout on the draftboard for this site, but I don&#39;t intend to publish it until I can really think of &lt;em&gt;how&lt;/em&gt; it&#39;d be better. If it&#39;s just the same quality as before, but different looking, why bother? This is all just my 2 cents, and quite frankly, I don&#39;t know nearly enough about webdevelopment to actually be qualified to talk about any of this. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Site Templates Aren&#39;t a Bad Thing</title>
 		<link href="https://trademarkhell.net/blog/Templates/"/>
 		<updated>2024-09-03T00:00:00Z</updated>
@@ -367,9 +367,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;I&#39;d also argue that templates save us from a lot of sites that&#39;d be even worse without a template, my first site is a testament to this. Templates pretty much teach you the fundamentals of golden ratio web-design, so you don&#39;t end up expanding your site horizontally for some reason. (like i did...) Templates are more or less the only thing saving us from even more white background sites with a single line of text saying &amp;quot;welcome to my site, i made this to escape social media, i&#39;ll add more soon&amp;quot; for 8 months straight.&lt;/p&gt;
 &lt;p&gt;Basically, despite semi-popular belief, templates aren&#39;t going to destroy the indie web as you know it, just let people use them, maybe they&#39;ll make a custom layout eventually. If they don&#39;t, yeah, my bad, you can still boil them. Besides, the whole idea behind the indie web is that you control your site, why care about what other people do? TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Decline of Computer Literacy</title>
 		<link href="https://trademarkhell.net/blog/computerliteracy/"/>
 		<updated>2024-09-02T00:00:00Z</updated>
@@ -382,9 +382,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;This isn&#39;t to say that kids are just flat out not learning computing, either, There&#39;s plenty of teenagers on Nekoweb/Neocities with sites, it just seems as though, in general, less do. It&#39;s more of a hobby now, as opposed to a mandate like it once was. From an irrational standpoint it kinda annoys me that less people use computers, but it only makes sense.&lt;/p&gt;
 &lt;p&gt;tl;dr: i&#39;m mad about technology changing. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>CRTs Are Still Better Than LCDs</title>
 		<link href="https://trademarkhell.net/blog/ihatelcds/"/>
 		<updated>2024-09-01T00:00:00Z</updated>
@@ -396,9 +396,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;There&#39;s one specific display technology I haven&#39;t mentioned, however, OLED. OLED is effectively the modern manifestation of the CRT, as they both use extremely similar methods for display. OLED has near zero input lag, and perfect blacks, but it does suffer from one thing. It&#39;s expensive as hell. In 5 years I do believe OLED will be the best display method, but up until then, I&#39;m gonna have to pass on a $1000 monitor.&lt;/p&gt;
 &lt;p&gt;This article strategically ignored the fact that CRT monitors are absolute behemoths and super finicky at times, but I did want to shill my favorite display technology. Which is really better? I don&#39;t really know, but I don&#39;t care either, I use both. Use CRTs if you like radiation, I guess. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>trademarkhell.net Month in Review</title>
 		<link href="https://trademarkhell.net/blog/August24/"/>
 		<updated>2024-08-31T00:00:00Z</updated>
@@ -410,9 +410,9 @@ i recently copped the domain &#39;trademark.moe&#39; for a stupid amount of mone
 &lt;p&gt;I don&#39;t really have all that much more to say, to be honest. Nothing will really change, which also means that I&#39;ve probably broken the indie web curse of dropping your site after 3 days, no promises, though. See you at the next article, I suppose. TM out.&lt;/p&gt;
 &lt;img src=&quot;https://trademarkhell.net/img/killmenow.jpeg&quot; alt=&quot; An image from the manga &#39;Watamote&#39; in which the main character says &#39; Just kill me now&#39; &quot; height=&quot;270px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
 pic unrelated i just needed an excuse to use it</content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Discord and the Death of Forums</title>
 		<link href="https://trademarkhell.net/blog/discord/"/>
 		<updated>2024-08-30T00:00:00Z</updated>
@@ -424,9 +424,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;The more communities that switch to Discord, the more information is made private, it&#39;s that simple. I&#39;m not going to try and pretend that Discord is awful, or that forums are the greatest online innovation ever, I&#39;m just trying to put it as it is. I&#39;ll always believe that the web should have easily accessible information on any subject, no matter how niche and community oriented it may be, and forums are the easiest medium for that.&lt;/p&gt;
 &lt;p&gt;If you for some reason hold a prominent position in the online community of something, please, please, get people together for a forum. Forums are by far the best way to spread knowledge on poorly documented topics, and basically everything I&#39;ve ever done to my stereo equipment or cars has come from a forum thread. The internet is a place for sharing info, make the info easily accessible. I didn&#39;t make this article super long because it&#39;d be pointless, but do keep it in mind. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>English Is Actually Pretty Interesting</title>
 		<link href="https://trademarkhell.net/blog/english/"/>
 		<updated>2024-08-29T00:00:00Z</updated>
@@ -438,9 +438,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;This peculiar history is exactly why English is so strange now, even if it may not seem so to native speakers. You&#39;re effectively speaking a language with German grammar and German base words, but with a little French and Latin vocabulary thrown in. This is exactly why English is so commonly regarded as a hard language to learn, it wasn&#39;t a language built by scholars, it was a product of the common man throwing components into a language over centuries.&lt;/p&gt;
 &lt;p&gt;Almost every other language was made with every single concept having a purpose, designed only to be written by the highest classes of society, but not English, and that&#39;s why I find English so interesting. English, against all odds, has become the dominant language for literary works, research, and politics, despite being so distanced from such concepts at it&#39;s creation. I&#39;ve studied numerous languages, both willingly, and out of necesity due to moving,  I haven&#39;t even lived in an English speaking country for years, but man, it&#39;ll always be my favorite language. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Planned Obsolescence in Technology</title>
 		<link href="https://trademarkhell.net/blog/plannedobsolescence/"/>
 		<updated>2024-08-28T00:00:00Z</updated>
@@ -453,9 +453,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;But, what changed, exactly? Consumer culture did, I suppose, for years technology was just a tool, rather than a status symbol, so companies had to make good, long lasting, tools. As of late, however, especially with the later iPods, and modern smartphones, having a new device has become something desirable. Companies are able to get away with making devices that go bad because they&#39;re targeting an audience who&#39;ll go and buy a new one a year later anyways. This&#39;ll leave those who don&#39;t want to in a rather poor position, but in a few years when your phone only last 2 hours on a charge, what choice do you have?&lt;/p&gt;
 &lt;p&gt;This is all just a really long way to say that companies realized we&#39;re suckers, and now we get to deal with shitty technology that&#39;s designed to be awful to use after a few years. Kinda unfortunate, but nothing we can really do about it, go move to a country with 2G and use a Nokia, I guess. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Does Content Influence Site Growth?</title>
 		<link href="https://trademarkhell.net/blog/sitecontent/"/>
 		<updated>2024-08-27T00:00:00Z</updated>
@@ -466,9 +466,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;This is solely ancedotal, but at least for my case, I do believe it shows that freqeuntly updating your site with content does have genuine benefits to gaining popularity. I don&#39;t have any evidence to back this up, but I imagine this is likely due to the fact that repeat viewers make up much of the views for content-based sites. Which makes sense, given there&#39;s actual reason to return to the sites, as opposed to a cool looking site that was updated 8 months ago.&lt;/p&gt;
 &lt;p&gt;Now, I can&#39;t say these results will really change the way I run this site, if I was smart I&#39;d just drop this site completely now that my pseudo-experiment is done, but I can&#39;t bring myself to. I suspect that I&#39;ll keep publishing articles daily until I run out of things to say, which will likely be never, as I love talking. Moral of the story, update your site. TM out. My conquest for internet numbers will continue.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>A Brief Overview of the PC-9821 Cs2</title>
 		<link href="https://trademarkhell.net/blog/pc98/"/>
 		<updated>2024-08-27T00:00:00Z</updated>
@@ -499,9 +499,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;h2 id=&quot;what-s-the-point&quot; tabindex=&quot;-1&quot;&gt;What&#39;s the point? &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/pc98/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;There&#39;s no point to this article, I just think the PC-98 series, and my PC-9821 Cs2 are cool as hell, and I wanted to share it with others. If you do want to pick one up, you can still get them for reasonably cheap, assuming you&#39;re willing to recap them, and are able to supply them with the appropriate voltage. As always, if you have any questions on the subject, I&#39;ll try to answer them, but no promises. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Wait, Anime Became Popular?</title>
 		<link href="https://trademarkhell.net/blog/anime/"/>
 		<updated>2024-08-26T00:00:00Z</updated>
@@ -514,9 +514,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;It&#39;s not as though these people just magically lost interest in their newfound hobby when the pandemic began to wind down, and as such, here we are, with anime being more popular globally than ever before. Is this a good thing? Probably not, but who cares. Have fun watching AOT with your mom, because I got to endure that experience. TM out.&lt;/p&gt;
 &lt;p&gt;also, helsing ultimate is actually a masterpiece and i&#39;ll always stand by that&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Demographics of the Indie Web</title>
 		<link href="https://trademarkhell.net/blog/indiewebdemographics/"/>
 		<updated>2024-08-25T00:00:00Z</updated>
@@ -528,9 +528,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;The last category, &#39;sites built for insanity&#39; is a rather nebulous one, but I&#39;ll do my best to explain them. These are the sites solely dedicated to single characters and topics, imagine a shrine, but 50fold. There&#39;s not a large amount of these sites due to the sheer amount of effort they take, but it&#39;s always very clear when you&#39;ve clicked on one. Despite the name I&#39;ve given this category, I do find these sites to be rather endearing, even if they may be the product of an insane man&#39;s work. They&#39;re the web equivalent of TempleOS.&lt;/p&gt;
 &lt;p&gt;From my observations, I think it&#39;s hard to find a site that won&#39;t fit into one of these three categories, however, I could be wrong. If a new era of victims stumbles upon the indie web, and makes new sites, please do notify me, for I&#39;ll be certain to add them. I mostly just wrote this article for fun, as I&#39;m in the middle of working on my PC-98 article, don&#39;t take it to seriously, or do, I don&#39;t really mind. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>AI Does More Than Steal Jobs and Art</title>
 		<link href="https://trademarkhell.net/blog/ai/"/>
 		<updated>2024-08-24T00:00:00Z</updated>
@@ -543,9 +543,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;img src=&quot;https://trademarkhell.net/img/ruukoto.png&quot; alt=&quot; Ruukoto from the Touhou Franchise; a robot maid &quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt; 
 &lt;p&gt;ruukoto from touhou is the future of ai....&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Why Neocities/Nekoweb?</title>
 		<link href="https://trademarkhell.net/blog/whyneocitiesnekoweb/"/>
 		<updated>2024-08-23T00:00:00Z</updated>
@@ -558,9 +558,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Socialization, and the approval that stems from it seems to have always been a major influencing factor for the majority of personal site webmasters, and the decisions they make. It&#39;s simply grown more relevant as of late with the increasing popularity of social media. It&#39;s human nature to want people to appreciate your work, and I assume that the majority of people making websites aren&#39;t robots.&lt;/p&gt;
 &lt;p&gt;I could probably try to stretch this out further, but I made my point. Keep in mind that this is all based on my opinions, TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Personal Sites Are a Result of Egotism</title>
 		<link href="https://trademarkhell.net/blog/personalsiteego/"/>
 		<updated>2024-08-22T00:00:00Z</updated>
@@ -574,9 +574,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;tl;dr: being an asshole is cool and awesome when it&#39;s under the pretense of web-development (gregory house photo related). TM out.&lt;/p&gt;
 &lt;img src=&quot;https://trademarkhell.net/img/gregorhouse.jpg&quot; alt=&quot;A photo of Gregory House from House MD&quot; height=&quot;300px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Advice for New Web Devs</title>
 		<link href="https://trademarkhell.net/blog/newwebdevs/"/>
 		<updated>2024-08-21T00:00:00Z</updated>
@@ -590,9 +590,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;This is on a very different note, but don&#39;t feel the need to push your site out right away, I published my first site after a few hours of working on it, and it had aproximately nothing of substance. There&#39;s no need to rush your website out, take your time to get all the links filled out, nobody&#39;s going to mind waiting a few days to see your site. A more complete site is always better than a site with twenty links that all lead to nothing but a &amp;quot;sowwy coming soon&amp;quot; page.&lt;/p&gt;
 &lt;p&gt;I tried to hit all the bases of things I&#39;ve noticed on others sites and from my old sites, but there&#39;s absolutely more things you&#39;ll end up learning through trial and error. If anyone else can think of some major things I missed, feel free to put them in the comments. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>A Brief Overview of the IBM 5160</title>
 		<link href="https://trademarkhell.net/blog/ibm5160/"/>
 		<updated>2024-08-20T00:00:00Z</updated>
@@ -616,9 +616,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://trademarkhell.net/blog/ibm5160/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;This was a lot different than my previous articles, and I hope to publish more semi-constructive works about things I find interesting. If you have questions about the IBM PC lineup for some reason, feel free to ask me, I like to think of myself as semi-knowledgeable about them. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Why Use About Me Sections?</title>
 		<link href="https://trademarkhell.net/blog/aboutmesections/"/>
 		<updated>2024-08-19T00:00:00Z</updated>
@@ -629,9 +629,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;To be disliked by some is to be an individual. There&#39;s no such thing as someone without opinions, and there will always be people who oppose the opinions you hold. The discourse that comes from this, whilst unpleasant, is extremely important in helping both parties mature as people.&lt;/p&gt;
 &lt;p&gt;Don&#39;t hide behind about me sections, or anything else, just present yourself as you are. Some people may like you, some may not, but that&#39;s simply how life is. Your online identity is an extension of your person, and at times, it&#39;s important to treat it as such. Don&#39;t limit who you are just because you fear that someone else may disagree. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Computer Addiction in the Modern Era</title>
 		<link href="https://trademarkhell.net/blog/computeraddiction/"/>
 		<updated>2024-08-18T00:00:00Z</updated>
@@ -645,9 +645,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;This isn&#39;t to say computers aren&#39;t a brilliant thing, by providing easy access to the internet, we have nearly infinite knowledge at out finger tips, computers are arguably the most useful tool humanity has created in centuries. Yet, computers are merely just that, a tool, something to provide assistance in your everyday life, but not to supplant it. Use computers as an aid for acquiring knowledge and social interaction, but not as your sole method for either.&lt;/p&gt;
 &lt;p&gt;As with many things in life, computer usage is excellent in moderation, but terrible in excess. When used in excess you end up writing articles on computer addiction for your personal site, which is a terrible fate. That&#39;s all for today, take this one with a grain of salt, it&#39;s all based on my opinions, TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>My Pointless Web Design Pet Peeves</title>
 		<link href="https://trademarkhell.net/blog/webdesignpetpeeves/"/>
 		<updated>2024-08-17T00:00:00Z</updated>
@@ -662,9 +662,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Now, these previous two points almost had too much backing evidence, so  I feel it&#39;s my duty to highlight one of my completely irrational pet peeves, sites with a bunch of gifs and images. I literally have no reason for disliking them, they look cool, but for some reason part of me takes this way too seriously and thinks people should cover their sites in their schizo ramblings instead of photos or whatever. Don&#39;t take this as advice from me, it sucks the soul out of your website, I mean, just look at mine.&lt;/p&gt;
 &lt;p&gt;Take this article as inspiration if you want, but I&#39;d highly advise not doing so. Web design is meant to be fun, do whatever the hell you want, I just wanted to write this for fun, as my form of web design fun is publishing my stupid ramblings. Have a good one, keep making cool sites, TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Local Car Culture as Viewed by an Idiot</title>
 		<link href="https://trademarkhell.net/blog/carculture/"/>
 		<updated>2024-08-17T00:00:00Z</updated>
@@ -678,9 +678,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;None of these categories actually know how to drive, and their semi-annual attempts at street racing result in three cars ending up in a ditch, and them waiting another six months to try and street race again. Those who belong to these categories either mature into automotive enthusiasts who look fondly upon their days as an idiotic student, or simply move on with life and get an unremarkable vehicle as most do.&lt;/p&gt;
 &lt;p&gt;This article is of absolutely no substance and I solely wrote it for fun, it&#39;s more or less just a way for me to mess with falvor text whilst recounting things I see around time. Thanks for reading this if you did, for some reason, I apopreciate it. TM out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Personal Information and the Indie Web</title>
 		<link href="https://trademarkhell.net/blog/infoprivacy/"/>
 		<updated>2024-08-16T00:00:00Z</updated>
@@ -691,9 +691,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;This isn&#39;t to say you can&#39;t have an about webmaster page (although i also kinda dislike those, but that&#39;s another day&#39;s article), or write about stuff you like in a blog, but maybe just talk about what you&#39;re interested in, rather than the exact person you are. Personal sites, in my opinion, are meant to serve as places to depict who you are based on your interests and actions, rather than based on literal personal information. I think it&#39;s extremely important to keep this in mind whenever you do just about anything on your site. As the old saying goes, albeit, I don&#39;t think it was meant to be used in this context, &amp;quot;Let your actions speak for themselves.&amp;quot;&lt;/p&gt;
 &lt;p&gt;I&#39;m not just saying all this because I&#39;m some fiend for anonymity (I mean I am), but rather, because I think some people are genuinely putting themselves at risk by putting so much info in an easy to access place. The world&#39;s a lot smaller than you think it is, especially if you live in a heavily populated country with a lot of internet usage. Keep that in mind. Anyways, TM out, don&#39;t dox yourself, bye.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>I Owe a Lot to Welcome to the N.H.K.</title>
 		<link href="https://trademarkhell.net/blog/nhk/"/>
 		<updated>2024-08-15T00:00:00Z</updated>
@@ -709,9 +709,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;If you&#39;re going to be unhappy, you may as well be productive while you do it, and at least give yourself a chance to become happy. That&#39;s what I took from the show, and quite frankly, I owe my social life and academics to this show, as I probably would&#39;ve just kept rotting away as I did during COVID if not for the reality check this show gave.&lt;/p&gt;
 &lt;p&gt;This isn&#39;t that good of a show, and I&#39;ve barely actually mentioned anything about it, but trust me, there&#39;s a lot of impactful elements in it, and a decent bit of funny segments, honestly, if anything I said stuck with you, just watch the show. It&#39;ll probably hit a different chord than most of the seemingly &amp;quot;life changing&amp;quot; shows were meant to. This isn&#39;t Evangelion, this isn&#39;t Cowboy Bepop, it&#39;s not some deep freudian psychological thing, it&#39;s just a reality check. Tm out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>SSGs Are Good, Actually</title>
 		<link href="https://trademarkhell.net/blog/ssg/"/>
 		<updated>2024-08-14T00:00:00Z</updated>
@@ -728,9 +728,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Alright, before I finish this article up, I feel it&#39;s my duty to address the not using an SSG being &amp;quot;fun&amp;quot; part of the argument, and I&#39;ll do so in a single sentence. If it&#39;s so fun to run your website without an SSG, why do you never post anything???? (and if you do maitnain a blog without an SSG, shoutout to you, but there&#39;s something wrong with you)&lt;/p&gt;
 &lt;p&gt;TL;DR: SSGs make everything easier and save your firstborn child&#39;s life, use them or suffer. Tm out.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Please Actually Use Your Blog Sections</title>
 		<link href="https://trademarkhell.net/blog/useyourblog/"/>
 		<updated>2024-08-13T00:00:00Z</updated>
@@ -741,9 +741,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;img src=&quot;https://trademarkhell.net/img/osakaism.png&quot; alt=&quot;osaka with the autism hat?????&#39;&quot; height=&quot;400px&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;
 &lt;p&gt;pic unrelated&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The 2000s Happened; Haruhi Suzumiya</title>
 		<link href="https://trademarkhell.net/blog/haruhi/"/>
 		<updated>2024-08-12T00:00:00Z</updated>
@@ -757,9 +757,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/x3GgMehORTI?si=mO3lUjgxr9W21T58&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot; style=&quot;display: block; margin: 0 auto&quot;&gt;&lt;/iframe&gt;
 &lt;p&gt;I could probably provide context to this clip, but instead I&#39;m just going to end my article here. Watch the show. It&#39;s aged terribly, but man, when it hits, it hits. Batshit insane slice of life with an interesting cast. It won&#39;t be the best show you&#39;ve ever watched or anything, but it&#39;s enjoyable.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Top ten worst  interests; Polish Rock</title>
 		<link href="https://trademarkhell.net/blog/polishrock/"/>
 		<updated>2024-08-11T00:00:00Z</updated>
@@ -773,9 +773,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Republika has still remained my favorite of the Polish bands I&#39;ve heard, perhaps because they were the first, or perhaps due to the sheer number of songs they have. My favorites are easily &amp;quot;Fast (New)&amp;quot;, and &amp;quot;Raz na milion lat&amp;quot;. The latter of which is one of my favorite songs of all time.&lt;/p&gt;
 &lt;p&gt;Now, despite this article largely being about my dumb interests and such, I would like for the 0.5 people reading this to at least consider listening to music from regions and languages outside of where they reside. It can be a really interesting experience, and if you&#39;re lucky (or unlucky), you may actually like the music. Anyways, that&#39;s it for today&#39;s rambling session, thanks for coming. Leave your bingoboards where you picked them up.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>The Indie Web Described By a True Idiot</title>
 		<link href="https://trademarkhell.net/blog/indieweb/"/>
 		<updated>2024-08-10T00:00:00Z</updated>
@@ -786,9 +786,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;What I&#39;m trying to say is that, in effect, &#39;Indie Web&#39; no longer means websites independent from external influence, rather, it means sites made for self indulgence, sites made for recreation rather than for profit, sites made by hobbyists, for hobbyists. Despite losing it&#39;s original meaning, I&#39;d argue that the concept of the &#39;Indie Web&#39; is stronger than ever, with more websites made for leisure existing now than there has been in years.&lt;/p&gt;
 &lt;p&gt;Furthermore, I&#39;d like to specify that this article is not a criticism of the &#39;Indie Web&#39; whatsoever, given I&#39;m an avid participant in the community. This article merely serves to provide an exteremly unscientific, and unproven theory as to what the &#39;Indie Web&#39; truly is, in it&#39;s current evolution. Albeit, I suspect that the defenition of the &#39;Indie Web&#39; will continue to change for as long as people continue to make websites for non commercial use.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>My Irrational Love for Monogatari</title>
 		<link href="https://trademarkhell.net/blog/monogatariseries/"/>
 		<updated>2024-08-07T00:00:00Z</updated>
@@ -804,9 +804,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;/iframe&gt;
 &lt;p&gt;I honestly would love to ramble on about this franchise for ages, but quite frankly, if what I said didn&#39;t make you hate the show, then you should watch it, if it did, then don&#39;t. That&#39;s basically it. I did what I could to shill it, and also did what I could to scare you away from it. My job here is done, I think..&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Failure and Webdesign</title>
 		<link href="https://trademarkhell.net/blog/ihatewebdesign/"/>
 		<updated>2024-08-06T00:00:00Z</updated>
@@ -824,9 +824,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;At this point, I had more drafts of webdesigns on paper than I could count, thinking that if my previous attempts didn&#39;t work, I&#39;d surely get a sudden revelation at some point, but, I never did, and so, I randomly picked a layout, and now that layout is the site you&#39;re on. I don&#39;t really &amp;quot;like&amp;quot; this layout, but, it meets the bare minimum of what I wanted. It has color, but not too much. It has visual elements, but not too many. It has various templates for webpages, but not too many. I&#39;ll redo this website eventually, but the issue is, I can&#39;t find anything wrong with this layout, I don&#39;t like it, but I don&#39;t know why.&lt;/p&gt;
 &lt;p&gt;This layout, in my eyes, is a failure, but to be fair, so were all the previous ones, I suspect webdesign for me will always be me chasing the high I think i&#39;ll get if I make a website I like,  I don&#39;t know if that will ever happen, but I&#39;m glad it probably won&#39;t, as it gives me a reason to keep working on websites, which others seem to like. Anyways, thanks for reading this ramble, my other posts should be more interesting, but I&#39;ve wanted to write this one since my first failed layout.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>(my obsession with) Crappy Old Tech</title>
 		<link href="https://trademarkhell.net/blog/lowqualityoldtech/"/>
 		<updated>2024-08-05T00:00:00Z</updated>
@@ -841,9 +841,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Picutred above (but below the cassette deck, once again, it still sucks, once again, I still use it daily and love it) is the Luxman R-115, something, which to the layman, is a prime example of black plastic crap. Despite it&#39;s appearence, however, it&#39;s generally regarded as one of the best amplifiers of the late 80s. I&#39;m listening to it as I write this article, and it&#39;s powered the speakers I use with my computer for years now, and I strongly agree with this statement. It doesn&#39;t look nearly as good as the silver faced equipment I use in my main HiFi stack, but man, it sounds good.&lt;/p&gt;
 &lt;p&gt;Despite the inherently satirical nature of the title of this article, I feel it&#39;s my duty to &amp;quot;enlighten&amp;quot; the masses that despite the awful appearence of technology from this era, it really holds up, and sometimes, it&#39;s even good. I have a lot more tech from this era that I use often, but this article would be pointlessly long if I covered them. Basically, TLDR, ugly old tech cool, ugly old tech good.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Yeah, Breakcore Sucks (but i love it)</title>
 		<link href="https://trademarkhell.net/blog/breakcore/"/>
 		<updated>2024-08-05T00:00:00Z</updated>
@@ -860,9 +860,9 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;These songs, despite both being Breakcore, due to their usage of the Amen Break, arguably couldn&#39;t be any more different. Goreshit leans heavily towards sampling sounds and music from Anime, a trend that continues today in Breakcore through artists such as Rori in early 20s, and to a limited degree, through Sewerslvt&#39;s works (although it can be argued that the majority of her music isn&#39;t breakcore, and I largely agree with this). The latter represents a more traditional form of Breakcore, which is the other side of the modern Breakcore coin, being evident through artists such as Machine Girl, and once again, to a lesser extent, Nanoray.&lt;/p&gt;
 &lt;p&gt;I personally enjoy both genres of Breakcore, being a terminally online individual, but the point of this article wasn&#39;t really to say that &amp;quot;yeah i kinda like breakcore lol&amp;quot;, but rather, to demonstrate the sheer variety of Breakcore artists and songs. Many people do disregard Breakcore, for good reason, but for those that haven&#39;t already, listen to some, you&#39;ll probably like at least some of it, unless you don&#39;t, in which case, it&#39;s not my problem.&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 	
-	<entry>
+	<item>
 		<title>Nekopology</title>
 		<link href="https://trademarkhell.net/blog/slopology/"/>
 		<updated>1238-12-10T00:00:00Z</updated>
@@ -879,7 +879,7 @@ pic unrelated i just needed an excuse to use it</content>
 &lt;p&gt;Best,&lt;/p&gt;
 &lt;p&gt;TM&lt;/p&gt;
 </content>
-	</entry>
+	</item>
 </channel>
 	</rss>
 
