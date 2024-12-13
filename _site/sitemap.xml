@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://trademarkhell.net/blog/slopology/</loc>
-		<lastmod>1238-12-10</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://trademarkhell.net/blog/breakcore/</loc>
 		<lastmod>2024-08-05</lastmod>
 	</url>
@@ -309,5 +304,10 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/astro/</loc>
 		<lastmod>2024-11-17</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/slopology/</loc>
+		<lastmod>2024-12-13</lastmod>
 	</url>
 </urlset>

@@ -1,7 +1,7 @@
 ---
 title: Nekopology
 description: This will be incomprehensible to you if you're not involved in the Nekoweb Discord shiposting division, and quite frankly, that's for the best. 
-date: 1238-12-10
+date: 2024-12-13
 tags: 
      - web
      - opinion
@@ -23,7 +23,7 @@ To provide a parallel that may be easier to understand, allow me to use an examp
 
 The Crucible isn't merely falsely interpreting the morals of Christianity; Ephesians 4:32 states that we must "be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you" (KJV Bible, Ephesians. 4:32). I've taken 40-50 actions that could be dubiously considered mistakes, and yet, I was banned for this. The Bible clearly states that I should be forgiven of all my sins (Nekoweb Warnings) immediately, and yet, this hasn't happened.
 
-As such, I implore you (@<265655616230522883> on Discord) to accept my apology. It seems that you have not yet applied Catholic reasoning into your moderation processes, and I can understand why; not all have been enlightened by the Lord's word. I implore you to do so, though, for this will most certainly change your life for the better.
+As such, I implore you (@<265655616230522883> on Discord) to accept my apology. It seems that you have not yet applied Catholic reasoning into your moderation processes, and I can understand why; not all have been enlightened by the Lord's word. I ask for you to do so, though, for this will most certainly change your life for the better.
 
 Best,
 
