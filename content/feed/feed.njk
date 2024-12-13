@@ -20,7 +20,6 @@ permalink: /feed/feed.xml
 			<link> {{ post.url | htmlBaseUrl(metadata.url) }} </link>
 			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
 			<guid> {{ post.url | htmlBaseUrl(metadata.url) }} </guid>
-			<description><![CDATA[{{ post.templateContent | transformWithHtmlBase(post.url | htmlBaseUrl(metadata.url), post.url) }}]]></description>
 		</item>
 		{%- endfor %}
 	</channel>
