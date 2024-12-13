@@ -17,9 +17,9 @@ permalink: /feed/feed.xml
 		{%- for post in collections.posts | reverse %}
 		<item>
 			<title>{{ post.data.title }}</title>
-			<link>{{ post.url | htmlBaseUrl(metadata.url) }}</link>
-			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-			<guid>{{ post.url | htmlBaseUrl(metadata.url) }}</guid>
+			<link>{{ post.url }}</link>
+			<pubDate>{{ post.date }}</pubDate>
+			<guid>{{ post.url }}</guid>
 			<description><![CDATA[{{ post.templateContent | transformWithHtmlBase(post.url | htmlBaseUrl(metadata.url), post.url) }}]]></description>
 		</item>
 		{%- endfor %}
