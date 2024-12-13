@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<rss>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>trademarkhell.net</title>
 	<subtitle>ramblings from the 21st century</subtitle>
@@ -880,3 +881,4 @@ pic unrelated i just needed an excuse to use it</content>
 </content>
 	</entry>
 </feed>
+</rss>
