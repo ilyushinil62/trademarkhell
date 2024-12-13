@@ -4,12 +4,12 @@ permalink: /feed/feed.xml
 ---
 
 <rss version="2.0">
+<channel>
   <title>{{ metadata.title }}</title>
   <description>{{ metadata.description }}</description>
   <link>"{{ metadata.url | addPathPrefixToFullUrl }}"</link>
   <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
   <guid>{{ metadata.url }}</guid>
-  <channel>
   {%- for post in collections.blog | reverse %}
   {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
     <item>
@@ -20,5 +20,5 @@ permalink: /feed/feed.xml
         <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
     </item>
   {%- endfor %}
-  </channel>
+</channel>
 </rss>
