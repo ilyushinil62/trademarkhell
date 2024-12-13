@@ -6,11 +6,11 @@ permalink: /feed/feed.xml
 	<rss version="2.0">
 	<channel>
 	<title>{{ metadata.title }}</title>
-	<subtitle>{{ metadata.description }}</subtitle>
-	<link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self"/>
-	<link href="{{ metadata.url | addPathPrefixToFullUrl }}"/>
-	<updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-	<id>{{ metadata.url }}</id>
+	<description>{{ metadata.description }}</description>
+	<link>"{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self"</link>
+	<link>"{{ metadata.url | addPathPrefixToFullUrl }}"</link>
+	<pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
+	<guid>{{ metadata.url }}</guid>
 	<author>
 		<name>{{ metadata.author.name }}</name>
 		<email>{{ metadata.author.email }}</email>
@@ -20,8 +20,8 @@ permalink: /feed/feed.xml
 	<item>
 		<title>{{ post.data.title }}</title>
 		<link href="{{ absolutePostUrl }}"/>
-		<updated>{{ post.date | dateToRfc3339 }}</updated>
-		<id>{{ absolutePostUrl }}</id>
+		<pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
+		<guid>{{ absolutePostUrl }}<gu/id>
 		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
 	</item>
 	{%- endfor %}
