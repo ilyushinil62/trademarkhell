@@ -7,7 +7,7 @@ permalink: /feed/feed.xml
 	<channel>
 		<title>{{ metadata.title }}</title>
 		<description>{{ metadata.description }}</description>
-		<link>{{ metadata.url | addPathPrefixToFullUrl }}</link>
+		<link> {{ metadata.url | addPathPrefixToFullUrl }} </link>
 		<lastBuildDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
 		<atom:link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self" type="application/rss+xml"/>
 		<language>{{ metadata.language }}</language>
@@ -19,7 +19,7 @@ permalink: /feed/feed.xml
 			<title>{{ post.data.title }}</title>
 			<link> {{ post.url | htmlBaseUrl(metadata.url) }} </link>
 			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-			<guid>{{ post.url | htmlBaseUrl(metadata.url) }}</guid>
+			<guid> {{ post.url | htmlBaseUrl(metadata.url) }} </guid>
 			<description><![CDATA[{{ post.templateContent | transformWithHtmlBase(post.url | htmlBaseUrl(metadata.url), post.url) }}]]></description>
 		</item>
 		{%- endfor %}
