@@ -2,8 +2,7 @@
 # Metadata comes from _data/metadata.js
 permalink: /feed/feed.xml
 ---
-<?xml version="1.0" encoding="utf-8"?>
-	<rss version="2.0">
+<rss version="2.0">
 	<channel>
 	<title>{{ metadata.title }}</title>
 	<description>{{ metadata.description }}</description>
@@ -22,9 +21,9 @@ permalink: /feed/feed.xml
 		<link href="{{ absolutePostUrl }}"/>
 		<pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
 		<guid>{{ absolutePostUrl }}</guid>
+		<content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
 	</item>
 	{%- endfor %}
-</channel>
-	</rss>
-
+	</channel>
+</rss>
 
