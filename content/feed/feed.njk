@@ -5,7 +5,7 @@ permalink: /feed/feed.xml
 <rss version="2.0">
 	<title>{{ metadata.title }}</title>
 	<description>{{ metadata.description }}</description>
-	<link>https://trademarkhell.net</link>
+	<link>{{ absolutePostUrl }}</link>
 	<channel>
 	{%- for post in collections.blog | reverse %}
 	{%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
