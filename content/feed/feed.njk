@@ -2,23 +2,26 @@
 # Metadata comes from _data/metadata.js
 permalink: /feed/feed.xml
 ---
-
-<rss version="2.0">
-<channel>
-  <title>{{ metadata.title }}</title>
-  <description>{{ metadata.description }}</description>
-  <link>"{{ metadata.url | addPathPrefixToFullUrl }}"</link>
-  <pubDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</pubDate>
-  <guid>{{ metadata.url }}</guid>
-  {%- for post in collections.blog | reverse %}
-  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
-    <item>
-        <title>{{ post.data.title }}</title>
-        <content type="html">{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) }}</content>
-        <link> "{{ absolutePostUrl }}" </link>
-        <guid>{{ absolutePostUrl }}</guid>
-        <pubDate>{{ post.date | dateToRfc3339 }}</pubDate>
-    </item>
-  {%- endfor %}
-</channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ metadata.title }}</title>
+		<description>{{ metadata.description }}</description>
+		<link>{{ metadata.url | addPathPrefixToFullUrl }}</link>
+		<lastBuildDate>{{ collections.posts | getNewestCollectionItemDate | dateToRfc822 }}</lastBuildDate>
+		<atom:link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self" type="application/rss+xml"/>
+		<language>{{ metadata.language }}</language>
+		<managingEditor>{{ metadata.author.email }} ({{ metadata.author.name }})</managingEditor>
+		<webMaster>{{ metadata.author.email }} ({{ metadata.author.name }})</webMaster>
+		
+		{%- for post in collections.posts | reverse %}
+		<item>
+			<title>{{ post.data.title }}</title>
+			<link>{{ post.url | htmlBaseUrl(metadata.url) }}</link>
+			<pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+			<guid isPermaLink="true">{{ post.url | htmlBaseUrl(metadata.url) }}</guid>
+			<description><![CDATA[{{ post.templateContent | transformWithHtmlBase(post.url | htmlBaseUrl(metadata.url), post.url) }}]]></description>
+		</item>
+		{%- endfor %}
+	</channel>
 </rss>
