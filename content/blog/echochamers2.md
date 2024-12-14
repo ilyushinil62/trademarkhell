@@ -18,6 +18,6 @@ For example, let's say you belong to the X political party and are on a Discord 
 
 I'm not writing this post because I'm annoyed at the left or the right, the Democrats or Republicans, the Liberals or Conservatives, or whatever it may be. I'm writing this because I'm concerned that young, and by extension, largely politically illiterate groups who spend way too much time on the internet (literally me, fr fr) are inadvertently getting radicalized by digital echo chambers.
 
-It doesn't matter if you agree with what others may say or believe, but at times, it's important to interact with those of other beliefs, even if all it does is re-affirm your existing beliefs (shocker, i know). TM out.
+It doesn't matter if you agree with what others may say or believe, but at times it's important to interact with those of other beliefs, even if all it does is re-affirm your existing beliefs (shocker, i know). TM out.
 
 P.S. i'm back on that daily article grind for a bit, i have a lot of bad ideas again.
