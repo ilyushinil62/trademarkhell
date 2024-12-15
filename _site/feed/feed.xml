@@ -4,11 +4,18 @@
 		<title>trademarkhell.net</title>
 		<description>ramblings from the 21st century</description>
 		<link> https://trademarkhell.net/ </link>
-		<lastBuildDate>Sun, 15 Dec 2024 09:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 16 Dec 2024 09:00:00 +0000</lastBuildDate>
 		<atom:link href="https://trademarkhell.net/feed/feed.xml" rel="self" type="application/rss+xml"/>
 		<language>en</language>
 		<managingEditor>trademark@cock.li (trademark)</managingEditor>
 		<webMaster>trademark@cock.li (trademark)</webMaster>
+		<item>
+			<title>Contrarianism Is Just Hatred</title>
+			<link> https://trademarkhell.net/blog/contrarianism/ </link>
+			<pubDate>Mon, 16 Dec 2024 09:00:00 +0000</pubDate>
+			<guid> https://trademarkhell.net/blog/contrarianism/ </guid>
+			<description><![CDATA[Alternatively titled &quot;The Death of Tim Shady&quot;. This article is based on the extremely scientific conclusion I came to after half a year of LARPing in Discord servers. You should know the deal by now, this is Harvard level research, and as such, I will cite none of my sources at all.]]></description>
+		</item>
 		<item>
 			<title>Internet Echo Chambers</title>
 			<link> https://trademarkhell.net/blog/echochamers2/ </link>
