@@ -4,7 +4,7 @@ description: Alternatively titled "The Death of Tim Shady". This article is base
 date: 2024-12-16
 tags: 
     - web 
-    - tech
+    - opinion
 ---
 I've always been one of those people who view the internet as an elaborate RPG game, even though it happens to have real people; that's to say, I create characters. Usually, I just do this for leisure, but at times, I do this out of some strange sense of curiosity. 
 
