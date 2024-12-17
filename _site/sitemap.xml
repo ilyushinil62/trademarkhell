@@ -172,12 +172,12 @@
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/tags/anime/</loc>
+		<loc>https://trademarkhell.net/tags/tech/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/tags/tech/</loc>
+		<loc>https://trademarkhell.net/tags/anime/</loc>
 		<lastmod>2024-09-01</lastmod>
 	</url>
 	
@@ -319,5 +319,10 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/contrarianism/</loc>
 		<lastmod>2024-12-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/visualnovels/</loc>
+		<lastmod>2024-12-17</lastmod>
 	</url>
 </urlset>
