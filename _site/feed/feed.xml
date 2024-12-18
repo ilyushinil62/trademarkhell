@@ -4,11 +4,18 @@
 		<title>trademarkhell.net</title>
 		<description>ramblings from the 21st century</description>
 		<link> https://trademarkhell.net/ </link>
-		<lastBuildDate>Tue, 17 Dec 2024 09:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 18 Dec 2024 09:00:00 +0000</lastBuildDate>
 		<atom:link href="https://trademarkhell.net/feed/feed.xml" rel="self" type="application/rss+xml"/>
 		<language>en</language>
 		<managingEditor>trademark@cock.li (trademark)</managingEditor>
 		<webMaster>trademark@cock.li (trademark)</webMaster>
+		<item>
+			<title>I Drive</title>
+			<link> https://trademarkhell.net/blog/idrive/ </link>
+			<pubDate>Wed, 18 Dec 2024 09:00:00 +0000</pubDate>
+			<guid> https://trademarkhell.net/blog/idrive/ </guid>
+			<description><![CDATA[Cars are a terribly inefficient transportation method, but man, there&#39;s something about them. That&#39;s it, I don&#39;t have anything else for the description.]]></description>
+		</item>
 		<item>
 			<title>What Makes VNs Different From Books?</title>
 			<link> https://trademarkhell.net/blog/visualnovels/ </link>
