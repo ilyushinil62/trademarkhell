@@ -232,11 +232,6 @@
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/</loc>
-		<lastmod>2024-09-22</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://trademarkhell.net/blog/webdesignindecisiveness/</loc>
 		<lastmod>2024-09-26</lastmod>
 	</url>
@@ -329,5 +324,10 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/idrive/</loc>
 		<lastmod>2024-12-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/</loc>
+		<lastmod>2025-01-30</lastmod>
 	</url>
 </urlset>
