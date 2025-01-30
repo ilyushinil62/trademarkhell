@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/navbase.css?v=1.5" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+                                       -+*##*+-                                                                              
+                                  -*###############+=                                                                        
+                                *#################%%%##*-                                                                    
+                            =#####%#######################%*-                                                                
+                          =##############%%%*=-----=*%%######%#*++-*+*-*+-                                                   
+                         #########%####%=---------------%##%%##*%**=-:::.                                                    
+                       .#--=*%###%####+----+#%%####%%%#=-####*#***=.                                                         
+                      .**-----=#%#####+%##################%#******#* ..                                                      
+                      =***--++*-#####%###@###############*#*%#####-%#==:                                                     
+           #++=      :**#=--*-+#*###@#%#%-%########%#*######%###%###%#-                                                      
+         +::::.=    .=#####----*****#***--*****####%*%%#%%###@%##%##=-%---+                                                  
+       .=::::::.--  :#######*+*****%%%%%=--@%%%#####=-*%%#%%##%%##%##-+*-=+                                                  
+       :=:::::::==----#%##*==######@%%%+-:--%%#%%###%.:#%%#%%#%%%##%#*:*:::-:                                                
+      .-:::::::::-=-------++#=%####%%-%-:.=#-%%=%%###=::-*%%%%##%##*%#::- ..                                                 
+      .=.::::::::==--###%###--%####%*:*-:.:-:-+%:=%%#*:%@%*%@%#@#@#-%#.:.                                                    
+      :=.::::::::-:.-####*---#%####%*@@@@@@@-:::+=:-%@@%*%%%%%%@#@#:##=.                                                     
+      :-=:::::::::=.-#------%%%####@@#*%@%@::::::::::#@*++%@%%%@%#*:+#-                                                      
+      .:*--:::::::=-+=--####%%+###%%:-#@@*@.::::::::::.-..%%%@%%%#%-+#                                                       
+       ::*---::::::::#*%%###%@.####%#:.:=*#.::::::::::--::%%%@%@#%#%*:                                                       
+        ::-=---=:::-:#%%%###%%:####%#=::.:::::::::::::::::%%%%%%@#=+#                                                        
+          ::+---:::::#%#%#%%%%%%%###%#=::::::::...:-=::::=%%%#@%%##:+=                                                       
+        :--::---:::::.+=%%@#%%%%%####%*#::::::+++++*::::-%%%%%##%%#.:+                                                       
+       =.::::.:+::::::::#%%#%%%%%%%###%-.+:::.+====*:::%%%%%%%#+#%#.:.                                                       
+      -::::::::::::::=::+#%#*%%%@%%@####*:::::.+==*:.#%%%%%%%**#:%# .                                                        
+     :*::::::-:--=+=::::-+-.+-=.*+%**%###%-=*-.:::.#%%%%%%%%%%:#:==                                                          
+    =:--:::::-*--:::::::::=:.+-.-.##%+++%##%---%%#%+#%*#%%%%%%::::                                                           
+  .=::.=:::::-*---::::-:--::--+-:..*#%+++=:+%#-#*+*#*++%%+=*%%=.                                                             
+  :-.::=:::::-#+=-=+=--+:::::.:+-.:.+%%=++*.::-:--+*=++++%##::.                                                              
+  :+=::=:::::-+--=+--*::::::::..-..--=%%++++*::::.:=#+++++%#=-                                                               
+ .+:*::+:::::-=---+#--------:*.....*.*+%#+++++#=-----:#++++%=:=                                                              
+ -:::.:=::---=--=-*---------*......+..**#*++++=*+=.....++++*%#-.+                                                            
+.:=.:-:=.--------+-----+%%#--......+..-=%%++++++*+*----=+++=%*+..=:**=                                                       
+ ::-.+::.*=------+---*-+*%#--......*::.#+%%+++++++==----#+++*%*...:*++@+                                                     
+  .:-:*=----++---#**+-=*@#=-:.....-:=...+*##++++++=+=---=*+++%%*.=#*+@#@%+-                                                  
+   .::=:-==*#%*+*---=%*%%*--..----*-....=+##%=+++++=*----*+++*#+-#+*%%+%**%@+-                                               
+     :::::..*%%******%%*+------+---......*+*###++++++=---=#++=%%#++++*@%++##+=                                               
+       .:=...--+*****+-------#----........+=+#%##+++++---=#=++%%++++++++#@#++                                                
+        ::+..:-------------+::=---.........:*+=%#%++++#--=#+++%%*+++*+++++++-+.                                              
+         ::::--==++=-----+: .::=---:.......---#**@%%**+@%%%**#%#%#+++++++*:-....-                                            
+             ..:.::::::::.    ::=-----..--------#**%%**#%##**%%*****+++*+.......*                                            
+                               ::+---------------:#*%%#*@##*%%*##****#..........-                                            
+                                ::*----------------:#*%%#=**%#*-:-*#..:........-                                             
+                                 ::+-----------------=*@@**%%#= .::+-.....-....+                                             
+                                  ::+-----------------#%%@%%%=.   :=.....:.....-                                             
+                                   :-------------------%%%#%-:    ::...::......                                              
+                                  =--:..........:----=+=%@%%%#+: .=---........-                                              
+                                .:*-..............#####%%%%@%%##::-=..........-                                              
+                                 ::+--....::-----%####%%#%%####.=:...........=                                               
+                                  :*#*##=-------:..%###%%-%%##%.............-.                                               
+                                :**++++*****###*=-:-%*:+%##%%-..............+                                                
+                               .=*+++#+++***%*#****#+**#%%*#%#%:=*=----.....+                                                
+                               +**++++++=+*%*******#+**##%*#-%##%*++#@#%%%%#*-                                               
+                             -=++++++++++++++++*#***######***%%%%%@@%#######%:                                               
+                           -++++++++++++++++*++++=+#****###+*#*+++=*%#%**-###*                                               
+                          ==+++++++++++++++++++++++++++=%##+=:----#++*%%-::::.                                               
+                         ++++++++++++++++++++++++++++++++###%*:::-****%.    .                                                
+                       .*++++++++++++++++++++++++++++++++=%####-:-****.                                                      
+                      .*++++++++++++++++++++#+++++++++++++++%#####*+-:                                                       
+                      ++++++++++++##*++++++++++++++++++++++++*++#####+.                                                      
+                    .*++++++++++++++++#+++++=+++*+++++++++++++*-:::+:                                                        
+                   +=+++++++++++++++++++%+++=+**+++++++++++%*+++* ..                                                         
+                .*=+++++++++++++++++++++*#+**#=++++++++++++=*#+**=                                                           
+        -++=+++#+++++++++++++++++++++++++++%=*+++++++++++++++++*+++*-                                                        
+      .:*++++*=+++++++++++++++++++++++++++=##++#++++++++++++++++**+++=*-                                                     
+      .:-+++*+++++++++++++++++++++++++++++***++++#********++++++*+*#++++++===+                                               
+       .::*#**####+=++++++++++++++++++++++#***++++=+*++++++++++++#+++*++++++++.                                              
+         ::-****#****#*++++++++++++++++++=#++*#+++++++++++++++++++*++++*++++++                                               
+           :::-:::-****#-#=++++++++++++++=#++++*+++++++++++++++++++++++++#+++=                                               
+             .   .::::=#---+++++++++++++++#+++++*#+++++++++++++++++++*++++*#=                                                
+                     .::=----=++++++++++++#+++++++#+++++++++++++++++++#=+*:.                                                 
+                      .:+-------=*=+++++++#++++++++*#++++=*#+-=:::-=+***=.                                                   
+                       :------------=#*=++#=++++++++*##+------=-  ..::::                                                     
+                       .:=-::::::::------------==---------:::::=                                                             
+                       .:+:::::::::::::::::--=--------::::::::::+                                                            
+                        :-::::::::::::::::::::-----:::::::::::::-                                                            
+                        .:-::::::::::::::::::----::::::::::::::::+                                                           
+                         :+::::::::::::::::::--:::::::::::::::::::-                                                          
+                         :-::::::::::::::::::=.:::::::::::::::::::=                                                          
+                         .:=:::::::::::::::::=-::::::::::::::::::::+                                                         
+                          :=.::::::::::::::::=:-:::::::::::::::::::=                                                         
+                          :-:::::::::::::::::=::=::::::::::::::::::::                                                        
+                          .:+::::::::::::::::+ ::+::::::::::::::::::=                                                        
+                           :=.:::::::::::::::+  ::=::::::::::::::::::=                                                       
+                           ::::::::::::::::::+   ::=:::::::::::::::::+                                                       
+                           .:+:::::::::::::::+    ::=:::::::::::::::::-                                                      
+                            :=.::::::::::::::=     ::+::::::::::::::::=                                                      
+                            .::::::::::::::::-      ::+:::::::::::::::.=                                                     
+                            .:+::::::::::::::*       ::+:::::::::::::::=                                                     
+                             :=::::::::::::::-        ::+::::::::::::::.=                                                    
+                             ::::::::::::::::.         .:=.:::::::::::::=                                                    
+                             .:-:::::::::::::           ::-.::::::::::::.+                                                   
+                             .:+::::::::::::-            .:-.::::::::::::-                                                   
+                              :=.:::::::::::-             .:-:::::::::::::*                                                  
+                              :-::::::::::::=              .:=.:::::::::::.=                                                 
+                              .-::::::::::::=               .:=::::::::::::-                                                 
+                              .:-:::::::::::+                ::+:::::::::::.=                                                
+                               :=:::::::::::+                 ::=:::::::::::=                                                
+                               :=:::::::::::=                  :-:::::::::::==                                               
+                               :=:::::::::::+                  .:+:::::::::--=                                               
+                               :=:::::::::::+                   :::::::::::--+                                               
+                               :=:::::::::--=                   .:+::::::::::-=                                              
+                               :=::::::::---:                    :-:::::::::::-:                                             
+                               :=:::::::::-=.                    .:-:::::::::::=                                             
+                               :=:::::::::--=                     :=::::::::::::=                                            
+                               :=::::::::::--                     :-::::::::::::.-                                           
+                               :-:::::::::::+                     .:+::::::::::#%%:                                          
+                              .:-:::::::::::=                      :-.:..:=#%%%%%%#                                          
+                              .-:::::::::::::                      .:%%%%%%%%%%%%%%+                                         
+                              .-::::::::::::::                      :=%%%%%%%%%%%%%#:                                        
+                              .-=.::::::::.:=*                      .:#%%%%%%%%%%%%%%                                        
+                              .:%%%%%%%%%%%%%*                       ::%%%%%%%%%%%%%%#                                       
+                              .:%%%%%%%%%%%%%%                       .:-%%%%%%%%%%%%%%*                                      
+                               :*%%%%%%%%%%%%%                         :-%%%%%%%%%%%%%%:                                     
+                               :-%%%%%%%%%%%%%:                        .:-%%%%%%%%%%%%%#                                     
+                               .:%%%%%%%%%%%%%+                         .::%%%%%%%%%%%%%#                                    
+                                :=%%%%%%%%%%%%-                          .::#%%%%%%%%%%%%*                                   
+                                ::%%%%%%%%%%%%+                            ::*%%%%%%%%%%%%=                                  
+                                .:=%%%%%%%%%%%+                             ::=#%%%%%%%%%%%:                                 
+                                 ::%%%%%%%%%%%#                              ::-%%%%%%%%%%%#                                 
+                                  :-%%%%%%%%%%#                               .::#%%%%%%%%%%*                                
+                                  .:#%%%%%%%%%%:                                ::+#%%%%%%%%%*                               
+                                   ::%%%%%%%%%%#                                 .:-%%%%%%%%%%+                              
+                                    :+%%%%%%%%%+                                  .::#%%%%%%%%%+                             
+                                    ::%%%%%%%%%+                                    ::=%%%%%%%%%*                            
+                                     :-%%%%%%%%#                                     .:-%%%%%%%%%#                           
+                                     .:#%%%%%%%#                                       ::%%%%%%%%%%*#=                       
+                                      ::%%%%%%%%+                                       ::%%%%%%%##*###+                     
+                                      .:+%%%%%%%*                                        ::%%%%%%#*##*%%**###+*-:-++####*:   
+                                       ::%%%%%%%#                                         ::%%%%##%##***#########**@*###%%:  
+                                       .:+%%%%%%%=                                         :=%%**###*##%%%#######%#*#*%%%%%: 
+                                        ::%%%%%%%#                                         .*%%%######################%%%*#- 
+                                         :%%%#*####.                                       ::=%%###################*#%*#=:.  
+                                         :########**                                        .:%%%###########%%%**+++#-::     
+                                         =%%*####%%%#                                        ::%%%%%@*++++##=:::::::.        
+                                        :-#*%###*#####-                                      .:=#**+++++++#-.                
+                                        .:##*%#########*+                                     .:+*****+-::.                  
+                                        .:###*##*#######***.                                   .:::::..                      
+                                         -%#*####***#####***#*#:                                                             
+                                        .:*+*%##############%%%#                                                             
+                                         :-*+#*###*%%%%%%%%%%%%%-                                                            
+                                         .:::=#%##%%%%%%%%%%%#*#=                                                            
+                                            .:-*++*****###+-::::                                                             
+                                              ::::::::::::.                                                                  
+
+                                   
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <p>profound words that mean nothing // articles</p>
+      </div>
+      
+
+
+
+<ul class="posttext">
+<ol reversed class="postlist">
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/visualnovels/" class="postlist-link">What Makes VNs Different From Books?</a>
+		<time class="postlist-date" datetime="2024-12-17"> <span class="postdate"> 17 December 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">My terrible illness of &#39;W.E.E.B&#39; requires me to write at least one dweeb blog post every two months, so here&#39;s my blog post for the qouta.</ul>
+	
+
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/anime/" class="postlist-link">Wait, Anime Became Popular?</a>
+		<time class="postlist-date" datetime="2024-08-26"> <span class="postdate"> 26 August 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">I was looking at my previous anime reviews and realized they kinda sucked, so before trying one of those again, I wanted to write an article on a phenomenon I&#39;ve found interesting as of late. Anime has somehow gone from a generic dweeb 4chan basement dweller interest to a (relatively) socially acceptable hobby. This article mostly covers my thoughts as to why I believe this shift happened. PC-98 article tomorrow... fr fr..</ul>
+	
+
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/nhk/" class="postlist-link">I Owe a Lot to Welcome to the N.H.K.</a>
+		<time class="postlist-date" datetime="2024-08-15"> <span class="postdate"> 15 August 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">Welcome to the N.H.K. is far from the best show I&#39;ve watched, and quite frankly, I doubt I&#39;ll ever be in the right mental state to watch it again. Despite this, it impacted me more than any other piece of media I&#39;ve consumed in my life, and I suspect it could have a similar effect on many people in a similar position to where I once was.</ul>
+	
+
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/haruhi/" class="postlist-link">The 2000s Happened; Haruhi Suzumiya</a>
+		<time class="postlist-date" datetime="2024-08-12"> <span class="postdate"> 12 August 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">Weebs nowadays have to endure countless low quality isekai adaptions as the generic seasonal Anime of choice. In the 2000s, however, light novel adaptions were the new fad of the time, which brought countless pieces of seasonal shows that nobody remembers, and, also, The Melancholy of Haruhi Suzumiya anime adaption, a masterpiece characterized by absurdity and jokes that probably don&#39;t land for the majority of people watching it today.</ul>
+	
+
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/monogatariseries/" class="postlist-link">My Irrational Love for Monogatari</a>
+		<time class="postlist-date" datetime="2024-08-07"> <span class="postdate"> 07 August 2024</span></time>
+	</ul>
+	<ul class="posttextcontent">The Monogatari Series is arguably one of the most controversial franchises to come out of Japan, and for good reason. Despite this, it&#39;s honestly my favorite franchise of all time. I attempt to justify my love for this problematic series, whilst simultaneously marketing it to a new generation of losers in this article. Click the title, it&#39;ll be funny</ul>
+	
+
+
+</ol>
+</ul>
+
+
+
+    </div>
+    <div class="sidebar">
+      <ul class="linkz">
+        <li class="linkitem"><a href="mailto:tm@trademarkhell.net">email</a></li>
+        <li class="linkitem"><a href="https://discord.com/users/808778883322347531">discord</a>d</li>
+        <li class="linkitem">8chan</li>
+      </ul>
+      <div id="directory">
+        <div class="mainheading">directory</div>
+        <ul class="sidetext">
+          <li class="directoryitem"><a href="/">[1] index</a></li>
+          <li class="directoryitem"><a href="/blog">[2] articles</a></li>
+          <li class="directoryitem"><a href="/outgoing">[3] outgoing</a></li>
+          <li class="directoryitem"><a href="/archive">[4] ip grabber</a></li>
+        </ul>
+      </div>
+      <div class="statusdiv">
+        <div class="mainheading">status</div>
+        <div id="statuscafe">
+          <div id="statuscafe-username"></div>
+          <div id="statuscafe-content">
+            <p>loading...</p>
+          </div>
+        </div>
+        <script src="https://status.cafe/current-status.js?name=trademark" defer></script>
+      </div>
+      <div class="statistics">
+        <div class="mainheading">statistics</div>
+        <div class="stattext">
+          <li class="statitem" id="visitors">XXXX views</li>
+          <li class="statitem" id="created">x/x/x created</li>
+          <li class="statitem" id="updated">x/x/x updated</li>
+          <li class="statitem" id="followers" style="border: 0px;">xx followers</li>
+        </div>
+      </div>
+      <div class="desperation">
+        <div class="mainheading">desperation</div>
+        <div class="sidetext">
+          <a href="https://trademarkhell.net/"><img src="https://trademarkhell.net/tmsspecialhell.png"
+              alt="trademarkization company of 2003"></a>
+          <textarea cols="10" rows="" readonly="readonly" onclick="this.setSelectionRange(0, this.value.length) "
+            style="background-color: black; border: 1px dashed white; border-bottom: 0px; color: white; height: 25px; resize: none; overflow:hidden">              &lt;a href="https://trademarkhell.net/"&gt;&lt;img
+                      src="https://trademarkhell.net/tmsspecialhell.png" alt="trademarkization company of 2003"&gt;&lt;/a&gt;
+                    </textarea>
+
+          <iframe class="button" src="https://nekoweb.org/frame/follow" scrolling="no" frameborder="0" width="170"
+            height="28"></iframe>
+        </div>
+      </div>
+      <div class="updates">
+        <div class="updheading">updates</div>
+        <div class="updtext ">
+          <li class="upditem">sep. 9: new layout (and made an update section)</li>
+          <li class="upditem">aug. 20: minor styling changes</li>
+          <li class="upditem">aug. 7: new layout, article posting started</li>
+          <li class="upditem">jul. 14: still nothing of substance... but more garbage..</li>
+          <li class="upditem">jul. 1: site launched, basically nothing of substance</li>
+        </div>
+      </div>
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

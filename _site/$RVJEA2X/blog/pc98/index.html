@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        A Brief Overview of the PC-9821 Cs2 <div class="datebox"> 27 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>I pride myself in my ability to publish articles of absolutely no substance, but from time to time, it is my duty to publish actual content to this site. I'm fulfilling this contractual obligation by writing an article on one of my favorite computers of all time, and probably the one I mess around with the most, the PC-9821 Cs2.</p>
+<p>I'm currently in the middle of recapping the monitor that usually accompanies it, but here's a photo of the device itself:</p>
+<img src="/img/pc98.jpg" alt=" A photo of the aforementioned PC-98" height="300px" style="display: block; margin: 0 auto"/> 
+<p>If you think this looks like a generic computer from the mid 90s, you're correct. The PC-98 was NEC's answer to the increasingly popular IBM PC standard in the west, which I also wrote an article on. The IBM PC lacked the ability to display Japanese characters, and as such, a Japanese variant came in the form of the PC-88, originally, and later the PC-98 (divided into pc-9801 and pc-9821). Fundamentally, this is a rather standard computer, but it has vastly superior graphics to the IBM PC compatible's of it's time, due to the fact that the Japanese characters required far greater resolution.</p>
+<p>In effect, by making a machine capable of displaying comprehensible text, they also made a pixel-art based visual novel/shmup machine, oh, and eroge, lots of that, for some reason. So whilst people everywhere else got to enjoy these stunning graphics:</p>
+<img src="/img/doom1.png" alt=" A screenshot from Doom" height="300px" style="display: block; margin: 0 auto"/> 
+(Doom screenshot; from Wikipedia)
+<p>Japan got this:
+<img src="/img/policenautsop.png" alt=" A screenshot from the Policenauts opening" height="300px" style="display: block; margin: 0 auto"/>
+(Screenshot from Policenauts; taken from Reddit. hideo kojima made this VN and it's one of my favorites of all time, read it.)</p>
+<h2 id="cool-but-what-actually-made-these-graphics" tabindex="-1">Cool, but what actually made these graphics? <a class="header-anchor" href="#cool-but-what-actually-made-these-graphics">#</a></h2>
+<p>The PC-9821 CS2, what I have, and what I'll be covering, is, in most ways, very comprable to IBM PC compatibles of the same time. It features an Intel 486SX with a 33mhz clock speed, 4.6mb of ram, a 340mb HDD from the factory, dual 3.5&quot; floppy drives, and a CD-Rom drive. What made the device stand out was what it output through analogue RGB, 640x480 with 256 colors. At the time, 1992 to be exact, The IBM ecosystem was using VGA, which output 640x480 with merely 16 colors, or 320x200 with 256 colors. In effect, you had to choose between color and resolution on the IBM PC, but not with the 98, which is why the screenshot from it looked so much better.</p>
+<p>This is all just a really long way to say that the PC-98 just flat out had better graphics, in part because it was necesitated by the Japanese character set, which would've been virtually illegible at 320x200. For all the linguistics people out there, make languages more complicated so that we get cooler graphics, please and thank you.</p>
+<h2 id="the-sound-is-pretty-cool-too" tabindex="-1">The sound is pretty cool too.. <a class="header-anchor" href="#the-sound-is-pretty-cool-too">#</a></h2>
+<p>I don't intend for this article to just be me ragging on IBM for a page, but I do feel as though the YM3812 sound cards IBM PCs used were, whilst charming, rather ineffective. The YM3812 is the Yamaha produced chip that you'll find on Soundblaster cards and similar from the era, and is also what you'll hear playing the soundtrack to Doom, and in some cases, Half-life. It's not bad by any means, but was very limited.</p>
+<p>The PC-98 used the YM2203 chip, also from Yamaha, which utilized FM synthesis. I could probably try to explain what makes this better, but instead I'll just attach a piece of music from it:</p>
+<p>This is Vanishing Dream ~ Lost Dream (Kana's theme) from Touhou 3</p>
+ <iframe
+   frameborder="0"
+   width="400"
+   height="60"
+   src="https://drive.google.com/file/d/1yoQwZih2I0OzrxtPJebtDgP0K1VcuEuQ/preview?usp=drivesdk">
+</iframe>
+<p>This isn't to discredit the musicians who composed the soundtracks of IBM PC games, either, but rather to show the fact that the PC-98 allowed for music to, y'know, sound like music, as opposed to videogame music. I found that it really added a lot, especially when playing visual novels.</p>
+<h2 id="the-games" tabindex="-1">The Games <a class="header-anchor" href="#the-games">#</a></h2>
+<p>I'm just going to be fully honest here, the games may've looked better, but the IBM PC and it's compatibles had a significantly larger, and often better catalogue. The PC-98 only really had the IBM PC beat out in two areas, shmups, and visual novels. Most modern shmup franchises got their start on the PC-98, and to be honest, still hold up extremely well today. Visual novels from the 98 era have also fared much better graphically than their late 90s/early 2000s successors, when Japan switched to the IBM PC format, still looking quite stunning today.</p>
+<p>I'd only really consider getting a 98 if you're a complete dweeb who likes visual novels (me) or if you're a complete dweeb who likes shmups (me). There's a decent bit of RPGs and other games, but in large part, go to consoles for those. The 98 was still a business machine at the end of the day.</p>
+<h2 id="what-s-the-point" tabindex="-1">What's the point? <a class="header-anchor" href="#what-s-the-point">#</a></h2>
+<p>There's no point to this article, I just think the PC-98 series, and my PC-9821 Cs2 are cool as hell, and I wanted to share it with others. If you do want to pick one up, you can still get them for reasonably cheap, assuming you're willing to recap them, and are able to supply them with the appropriate voltage. As always, if you have any questions on the subject, I'll try to answer them, but no promises. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/anime/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/sitecontent/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

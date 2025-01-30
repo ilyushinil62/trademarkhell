@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Stupid Overpriced Hobbies <div class="datebox"> 27 October 2024</div>
+      </div>
+      <div class="maintext">
+        <p>From my extremely scientific sample group of the various people I hang out with, I've come to the conclusion that poeple seem to somehow end up with some variety of overpriced hobby that makes no sense. This post doesn't really have a purpose, but I feel it's my duty as the indie web's 78th most autistic user to discuss this.</p>
+<p>It's never things that quite make sense either, it's always seemingly mundane things that were made &quot;better&quot; for no reason. Have you ever thought that making coffee is <em>too</em> easy? No? Well, someone sure has, so now you can spend a grand to make coffee like it's a chemistry experiment. (Sorry Minato if you're reading this)</p>
+<p>This can be applied to literally everything, too. I spend way too much time and money hunting down exact specifications of 50 year old audio hardware just because I think it sounds better than the far cheaper new equipment, even though it scientifically doesn't.</p>
+<p>I've tried to find someone who isn't afflicted by this cruel and unusual money sink disorder, and I can't. It seems to be a mandate of existence that you're just a little too into one hobby. Weirdly enough, this also seems to rarely be the hobby that they talk about. I have a friend who dumps all his money into an old Civic he's K24 swapping, and I didn't even know he had a car until he randomly brought it up.</p>
+<p>Someone who actually has a functional braincell needs to look into this, as it makes no sense to me how people manage to defy all known living expenses in order to dump money into random overpriced hobbies. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/solution/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/guestbooks/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

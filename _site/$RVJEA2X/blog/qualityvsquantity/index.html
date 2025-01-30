@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Quality vs Quantity (for websites) <div class="datebox"> 04 September 2024</div>
+      </div>
+      <div class="maintext">
+        <p>Do you ever see a  site and think a bit later 'Man that site was cool I want to see it again,' that's probably just me, but it seems that half the time I go back to sites like that, they a completely different layout a week later. That's not to say I have anything against redesigning sites, I mean, most people have personal sites because they like making them. It's just that, when you're changing your site multiple times in just a few weeks, your site begins to lose it's identity.</p>
+<p>It's almost impossible to establish a, for lack of a better word, site identity, when your site is always changing. Especially when the changes often result in mismatched page styling, and for some sites, just flat out dead links. Most people won't look at your site for more than 30 seconds, that's just how it is, the aesthetics of it are pretty much what define how your site is viewed.</p>
+<p>In my, completely subjective and unstudied opinion, you should only really update your site layout when you have a solid plan in mind, and have actually learned things that make it fundamentally better than the previous layout. It's kinda pointless to keep pushing out new re-designs, over, and over, when they add nothing markedly better than the previous version.</p>
+<p>If you somehow are a black magic practing wizard who learns a bunch of new things every week, then my bad, keep updating your layout weekly, I guess. I just think for the majority of people, it's best to sit on your current site design for a few weeks/months so that you can really think about what you like/dislike about it, and how to improve it.</p>
+<p>Hell, I even have a new layout on the draftboard for this site, but I don't intend to publish it until I can really think of <em>how</em> it'd be better. If it's just the same quality as before, but different looking, why bother? This is all just my 2 cents, and quite frankly, I don't know nearly enough about webdevelopment to actually be qualified to talk about any of this. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/Templates/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/pointlessblogs/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+         <div class="datebox"> 01 September 2024</div>
+      </div>
+      <div class="maintext">
+        <h1>Tags</h1>
+
+<ul>
+
+	
+	<li><a href="/tags/music/" class="post-tag">music</a></li>
+
+	
+	<li><a href="/tags/tech/" class="post-tag">tech</a></li>
+
+	
+	<li><a href="/tags/opinion/" class="post-tag">opinion</a></li>
+
+	
+	<li><a href="/tags/web/" class="post-tag">web</a></li>
+
+	
+	<li><a href="/tags/anime/" class="post-tag">anime</a></li>
+
+</ul>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"></div>
+        article's over, say stuff, if you want
+        <div class="nextbut">
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

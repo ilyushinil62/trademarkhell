@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        The Indie Web Echo Chamber <div class="datebox"> 23 October 2024</div>
+      </div>
+      <div class="maintext">
+        <p>If you go into any online community for a hobby, it'll likely fit into one of two categories, everyone hating what other people do, for no reason, or, everyone loving what other people do, for no reason. Neither of these are inherently good, but, it's pretty obvious that most indie web related spaces lean pretty far into the ladder.</p>
+<p>There's this almost unspoken rule that someone leaves an overly superficial comment in your guestbook that praises your site, you do the same in their guestbook, and then you both follow one another. It's just a glorified echo chamber of praise, and whilst very enjoyable to be within, serves absolutely zero purpose.</p>
+<p>That's not to say that people should start writing &quot;this site fucking sucks and i hope your dog dies&quot; when people ask for advice, or open their guestbook, but just baselessly praising sites without even saying <em>what's</em> good, let alone <em>what's</em> bad, won't help the site maker at all.</p>
+<p>Criticism is pretty much the only way for people to improve, along side screwing up, but people will never know if they screwed something up with their site if they aren't told so. It's possible to be nice and comment about how you like something whilst still providing genuine feedback.</p>
+<p>You aren't obligated to praise someone else's site just because they praised your site, either, nobody's holding a gun to your head saying that constructive criticism is forbidden. Guestbooks whole point for existence is feedback, say what you actually think, not the 50x dumbed down version that can be summarized as 'cool site; i like it'.</p>
+<p>That's not to say I'm some authority on web design either, my site has plenty of flaws, and I add more whenever I update it. I just think it's important that people recognize that criticism actually has a purpose, and that praise will only get you so far.</p>
+<p>tl;dr: go around telling people that everything on their site is god-awful; tm out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/internetpolitics/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/solution/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

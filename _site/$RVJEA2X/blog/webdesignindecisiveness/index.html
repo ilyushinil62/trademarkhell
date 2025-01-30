@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Indecisiveness and Web Design <div class="datebox"> 26 September 2024</div>
+      </div>
+      <div class="maintext">
+        <p>If you haven't noticed by the fact that this website gets completely rebranded every month or two, I'm rather indecisive. I doubt it's just me, though, I mean I see plenty of sites get updated an absurd amount, and the 4,282 scrapped layouts that my friends make.</p>
+<p>Webdesign is sort of a trap, in that by just publishing a layout, you'll immediately notice every flaw it has. Besides, you like doing web development, so you'll just remake it anyways, and so the cycle continues.</p>
+<p>The current layout you're looking at is the result of weeks of (off and on) work, and quite frankly, I don't like it at all. Everything on this site was the result of a concious decision, and yet, juat a week after publishing it, I've &quot;decided&quot; to not like it.</p>
+<p>I honestly think it may be impossible to fully decide on a layout, or even a style, unless you make it as bland and inoffensive as possible. That's not to say that this is a good thing, but honestly, I think it's what'll come in the near future for me.</p>
+<img src="/img/nixonmaxxing.png" alt="A deeply profound Discord conversation." width="550px"  style="display: block; margin: 0 auto"/>
+<p>I put this so eloquently in a Discord conversation with someone who's name I won't bother to obscure, since it's some stupid esoteric nickname anyways.</p>
+<p>Although, I think there's a beauty in a site that's simple and long-lasting. The backend of this site is genuinely atrocious, I think nearly all the stylesheets are over 500 lines, and that makes me want to simplify the site along with the stylesheets.</p>
+<p>It's not a bad thing to always be changing layouts in some indecisive frenzy, but I don't think contentment will ever be reached until you make something absurdly simple and easy to tolerate.</p>
+<p>I've always liked creative site designs, but by the end of November, there's no way this site isn't some soulless Helvetica font using, mobile-responsive, grey/white themed thing. Remember this article as the one that killed trademarkhell.net, I guess, but also consider that there's more to having a website than re-styling it every week. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/websitelifespan/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/websiteratrace/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

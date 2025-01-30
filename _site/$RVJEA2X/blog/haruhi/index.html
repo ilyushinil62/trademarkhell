@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        The 2000s Happened; Haruhi Suzumiya <div class="datebox"> 12 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>blah blah blah; obligatory disclaimer goes here: show discussed was rated 13+ in most countries, putting this here so i don't get sued., thank you COPPA ..</p>
+<p>When people think of the 2000s, they probably think about things like the 2008 recession or the dawn of the new millenium, but I have my priorities in check; I think about anime. More specifically, I think of Kyoto Animation's adaptions of manga, light novels, and visual novels, like Clannad, Kanon, Lucky Star, and The Melancholy of Haruhi Suzumiya. The former three are arguably still relevant today, even if just watched for nostalgia, but curiously, it seems as though Haruhi has largely faded into relative obscurity. I personally think it's a shame that so few people know about Haruhi nowadays, so I'm taking responsibility and preaching the gospel of this show that I really like, despite it having no exceptional characteristics.</p>
+<p>The Melancholy of Haruhi Suzumyia aired it's first season in Spring of 2006, to largely positive reviews. It adapted the light novel series of thes same name, which had it's first novel released in 2003, and is not yet complete. The anime series, however, seems to be significantly better known, and in my opinion, is the superior way to consume the arcs it adapts, and as such, is the focus of this article. Attached below is the art of the movie because I think it goes too hard not to include, and it shows the cast.</p>
+<img src="/img/haruhiposter.jpg" alt="The poster of the movie 'The Disappearence of Haruhi Suzumiya'" height= 600px style="display: block; margin: 0 auto"/>
+<p>The show is told from the point of view of Kyon, a character with no actual name, nor a last name. He served as one of the original &quot;straight man&quot; characters in anime, a trend which seems to have become rather common today. Complimenting him is a cast of proportionately, but for the sake of not sucking the joy out of whoever chooses to watch this show, I'll just highlight the namesake of the show, Haruhi Suzumiya. Haruhi is a delusional character with god-like powers who effectively has the ability to do whatever she wants.</p>
+<p>If the final sentence of the last paragraph didn't make it obvious enough, this is, in effect, a show about Haruhi doing whatever she wills, with whoever she wills. In effect, this makes the show a slice of life, and it evidently is, but what makes the show interesting is the fact that Haruhi can do just about anything, and as such, many of the activities diverge from that of the standard &quot;cute girls doing cute things&quot; formula. The show can get pretty batshit insane, in a very good way. I'll attach the clip below as a testament to that.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x3GgMehORTI?si=mO3lUjgxr9W21T58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: 0 auto"></iframe>
+<p>I could probably provide context to this clip, but instead I'm just going to end my article here. Watch the show. It's aged terribly, but man, when it hits, it hits. Batshit insane slice of life with an interesting cast. It won't be the best show you've ever watched or anything, but it's enjoyable.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/polishrock/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/useyourblog/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

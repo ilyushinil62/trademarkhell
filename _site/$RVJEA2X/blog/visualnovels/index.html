@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        What Makes VNs Different From Books? <div class="datebox"> 17 December 2024</div>
+      </div>
+      <div class="maintext">
+        <p>The Visual Novel game genre, for those not aware, is the red-headed step-child of choose your own adventure books and anime, yet, somehow stands largely seperate from both.</p>
+<p>I've always wondered what exactly causes this difference, though. The obvious answer would be the fact that you have imagery and choices in visual novels, but quite frankly, I don't think either of these are what really set them apart. The imagery usually takes the form of still images, and has limited story involvement in the bulk of visual novels, and choices, whilst impactful, seem to be sparse in the bulk of non-romance visual novels.</p>
+<p>I'd argue that the difference between visual novels and books is not the presentation of them, but rather, who writes them. Books, at least successful ones, are often written by those knowledgeable about the intricacies of story structure and literature, whereas, visual novels, particularly those created by indie studios, often lack such credentials for their writers.</p>
+<p>And I don't mean this as a bad thing for either, rather, I feel as though it's this lack of formal training that shapes visual novels. Visual novels are often written in a almost blunt manner, with the majority of text being dialogue, as opposed to descriptions of scenes or characters, and due to this, come off as more 'authentic' due to the lack of refinement that we associate with traditional literature.</p>
+<p>Still, writing style isn't what I think defines visual novels, it's the concepts. Books, particularly those targeted toward older audiences, seem to have this peculiar complex about reusing common themes and tropes. This does make them unique, but at times, simple tropes being used to deliver a simple theme for the 500th time can be a good thing.</p>
+<p>The impactfulness of a work isn't determined by if a previous work had a similar impact, but rather, if those reading it feel the impact. Visual novels aren't targeting those familiar with classical works, in fact, I wouldn't be surprised if a great deal of those who wrote them weren't, they're targeting dweebs who could take simple themes to heart.</p>
+<p>Visual novels are a blunt abstraction of lessons that have already been told hundreds of times before, but in the modern literary environment, I feel as though this has a value in and of itself. This may seem paradoxical, but it's the lack of differences in visual novels from one another and past works that make them so different from modern literature.</p>
+<p>To be honest, I don't know if this made any sense, I'm not really sure how to explain it, but I've always wanted to write about visual novels. I find them to be an incredibly impactful medium, even if they dont always use the most elaborate thematic concepts or literary devices.. TM out.</p>
+<img src="/img/nkddlc.webp" alt="Natsuki of Doki Doki Literature Club" width="100px"  style="display: block; margin: 0 auto"/>
+idk why but i feel like this is some bullshit natsuki would say
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/contrarianism/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/idrive/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

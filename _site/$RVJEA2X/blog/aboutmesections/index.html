@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Why Use About Me Sections? <div class="datebox"> 19 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>If you look at a personal website, odds are you'll see a link on the navbar that goes to something roughly equating to an about me section. At first glance, this does make sense, I mean it's a personal site, you'd want to put details about the person who runs the site on it. However, it's exactly because personal sites are meant to be personal that I oppose about me sections. In everyday conversations you don't get handed a list of bullet points about the person you're talking to, you deduce who they are based on how they act and what they say. I think that personal sites should operate in a similar manner.</p>
+<p>I personally feel as though the way you style your site, the content you choose to put on it, and the way you interact with the people who stumble upon it are a far more accurate indicator of who you are as a person than a single page will ever be. By attempting to depict your entire online identity in the least offensive way possible on a single page, you effectively limit who you can be viewed as. You're defined by how you act, not how you tell people to think of you.</p>
+<p>Internet users as a whole have grown far too used to taking the easiest, least offensive methods to define how they wish to be seen. People will use tone indicators as a way to hide what they really think under the thin veil of &quot;/hj&quot;, refusing to present their opinions in a genuine matter. In my eyes, the modern about me section is just an extension of this, people wanting to be universally liked, and fearing individualism.</p>
+<p>To be disliked by some is to be an individual. There's no such thing as someone without opinions, and there will always be people who oppose the opinions you hold. The discourse that comes from this, whilst unpleasant, is extremely important in helping both parties mature as people.</p>
+<p>Don't hide behind about me sections, or anything else, just present yourself as you are. Some people may like you, some may not, but that's simply how life is. Your online identity is an extension of your person, and at times, it's important to treat it as such. Don't limit who you are just because you fear that someone else may disagree. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/computeraddiction/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/ibm5160/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

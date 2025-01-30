@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Pessimism is Pointless <div class="datebox"> 09 October 2024</div>
+      </div>
+      <div class="maintext">
+        <p>Over the past few years, I've noticed this weird up-tick in general pessimism on the internet. It's not that surprising or anything, I mean, I was an edgy teenager once, but it does seem a lot more prevalent than it once was. Especially in more, with a lack of a better word, nerdy spaces, such as the indie web.</p>
+<p>I could write on and on about why I think it is that we see this, but quite frankly, I'm in no position to have any constructive statements on the subject. Rather, I'll do what I do best, telling people why I'm right and backing it up with nothing.</p>
+<p>I don't really know what it is people hope to accomplish by solely posting about how miserable they are and how nothing matters, on the internet, but quite frankly, all it really does is make other people feel just as bad.</p>
+<p>It doesn't take much effort to feel as though everything is bad, but quite frankly, it takes even less effort to just not care at all. I'm not saying that it's some sorta internet mandate to suddenly become an optimist and get everyone all excited about how &quot;we're so back,&quot; but if you just take a neutral standpoint, you don't really need to worry about anything.</p>
+<p>Is that naive? Probably, but I'd argue that it's better to turn a blind eye to something and be happy than it is to only think about everything bad in the world. There's always gonna be something terrible happening, but there's also a great deal of good happening that you nver hear about.</p>
+<p>Honestly, I'm just writing this because I'm tired of going on websites that talk about how society will collapse in 2 months and that we need to start a communist revolution tomorrow. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/biasedwebhostreviews/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/internetpolitics/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

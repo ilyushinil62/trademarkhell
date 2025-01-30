@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link rel="stylesheet" href="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-people.css">
+  <link rel="stylesheet" href="https://hotel.nekoweb.org/hotel-onionring.css" />
+  <link href="css/index.css" rel="stylesheet" />
+  <script>
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `<em>Created</em>: ${created}`;
+      document.getElementById("updated").innerHTML = `<em>Updated</em>: ${updated}`;
+      document.getElementById("visitors").innerHTML = `<em>Visits</em>: ${json.views}`;
+      document.getElementById("followers").innerHTML = `<em>Followers</em>: ${json.followers}`;
+    };
+    getStats();
+
+  </script>
+  <link href="/css/navbase.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <ul class="headertop">
+        <p>nav</p>
+        <li class="headertoptext">
+            <b>trademarkhell.net // stuff about blog </b>
+        </li>
+      </ul>
+      <ul class="header-flex">
+        <ul class="nav">
+          <li class="navitem">
+            <p><a href="/" l>home</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/blog/" l>blog</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/tech/" l>tech</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/music/" l>music</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/anime/" l>anime</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/web/" l>web</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/nil/" l>soon</a></p>
+           </li>
+           <li class="navitem">
+             <p><a href="/tags/nil/" l>soon</a></p>
+           </li>
+        </ul>
+        <li class="banner">
+          <img id="headerimage">
+          <script src="/scripts/fetchImage.js"></script>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      
+
+
+
+<ul class="posttext">
+<ol reversed class="postlist">
+
+</li>
+	<ul class="posttexttop">
+	<li class="postlist-item">
+		<a href="/blog/webdesignpetpeeves/" class="postlist-link">My Pointless Web Design Pet Peeves</a>
+		<time class="postlist-date" datetime="2024-08-17"> // 17 August 2024</time>
+	</ul>
+	<ul class="posttextcontent">Just yesterday I recognized that my web and article sections were nearly identical, unfortunately, this will be keeping that trend going, as I&#39;ll be ranting about web design elements I dislike. This article is solely based on my opinions, and the evidence used is fringe at best. Deeply scientific stuff.</ul>
+	
+
+
+</ol>
+</ul>
+
+
+    </div>
+    <div class="footer">
+      Hosted on Nekoweb // Powered by 11ty // All Rights Reserved
+    </div>
+    <div class="sidebar">
+      <ul class="sidebarflex">
+        <ul class="status">
+          <li class="maintexttop">
+            <p>what's up?</p>
+          </li>
+          <li class="stattext">
+            <div id="statuscafe">
+              <div id="statuscafe-username"></div>
+              <div id="statuscafe-content"></div>
+            </div>
+            <script src="https://status.cafe/current-status.js?name=trademark" defer></script>
+          </li>
+        </ul>
+        <ul class="playing">
+          <li id="listeningStatus">
+          </li>
+          <li id="listening">
+          </li>
+        </ul>
+        <ul class="stats">
+          <li class="maintexttop">
+            <p>NekoStats</p>
+          </li>
+          <ul class="statstext">
+            <div id="created"><em>Created</em>:</div>
+            <div id="updated"><em>Updated</em>:</div>
+            <div id="visitors"><em>Visits</em>:</div>
+            <div id="followers"><em>Followers</em>:</div>
+
+          </ul>
+        </ul>
+        <ul class="playing">
+          <li class="maintexttop">
+            <p>internet stuff</p>
+          </li>
+          <li class="playingtext">
+
+            <div id="nekohotel">
+              <script type="text/javascript" src="https://hotel.nekoweb.org/hotel-variables.js"></script>
+              <script type="text/javascript" src="https://hotel.nekoweb.org/hotel-widget.js"></script>
+            </div>
+            <div id='neko-tag'>
+              <script type="text/javascript"
+                src="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-variables.js"></script>
+              <script type="text/javascript"
+                src="https://darkosparko.nekoweb.org/webrings/neko-tag/neko-tag-widget.js"></script>
+            </div>
+          </li>
+        </ul>
+        <ul class="square">
+          <li class="maintexttop">
+            <p>sponsors</p>
+          </li>
+          <li class="squaretext">
+            <iframe width="200" height="170" style="border:none" src="https://dimden.neocities.org/navlink/"
+              name="neolink"></iframe>
+          </li>
+        </ul>
+        <ul class="square">
+          <li class="maintexttop">
+            <p>not sponsors</p>
+          </li>
+          <li class="squaretext">
+            <img width="200px" height="170px" alt="tempshitpost" src="https://piclog.blue/latest.php?id=635"
+              margin="auto" />
+          </li>
+        </ul>
+        <ul class="follow">
+          <li class="followtext">
+            <a href="https://nekoweb.org/follow/trademark" l>follow me!!!</a>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+  <script src="/scripts/playingsong.js"></script>
+</body>
+<style>
+  body {
+    margin: auto;
+    display: block;
+    width: 95%;
+    height: 95%;
+    background-image: url("/img/checker26.png");
+    animation: bgScroll 35s linear infinite;
+  }
+</style>
+
+</html>

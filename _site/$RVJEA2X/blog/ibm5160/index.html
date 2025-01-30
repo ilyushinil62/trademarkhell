@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        A Brief Overview of the IBM 5160 <div class="datebox"> 20 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>The IBM 5160, or, the IBM PC XT, is the direct successor to the IBM 5160, the IBM PC. There's technically some motherboard differences between the two, but in practice, the only real difference is that the IBM 5160 came from the factory with a HDD, as opposed to the IBM PC, which came with dual 5.25&quot; floppy drives. The IBM PC lineup has a very interesting history, but due to that deviating from the purpose of this article, all you really need to know is that the IBM PC was effectively the first readily available computer.</p>
+<h2 id="graphics" tabindex="-1">Graphics <a class="header-anchor" href="#graphics">#</a></h2>
+<p>The IBM PC XT was available with three different graphics cards, the Monochrome Display Adapter, the Color Graphics Adapter, and the Enhanced Graphics Adapter. The Monochrome Display Adapter, as the name suggests, gives you monochrome graphics, with 80 columns and 25 lines of text. It was intended to be paired with the IBM 5151, which was the stereotypical black and green terminal-esque monitor that we've grown used to seeing in games such as Fallout. The Color Graphics Adapter, despite what the name may infer, barely gives you color, only giving you a limited palette of four colors at 320x200 . It was designed with the IBM 5153 in mind, and you can see a photo of mine running Microsoft Flight Simulator 3 (1988) below, in all of it's ugly glory. (Pardon the reflection)</p>
+<img src="/img/fs3closeup.jpg" alt="A photo of my IBM 5160 running MFS3 "  height=400px style="display: block; margin: 0 auto"/>
+<p>That brings us to the last, and least commonly used adapter, the Enhanced Graphics Adapter, it gave you proper 16 color graphics at 320x200, although came in at a lofty price, and was made obsolete by VGA shortly after it's release. It was intended to be paired with the IBM 5154.</p>
+<p>In practice, all you really need to run the vast majority of IBM PC games is a CGA card, given it can display graphics, unlike the text-only MDA, however games will look much better with a EGA card, and if you're a heathen, a VGA card. What card you opt for really comes to budget and personal preference, I quite like the period-correct charm of the CGA card's graphics, but it's certainly an acquired taste.</p>
+<h2 id="ram" tabindex="-1">Ram <a class="header-anchor" href="#ram">#</a></h2>
+<p>Ram is probably the most important thing outside of your graphics card of choice that determines if you can run a game or not. The IBM 5160 was limited to 640kb of ram, but, in practice, the majority of computers you'll find will have a maximum of 256KB. This can be remedied by relatively inexpensive ram chips, and I highly advise doing so, as 400kb of RAM can be the difference between a slideshow and an actually enjoyable game.</p>
+<h2 id="storage" tabindex="-1">Storage <a class="header-anchor" href="#storage">#</a></h2>
+<p>The IBM 5160 was equipped from the factory with one 5mb HDD, and one 5.25&quot; floppy drive. 5MB likely sounds like very little storage, and in a world of 20MB flac files and 200GB games, it is, but at the time this was a rather impressive development. The earlier 5150 had no HDD, and exepcted the user to solely rely on a constant rotation of floppy disks, so this 5MB HDD effectively changed the way computers were operated.</p>
+<p>Odds are, however, this HDD will have lost it's magnetization many years ago by now, and will need to be replaced. This is where the wonders of modern technology make operating the computer much easier. Rather than hunting down an original HDD, you can install a XT-IDE card (or a offbrand, like i use), which allow you to use a compact flash card as your HDD. This means transferring files onto your IBM PC is as simple as dragging the files onto the compact flash card from your modern computer, and plugging it into the IBM PC.</p>
+<h2 id="is-there-any-realistic-use-case-for-this" tabindex="-1">Is There Any Realistic Use Case For This? <a class="header-anchor" href="#is-there-any-realistic-use-case-for-this">#</a></h2>
+<p>The IBM 5160 is a 41 year old piece of technology, and for the majority of tasks, completely useless. Despite this, I find a certain joy in playing through the vast catalogue of 80s DOS games on it, and at times, programming in C or BASIC You can do literally everything an IBM PC can on a new PC with DOSBox, but something just hits different about doing it on original hardware. It's just cool, I guess.</p>
+<h2 id="my-personal-setup" tabindex="-1">My Personal Setup <a class="header-anchor" href="#my-personal-setup">#</a></h2>
+<p>I personally run a fully recapped IBM 5160, with a CGA graphics card, a few other connectivity cards, a 3-COM Etherlink, which allows me to connect to BBS Boards through ethernet, an IBM Model M keyboard, 640KB of ram, a 500MB compact flash card, and a IBM 5153 monitor. For My personal needs, this is the ultimate setup, I find that it combines modern convenience with with reasonably believable period-correct hardware. There's nothing I can think of that I'd change with it.</p>
+<img src="/img/5160setup82024.png" alt="My 5160 setup"  height=400px style="display: block; margin: 0 auto"/>
+<h2 id="conclusion" tabindex="-1">Conclusion <a class="header-anchor" href="#conclusion">#</a></h2>
+<p>This was a lot different than my previous articles, and I hope to publish more semi-constructive works about things I find interesting. If you have questions about the IBM PC lineup for some reason, feel free to ask me, I like to think of myself as semi-knowledgeable about them. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/aboutmesections/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/newwebdevs/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

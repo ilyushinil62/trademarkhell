@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Why Neocities/Nekoweb? <div class="datebox"> 23 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>When you click on a personal website, odds are you'll see 'neocities', or, in some cases, 'nekoweb' in the link. However, there's nothing that clearly makes these two better than other free webhosts, at first glance. There's plenty of other webhosts with similar or higher bandwidth/storage, and at times, even free custom domain support.</p>
+<p>Despite this, I recently realized what it was that really differentiated Neocities and Nekoweb from other webhosts, they satiate the desire for approval that many of us have gotten from social media. Nekoweb and Neocities both have followers and accessible view counters, and Neocities features profiles and comment sections, not all that different to how social media pages function.</p>
+<p>People, at least in my opinion, default to these hosts because they seek the validation that social media gives them, without using social media itself. People clearly aren't just ignoring the statistics and comment sections on their sites. You'll see countless sites, including mine, which display their followers and views directly on the homepage.</p>
+<p>These hosts are effectively used for the easy dopamine they provide in the form of increasing numbers, the same reason people use social media. That's why they're so much more popular than other site hosts with no homepage and no followers. They serve as a medium for fulfilling the desire for approval that so many people have gained over the years, but hey, I guess it beats getting approval through social media.</p>
+<p>That's not to say that either host is bad, I mean, I pay for the premium tier of Nekoweb and pray to Dimden fourty-two times a day so that he won't delete my site. Popular webhosts have always at least had some aspect akin to that of social media. Geocities was originally  named as such because it featured individual cities for each type of website, and in these cities were HTML based chatrooms.</p>
+<p>Socialization, and the approval that stems from it seems to have always been a major influencing factor for the majority of personal site webmasters, and the decisions they make. It's simply grown more relevant as of late with the increasing popularity of social media. It's human nature to want people to appreciate your work, and I assume that the majority of people making websites aren't robots.</p>
+<p>I could probably try to stretch this out further, but I made my point. Keep in mind that this is all based on my opinions, TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/personalsiteego/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/ai/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        The Indie Web Described By a True Idiot <div class="datebox"> 10 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>As of late( well not really, more so for the past 15 years ), the concept of the 'Indie Web' has been in resurgence, with many seeking to partake in an internet free of the constraints of corporations or ruling powers, as the internet once was. Despite this, I'd argue that the term 'Indie Web' has really lost it's original meaning.</p>
+<p>This term suggests that these websites are truly independent from external influence, yet, the majority of self-declared 'Indie' sites are still being hosted on services such as Neocities or Nekoweb, both of which have their own external rules and the ability to delete/moderate sites. These rules, of course, exist for reasons, but it's because of this external influence that I feel it's disingenous to say that these websites are truly 'Indie'.</p>
+<p>In the modern sense being an independent site seems to be more of a design philosophy than that of a literal thing. The 'Indie Web' seems to be defined by sites, which, for lack of better terminology, serve no real purpose. Take this site for example, it just serves to host my pretentious ramblings. The purposes of these sites suit their owners and, at times, a select group of people, but rarely venture outside of that small niche.</p>
+<p>What I'm trying to say is that, in effect, 'Indie Web' no longer means websites independent from external influence, rather, it means sites made for self indulgence, sites made for recreation rather than for profit, sites made by hobbyists, for hobbyists. Despite losing it's original meaning, I'd argue that the concept of the 'Indie Web' is stronger than ever, with more websites made for leisure existing now than there has been in years.</p>
+<p>Furthermore, I'd like to specify that this article is not a criticism of the 'Indie Web' whatsoever, given I'm an avid participant in the community. This article merely serves to provide an exteremly unscientific, and unproven theory as to what the 'Indie Web' truly is, in it's current evolution. Albeit, I suspect that the defenition of the 'Indie Web' will continue to change for as long as people continue to make websites for non commercial use.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/monogatariseries/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/polishrock/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

@@ -147,46 +147,6 @@
 	</url>
 	
 	<url>
-		<loc>https://trademarkhell.net/about/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/blog/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/web/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/opinion/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/tech/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/anime/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/tags/music/</loc>
-		<lastmod>2024-09-01</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://trademarkhell.net/blog/computerliteracy/</loc>
 		<lastmod>2024-09-02</lastmod>
 	</url>
@@ -219,16 +179,6 @@
 	<url>
 		<loc>https://trademarkhell.net/blog/stillalive/</loc>
 		<lastmod>2024-09-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/outgoing/</loc>
-		<lastmod>2024-09-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://trademarkhell.net/blog/websitelifespan/</loc>
-		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
@@ -327,7 +277,57 @@
 	</url>
 	
 	<url>
+		<loc>https://trademarkhell.net/about/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/blog/websitelifespan/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://trademarkhell.net/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/outgoing/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/web/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/opinion/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/tech/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/anime/</loc>
+		<lastmod>2025-01-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://trademarkhell.net/tags/music/</loc>
 		<lastmod>2025-01-30</lastmod>
 	</url>
 </urlset>

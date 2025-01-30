@@ -15,7 +15,7 @@ body {
 		"footer footer";
 	width: 827.5px;
 	font-family: dos;
-	color: white;
+	color: orange;
 	text-shadow: 0px 0px 24px rgba(255, 166, 0, 0.7);
 	text-indent: 25px;
 	font-size: 15px;
@@ -48,7 +48,7 @@ pre {
 }
 
 .main {
-	border: 1px solid white;
+	border: 1px solid orange;
 	grid-area: main;
 	display: flex;
 	flex-direction: column;
@@ -59,7 +59,7 @@ pre {
 	grid-area: sidebar;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid white;
+	border: 1px solid orange;
 	border-left: 0px;
 	text-shadow: 0px 0px 24px rgba(255, 166, 0, 0.7);
 
@@ -81,8 +81,8 @@ body,
 
 
 .titlecard {
-	background-color: white;
-	border-left: 1px solid white;
+	background-color: orange;
+	border-left: 1px solid orange;
 	display: flex;
 	flex-direction: column;
 	height: 55px;
@@ -96,7 +96,7 @@ body,
 .cardrow {
 	height: 13.75px;
 	width: 515px;
-	background-color: white;
+	background-color: orange;
 	position: relative;
 }
 
@@ -121,7 +121,7 @@ body,
 	height: 55px;
 	line-height: 65px;
 	width: 515px;
-	color: white;
+	color: orange;
 	text-shadow:
 		-2px -2px 0 #000,
 		2px -2px 0 #000,
@@ -146,11 +146,11 @@ body,
 	font-weight: bold;
 	font-size: 25px;
 	text-indent: 30px;
-	border: 1px solid white;
+	border: 1px solid orange;
 	border-left: 0px;
 	border-right: 0px;
 	line-height: 30px;
-	background-color: white;
+	background-color: orange;
 	color: black;
 }
 
@@ -183,7 +183,7 @@ body,
 	font-size: 18px;
 	align-items: center;
 	list-style: none;
-	border-bottom: 1px dashed white;
+	border-bottom: 1px dashed orange;
 	line-height: 30px;
 	overflow: hidden;
 
@@ -198,7 +198,7 @@ body,
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-	border-bottom: 1px dashed white;
+	border-bottom: 1px dashed orange;
 
 }
 
@@ -209,7 +209,7 @@ body,
 
 .postdate {
 	float: right;
-	border-left: 1px dashed white;
+	border-left: 1px dashed orange;
 	text-indent: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -257,7 +257,7 @@ body,
 }
 
 .statitem {
-	border-bottom: 1px white dashed;
+	border-bottom: 1px orange dashed;
 	text-indent: 0px;
 	margin: 0;
 	padding: 0px;
@@ -265,7 +265,7 @@ body,
 }
 
 .upditem {
-	border-bottom: 1px white dashed;
+	border-bottom: 1px orange dashed;
 	text-indent: 0px;
 	margin: 0;
 	padding: 0px;
@@ -286,7 +286,7 @@ body,
 	text-indent: 0px;
 	list-style: none;
 	justify-content: space-between;
-	background-color: white;
+	background-color: orange;
 }
 
 .linkitem {
@@ -324,7 +324,7 @@ p {
 }
 
 .button {
-	border-top: 1px dashed white;
+	border-top: 1px dashed orange;
 	background-color: black;
 	width: 100%;
 	height: 30px;
@@ -352,21 +352,21 @@ p {
 }
 
 a:link {
-	color: white;
+	color: orange;
 	text-decoration: none;
 }
 
 a:visited {
-	color: white;
+	color: orange;
 }
 
 a:hover {
-	color: white;
+	color: orange;
 	font-style: italic;
 }
 
 a:active {
-	color: white;
+	color: orange;
 }
 
 #directory {
@@ -407,7 +407,7 @@ a:active {
 	float: right;
 	width: 240px;
 	height: 20px;
-	background-color: white;
+	background-color: orange;
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 4% 100%);
 	font-size: 11.8px;
 	text-indent: 7px;
@@ -416,7 +416,7 @@ a:active {
 
 .mainheading:hover {
 	background-color: black;
-	color: white;
+	color: orange;
 }
 
 
@@ -431,7 +431,7 @@ a:active {
   content: " ";
   position: absolute;
   width: 1px;
-  background-color: white;
+  background-color: orange;
   top: 5px;
   bottom: -12px;
   left: 10px;
@@ -443,7 +443,7 @@ a:active {
   content: " ";
   position: absolute;
   width: 1px;
-  background-color: white;
+  background-color: orange;
   top: 5px;
   bottom: 7px;
   height: 7px;
@@ -455,7 +455,7 @@ a:active {
   left: 10px;
   width: 10px;
   height: 1px;
-  background-color:	white;
+  background-color:	orange;
   top: 12px;
 }
 

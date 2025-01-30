@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Pointless Blogs <div class="datebox"> 05 September 2024</div>
+      </div>
+      <div class="maintext">
+        <p>The internet is filled with blogs, if you somehow haven't noticed. Curiously, though, the majority of these blogs have absolutely nothing of substance, they're just pointless ramblings from some guy (sound familiar?). Someone has to be reading them, though, otherwise, why would they exist? Despite the fact that there is very obviously a target demographic for this medium, I simply can't imagine who that demographic is.</p>
+<p>No offense to the pour soul(s, even) reading this, but there's no way in hell I'd read this. This site, along with a lot of blogs, is the digital version of a insane man's diary. Despite popular schizophrenic belief, I don't think many people go out and read diaries in their free time, so that doesn't fully answer my question.</p>
+<p>If you look at it from a different perspective, I suppose you could consider online blogs to be the idiot equivalent of opinion columns, but there's a distinct difference between the two. Opinion columns are published because they're from people with educated, interesting opinions, blogs are published because the webmaster has too much free time.</p>
+<p>I think that could be exactly why there's a demographic for blogs, though, they provide the opinions of people who have no real credentials to be sharing them, and in a way, I suppose that's entertaining, even if unintentionally. I mean, there's even a few blogs I keep up with, but I sure know it's not because I view them as experts in their fields, I just do so because they're entertaining.</p>
+<p>Blogs are more or less a somewhat more complex version of those comments you see on forums of idiot's claiming they know everything. If you combine enough of them, you almost get information out of them, and in the process, you get a lot of entertainment. I still do take pity on you if you willingly go to this blog, but I appreciate it nonetheless. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/qualityvsquantity/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/webdesignisfun/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

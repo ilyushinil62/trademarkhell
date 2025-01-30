@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Internet Echo Chambers <div class="datebox"> 15 December 2024</div>
+      </div>
+      <div class="maintext">
+        <p>The internet, as with anything, is largely divided into cliques based on the beliefs those within them hold, and this isn't a inherently bad thing, either. It's just that, there's a key difference between the divisions of the internet and the divisions of the real world.</p>
+<p>In the real world, you're forced to interact with people outside of your clique, whether it be for work or errands, but on the internet, a place where an increasing amount of people are spending the bulk of their time, you never have to step out of these boundaries; finding people who share your beliefs is as simple as going onto a forum or Discord server based around them. Afterall, why would you go to a website filled with people you don't agree with?</p>
+<p>And, given the increasing prevalence of online education and employment (and NEETs, i guess), this balance maintained by in person human interaction seems to be fading to a degree.</p>
+<p>Propaganda is at it's strongest when it confirms your existing beliefs, regardless of where you may lay on the political spectrum. If someone in one of these online communities says something false, odds are, nobody will disagree with them.</p>
+<p>For example, let's say you belong to the X political party and are on a Discord server in support of this party, if somebody in this server says the candidate of the opposition Y political party committed some terrible action, you'll agree with them. You want to believe this is true, regardless of whether it actually is, because it aligns with your ideals. And since there is nobody present who opposes your belief, you'll simply accept it as the truth and grow further radicalized toward the cause.</p>
+<p>I'm not writing this post because I'm annoyed at the left or the right, the Democrats or Republicans, the Liberals or Conservatives, or whatever it may be. I'm writing this because I'm concerned that young, and by extension, largely politically illiterate groups who spend way too much time on the internet (literally me, fr fr) are inadvertently getting radicalized by digital echo chambers.</p>
+<p>It doesn't matter if you agree with what others may say or believe, but at times it's important to interact with those of other beliefs, even if all it does is re-affirm your existing beliefs (shocker, i know). TM out.</p>
+<p>P.S. i'm back on that daily article grind for a bit, i have a lot of bad ideas again.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/dni/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/contrarianism/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

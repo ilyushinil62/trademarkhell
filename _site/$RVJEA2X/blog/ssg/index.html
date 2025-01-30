@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        SSGs Are Good, Actually <div class="datebox"> 14 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>This article is sorta an addendum to my previous article about people not using blogs, so read that first if you want to. Anyways, people don't seem to like SSGs, as my friend bravely demonstrated here in an act of true determination.</p>
+<img src="/img/ssgslander.png" alt=" SSG SLANDER!!!" height="400px" style="display: block; margin: 0 auto"/> 
+<p>His brave sacrifice will be immortalized through this article.</p>
+<p>The dislike of SSGs, from my observations seems to stem from two primary sources, people feeling as though it looks too difficult, and people who feel it takes the &quot;fun&quot; out of website creation. For the sake of maintaining rationality, I'll primarily be focusing on the former, until I get bored, in which case I will certainly rant about the latter.</p>
+<p>Now, I fully understand why many people feel as though SSGs look difficult, I mean you're going from a few HTML and CSS files to whatever the hell this is...</p>
+<img src="/img/sitecomposition.png" alt=" The file structure of the site you're reading this on" height="800px" style="display: block; margin: 0 auto"/> 
+<p>However, the barrier to entry of reading a few docs (or a 6 minute video... https://www.youtube.com/watch?v=kzf9A9tkkl4) is very much worth the ease of use you gain, and nowadays, a lot of static site generators seem to be easy to set up in mere minutes. (I hear good things about Hugo, I of course chose the one SSG with terrible documentation and like two tutorials, shoutout to 11ty). The benefit of using an SSG isn't in how easy they are to set up (in my opinion...), but rather, how easy they make maintaining your site. This whole article is being written on a single markdwon document, I haven't even touched HTML or CSS for it, my SSG does all the work for me, provided I give it the templates needed.</p>
+<p>Building on yesterdays point, and the words of an anonymous commenter that I agree with, a large part of why there's so many untouched blogs on the Indie Web is because of how much work it takes to publish an article without an SSG. People need to manually create new HTML and CSS files, and format the whole thing with HTML text elements, which, speaking from experience, is a pain in the ass.</p>
+<p>I encourage literally anyone looking to update or remake their sites to at least try using an SSG when they do it, all you need to do is follow the documentation and give it a few templates, after that, maintaining your site is as simple as writing. Don't be one of those people that has whole sections of their sites that they update once every two years, use an SSG. It's that easy.</p>
+<p>Alright, before I finish this article up, I feel it's my duty to address the not using an SSG being &quot;fun&quot; part of the argument, and I'll do so in a single sentence. If it's so fun to run your website without an SSG, why do you never post anything???? (and if you do maitnain a blog without an SSG, shoutout to you, but there's something wrong with you)</p>
+<p>TL;DR: SSGs make everything easier and save your firstborn child's life, use them or suffer. Tm out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/useyourblog/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/nhk/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

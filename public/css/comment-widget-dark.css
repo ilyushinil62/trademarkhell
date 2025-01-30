@@ -62,23 +62,23 @@
     
     width: 100%;
     border: 0px;
-    border-top: 1px dashed white;
-    border-bottom: 1px dashed white;
+    border-top: 1px dashed orange;
+    border-bottom: 1px dashed orange;
     height: 25px;
     margin: auto;
 }
 #c_submitButton{
     border: 0px;
-    border-bottom: 1px dashed white;
-    border-top: 1px dashed white;
+    border-bottom: 1px dashed orange;
+    border-top: 1px dashed orange;
     width: 100%;
     height: 25px;
     }
 
 .c-nameLabel {
     padding: 3.2px;
-    border-bottom: 1px dashed white;
-    border-left: 1px dashed white;
+    border-bottom: 1px dashed orange;
+    border-left: 1px dashed orange;
     padding-left: 15px;
     float: right;
     font-size: 16px;
@@ -88,9 +88,9 @@
     width: 657px;
     line-height: 22px;
     border: 0px;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed orange;
     background-color: black;
-    color: white;
+    color: orange;
     font-size: 16px;
     float: left;
     
@@ -100,11 +100,11 @@
     width: 657px;
     line-height: 22px;
     border: 0px;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed orange;
     background-color: black;
     font-size: 16px;
     float: left;
-    color: white;
+    color: orange;
 }
 .c-textInput {
     border: 0px;
@@ -114,8 +114,8 @@
 }
 .c-websiteLabel {
     padding-right: 10px;
-    border-bottom: 1px dashed white;
-    border-left: 1px dashed white;
+    border-bottom: 1px dashed orange;
+    border-left: 1px dashed orange;
     padding: 3.2px;
     padding-left: 24px;
     float: right;
@@ -132,9 +132,9 @@
     background-attachment: fixed;
     font-family: 'dos';
     font-size: 16px;
-    color: white;
+    color: orange;
     width: 100%;
-    border: 1px solid white;
+    border: 1px solid orange;
     border-top: hidden;
 
 }
@@ -145,15 +145,15 @@
     text-decoration: none;
     text-align: center;
     background-color: black;
-    color: white;
+    color: orange;
     margin: auto;
 
 }
 
 #c_widget button:hover,
 #c_widget input[type=submit]:hover {
-    color: white;
-    border: 1px solid white;
+    color: orange;
+    border: 1px solid orange;
 }
 
 
@@ -180,7 +180,7 @@
     width: calc(100% - 10px);
     max-width: 900px;
     resize: none;
-    color: white;
+    color: orange;
 }
 
 #c_submitButton {
@@ -190,7 +190,7 @@
 }
 
 #c_replyingText {
-    color: white;
+    color: orange;
     text-align: right;
     font-family: dos
 }
@@ -237,9 +237,9 @@
     float: right;
     padding-left: 4px;
     padding-right: 4px;
-    border-left: 1px dashed white;
+    border-left: 1px dashed orange;
     font-size: 16px;
-    background-color: white;
+    background-color: orange;
     background-color: black;
 }
 
@@ -252,7 +252,7 @@
     padding-right: 5px;
     padding-bottom: 2x;
     font-size: 16px;
-    background-color: white;
+    background-color: orange;
     color: black;
 }
 
@@ -263,9 +263,9 @@
     font-family: dos;
     font-size: 14px;
     text-align: justify;
-    color: white;
+    color: orange;
     background-color: black;
-    border-top: 1px dashed white;
+    border-top: 1px dashed orange;
 }
 
 /* Pagination */
@@ -284,7 +284,7 @@
     width: 100%;
     border: 0px;
     height: 25px;
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed orange;
 }
 
 .c-paginationButton {

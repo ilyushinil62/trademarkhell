@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        META Webdev Strat- Procrastination <div class="datebox"> 15 November 2024</div>
+      </div>
+      <div class="maintext">
+        <p>Hello all, it is I, the leading non-authority on webdevelopment, and I'm here to share the ultimate trick that big webdev won't tell you.</p>
+<p>We as a society, have accepted the reality that procrastination is a bad thing, but in recreational webdevelopment, this is simply false. There's this secret bug in the human psyche that hasn't gotten patched in the latest version that allows for a 58% efficiency boost for each day you delay working on your site.</p>
+<p>Take this article for example, I've been delaying the creation of it for over a week now, but since my site is about to be pronounced dead, I'm writing this whole thing in 5 minutes. If I wasn't about to get killed by the NekoGods because I waited so long, there's no way I would've had this done so quickly.</p>
+<p>As such, I implore you all to solely work on your websites at the most inconvenient times possible after delaying working on them for several weeks. This is my intention for my new (and hopefully final...) layout, and if this new procrastination master-method works, then it should be done my Monday.</p>
+<p>Thank me later for sharing the truth with all of you, it's unbelievable how fast you can work when you waste all of your time beforehand. Replace working time with slacking off, unless it's actually work, in which case, don't.... TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/egosurfing/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/astro/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

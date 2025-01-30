@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/img/favico.png">
+  <link href="/css/post.css?v1.4" rel="stylesheet" />
+  <link href="/css/reset.css" rel="stylesheet" />
+  <script>
+
+    const username = "trademark"; // Your username
+
+    const getStats = async () => {
+      const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
+      const json = await request.json();
+
+      const updated = new Date(json.updated_at).toLocaleDateString(); // Formats Last Updated text
+      const created = new Date(json.created_at).toLocaleDateString(); // Formats Creation Date text
+
+      document.getElementById("created").innerHTML = `${created} <a>created</a> `;
+      document.getElementById("updated").innerHTML = `${updated} <a>updated</a>`;
+      document.getElementById("visitors").innerHTML = ` ${json.views} <a>visitors</a>`;
+      document.getElementById("followers").innerHTML = ` ${json.followers} <a>followers</a> `;
+    };
+    getStats();
+
+  </script>
+
+</head>
+
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="titlecard">
+        <div class="cardrow"></div>
+        <div class="cardrowc"></div>
+        <div class="cardrow"></div>
+        <div class="cardrowb"></div>
+        <div class="titlecardtext">
+          <a href="/">
+            trademarkhell.net
+          </a>
+        </div>
+      </div>
+      <div class="ascii">
+        <pre>
+
+
+
+                </pre>
+      </div>
+    </div>
+    <div class="main">
+      <div class="toptext">
+        <div class="backbut"><a href="javascript:history.back()">back</a></div>
+        Discord and the Death of Forums <div class="datebox"> 30 August 2024</div>
+      </div>
+      <div class="maintext">
+        <p>If you partake in any semi-niche interest, odds are you joined a Discord server to get information on it. It wasn't always this cumbersome, though, you used to be able to look just about anything up, and a result from the subject's forum would show up. Forums were thse bastions of knowledge (and misinformation) that largely disappeared both from search results, and from the internet itself.</p>
+<p>This isn't really a surprising development, I mean, Discord is free, and it costs money to host a forum, but it's very evident Discord wasn't intended for this. Discord server messages don't show up on search engines, and Discord's message look-up function is primitive at best. This leads to questions being asked, or forgotten about, over and over, and the responses, if even sent, being basic at best.</p>
+<p>Not to mention the fact that Discord lacks any (properly implemented) threads function, meaning that the questions that do get answered well inevitably get buried with a 500 message shitposting exchange that's happening at the same time. Discord is not a bad platform, but it's an awful place to share information.</p>
+<p>It's not as though Discord is the only free platform available, either, even Reddit, despite suffering from being Reddit, at least shows up on search results and has a proper post look-up function. Literally everything is better than Discord, and there's almost always some community members willing to shill out the money to keep a forum going. That's how audiphile and car forums have survived for so long. I use my Tapeheads account daily, and I don't see that forum going anywhere, despite it's age.</p>
+<p>The more communities that switch to Discord, the more information is made private, it's that simple. I'm not going to try and pretend that Discord is awful, or that forums are the greatest online innovation ever, I'm just trying to put it as it is. I'll always believe that the web should have easily accessible information on any subject, no matter how niche and community oriented it may be, and forums are the easiest medium for that.</p>
+<p>If you for some reason hold a prominent position in the online community of something, please, please, get people together for a forum. Forums are by far the best way to spread knowledge on poorly documented topics, and basically everything I've ever done to my stereo equipment or cars has come from a forum thread. The internet is a place for sharing info, make the info easily accessible. I didn't make this article super long because it'd be pointless, but do keep it in mind. TM out.</p>
+
+        <div class="post-metadata">
+
+        </div>
+      </div>
+      <div class="toptext">
+        <div class="backbut"><b> <a href="/blog/english/">previous</a></b>
+          </div>
+        article's over, say stuff, if you want
+        <div class="nextbut"><b><a href=" /blog/August24/"> next</a></b>
+        </div>
+      </div>
+      <div id="c_widget"></div>
+      <script src="/scripts/comment-widget2.js"></script>
+
+      <div class="infocard">
+        <p>copyright trademarkhell.net 2024-</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
