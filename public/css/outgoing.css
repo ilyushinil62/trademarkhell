@@ -15,7 +15,7 @@ body {
 	  "footer footer";
 	width: 827.5px;
 	font-family: dos;
-	color: #ffa500;
+	color: white;
 	text-shadow: 0px 0px 24px rgba(255, 166, 0, 0.7);
 	text-indent: 25px;
 	font-size: 15px;
@@ -48,7 +48,7 @@ body {
   }
   
   .main {
-	border: 1px solid #ffa500;
+	border: 1px solid white;
 	grid-area: main;
 	display: flex;
 	flex-direction: column;
@@ -59,7 +59,7 @@ body {
 	grid-area: sidebar;
 	display: flex;
 	flex-direction: column;
-	border-top: 1px solid #ffa500;
+	border-top: 1px solid white;
 	border-left: 0px;
 	text-shadow: 0px 0px 24px rgba(255, 166, 0, 0.7);
 	height: fit-content;
@@ -80,8 +80,8 @@ body {
   
   
   .titlecard {
-	background-color: #ffa500;
-	border-left: 1px solid #ffa500;
+	background-color: white;
+	border-left: 1px solid white;
 	display: flex;
 	flex-direction: column;
 	height: 55px;
@@ -95,7 +95,7 @@ body {
   .cardrow {
 	height: 13.75px;
 	width: 515px;
-	background-color: #ffa500;
+	background-color: white;
 	position: relative;
   }
   
@@ -120,7 +120,7 @@ body {
 	height: 55px;
 	line-height: 65px;
 	width: 515px;
-	color: #ffa500;
+	color: white;
 	text-shadow:
 	  -2px -2px 0 #000,
 	  2px -2px 0 #000,
@@ -145,11 +145,11 @@ body {
 	font-weight: bold;
 	font-size: 25px;
 	text-indent: 30px;
-	border: 1px solid #ffa500;
+	border: 1px solid white;
 	border-left: 0px;
 	border-right: 0px;
 	line-height: 30px;
-	background-color: orange;
+	background-color: white;
 	color: black;
   }
   
@@ -181,7 +181,7 @@ body {
 	font-size: 18px;
 	align-items: center;
 	list-style: none;
-	border-bottom: 1px dashed #ffa500;
+	border-bottom: 1px dashed white;
 	line-height: 30px;
 	overflow: hidden;
 
@@ -195,7 +195,7 @@ body {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
-	border-bottom: 1px dashed #ffa500;
+	border-bottom: 1px dashed white;
 
 }
 
@@ -210,7 +210,7 @@ body {
 	text-indent: 0px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: orange;
+	background-color: white;
 	color: black;
  }
 
@@ -230,7 +230,7 @@ body {
   .sideitem {
 	width: 100%;
 	background-color: black;
-	border-right: 1px solid #ffa500;
+	border-right: 1px solid white;
   }
   
   .sidetext {
@@ -259,7 +259,7 @@ body {
   }
   
   .statitem {
-	border-bottom: 1px #ffa500 dashed;
+	border-bottom: 1px white dashed;
 	text-indent: 0px;
 	margin: 0;
 	padding: 0px;
@@ -269,7 +269,7 @@ body {
   }
 
   .upditem {
-	border-bottom: 1px #ffa500 dashed;
+	border-bottom: 1px white dashed;
 	text-indent: 0px;
 	margin: 0;
 	padding: 0px;
@@ -289,8 +289,8 @@ body {
 	text-indent: 0px;
 	list-style: none;
 	justify-content: space-between;
-	background-color: #ffa500;
-	border-right: 1px solid #ffa500;
+	background-color: white;
+	border-right: 1px solid white;
   }
   
   .linkitem {
@@ -310,7 +310,7 @@ body {
 	margin-right: auto;
 	font-size: 20px;
 	line-height: 38px;
-	border-bottom: 1px solid orange;
+	border-bottom: 1px solid white;
 	width: 100%;
 	font-weight: bold;
 	font-style: italic;
@@ -332,7 +332,7 @@ body {
   }
   
   .button {
-	border-top: 1px dashed #ffa500;
+	border-top: 1px dashed white;
 	background-color: black;
 	width: 100%;
 	height: 40px;
@@ -348,7 +348,7 @@ body {
 	scrollbar-width: none;
 	-ms-overflow-style: none;
 	background-color: black;
-	border-bottom: 1px solid orange;
+	border-bottom: 1px solid white;
 	padding-left: 2px;
 	height: 178px;
   }
@@ -361,41 +361,41 @@ body {
   }
 
   a:link {
-	color: #ffa500;
+	color: white;
 	text-decoration: none;
   }
   
   a:visited {
-	color: #ffa500;
+	color: white;
   }
   
   a:hover {
-	color: #ffa500;
+	color: white;
 	font-style: italic;
   }
   
   a:active {
-	color: #ffa500;
+	color: white;
   }
 
   #directory {
 	height: 108.8px;
-	border-right: 1px solid #ffa500;
+	border-right: 1px solid white;
   }
 
   .statusdiv {
 	height: 90px;
-	border-right: 1px solid #ffa500;
+	border-right: 1px solid white;
   }
 
   .statistics {
 	height: 136px;
-	border-right: 1px solid #ffa500;
+	border-right: 1px solid white;
   }
 
   .desperation {
 	height: 103.2px;
-	border-right: 1px solid #ffa500;
+	border-right: 1px solid white;
   }
 
 
@@ -419,7 +419,7 @@ body {
 	float: right;
 	width: 240px;
 	height: 20px;
-	background-color: orange;
+	background-color: white;
 	clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
 		font-size: 11.8px;
 	text-indent: 7px;
@@ -433,30 +433,30 @@ body {
 	font-weight: bold;
 	font-size: 25px;
 	text-indent: 30px;
-	border: 1px solid #ffa500;
+	border: 1px solid white;
 	border-right: hidden;
 	border-left: 0px;
 	line-height: 30px;
-	background-color: orange;
+	background-color: white;
 	color: black;  }
 
   .updates {
-	border-right: 1px solid orange;
+	border-right: 1px solid white;
   }
 
   
 #directory {
-	border-right: 1px solid orange;
+	border-right: 1px solid white;
 }
 
 .mainheading:hover {
 	background-color: black;
-	color: orange;
+	color: white;
 }
 
 .updheading:hover {
 	background-color: black;
-	color: orange;
+	color: white;
 }
 
 
@@ -469,7 +469,7 @@ body {
 	content: " ";
 	position: absolute;
 	width: 1px;
-	background-color: orange;
+	background-color: white;
 	top: 5px;
 	bottom: -12px;
 	left: 10px;
@@ -481,7 +481,7 @@ body {
 	content: " ";
 	position: absolute;
 	width: 1px;
-	background-color: orange;
+	background-color: white;
 	top: 5px;
 	bottom: 7px;
 	height: 7px;
@@ -493,7 +493,7 @@ body {
 	left: 10px;
 	width: 10px;
 	height: 1px;
-	background-color:	orange;
+	background-color:	white;
 	top: 12px;
   }
 
