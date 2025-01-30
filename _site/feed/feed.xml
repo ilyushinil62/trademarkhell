@@ -4,18 +4,11 @@
 		<title>trademarkhell.net</title>
 		<description>ramblings from the 21st century</description>
 		<link> https://trademarkhell.net/ </link>
-		<lastBuildDate>Fri, 31 Jan 2025 06:25:13 +0000</lastBuildDate>
+		<lastBuildDate>Wed, 18 Dec 2024 09:00:00 +0000</lastBuildDate>
 		<atom:link href="https://trademarkhell.net/feed/feed.xml" rel="self" type="application/rss+xml"/>
 		<language>en</language>
 		<managingEditor>trademark@cock.li (trademark)</managingEditor>
 		<webMaster>trademark@cock.li (trademark)</webMaster>
-		<item>
-			<title>The Lifespan of Indie Sites</title>
-			<link> https://trademarkhell.net/blog/websitelifespan/ </link>
-			<pubDate>Fri, 31 Jan 2025 06:25:13 +0000</pubDate>
-			<guid> https://trademarkhell.net/blog/websitelifespan/ </guid>
-			<description><![CDATA[I&#39;ve often wondered how long an indie website actually lasts, and by extension, how many sites actually keep getting updates. For the first time ever, I decided to actually take matters into my own hands and do some data collection, and in this article I&#39;ll present my conclusions.]]></description>
-		</item>
 		<item>
 			<title>I Drive</title>
 			<link> https://trademarkhell.net/blog/idrive/ </link>
@@ -106,6 +99,13 @@
 			<pubDate>Sun, 20 Oct 2024 09:00:00 +0000</pubDate>
 			<guid> https://trademarkhell.net/blog/internetpolitics/ </guid>
 			<description><![CDATA[As of late, the fashionable thing to do seems to be to proudly display your political beliefs or thoughts on middle eastern conflicts in your username or bio, as though it&#39;s a campaign bumper sticker. In typical trademarkhell.net fashion, I&#39;ll vaguely go over this and provide zero evidnece.]]></description>
+		</item>
+		<item>
+			<title>The Lifespan of Indie Sites</title>
+			<link> https://trademarkhell.net/blog/websitelifespan/ </link>
+			<pubDate>Tue, 15 Oct 2024 09:00:00 +0000</pubDate>
+			<guid> https://trademarkhell.net/blog/websitelifespan/ </guid>
+			<description><![CDATA[I&#39;ve often wondered how long an indie website actually lasts, and by extension, how many sites actually keep getting updates. For the first time ever, I decided to actually take matters into my own hands and do some data collection, and in this article I&#39;ll present my conclusions.]]></description>
 		</item>
 		<item>
 			<title>Pessimism is Pointless</title>

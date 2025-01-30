@@ -1,6 +1,7 @@
 ---
 title: The Lifespan of Indie Sites
 description: I've often wondered how long an indie website actually lasts, and by extension, how many sites actually keep getting updates. For the first time ever, I decided to actually take matters into my own hands and do some data collection, and in this article I'll present my conclusions.
+date: 2024-10-15
 tags: 
     - web
 ---
